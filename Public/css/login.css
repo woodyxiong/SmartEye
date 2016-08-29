@@ -1,0 +1,131 @@
+/*****************正文********************/
+body{
+	background: #edecec;
+}
+#top{
+	width: 100%;
+	height: 50%;
+	background: #27a69a;
+	position: absolute;
+	z-index: 0;
+}
+
+#form{
+	position: fixed;
+	width: 530px;
+	height: 270px;
+	background: #fff;
+	margin-left: -265px;
+	margin-top: -135px;
+	top: 50%;
+	left: 50%;
+	vertical-align:middle;
+	box-shadow: 0 1px 11px rgba(0,0,0,0.27);
+	border-radius: 2px;
+	padding: 35px 55px;
+}
+
+#logininput{
+	margin-left: 50px;
+	width: 350px;
+}
+
+#loginicons{
+	position: absolute;
+	left: -40px;
+	top: 15px;
+	font-size: 30px;
+}
+
+#inputcheckbox{
+	position: absolute;
+	bottom: 40px;
+	left: 200px;
+}
+
+#submit{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: red;
+	border: 0px;
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 70px;
+	box-shadow: 2px 2px 11px rgba(0,0,0,0.4);
+}
+
+#submiticon{
+	color: #fff;
+	padding-top: 16px;
+	padding-left: 3px;
+	font-size: 30px;
+}
+
+#inputsubmit{
+	margin-left: -45px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+
+#submitspan{
+	display: none;
+}
+
+/*响应式css*/
+@media only screen and (max-width: 622px){
+	#form{
+		width: 80%;
+		margin-left: -40%;
+		height: 50%;
+		margin-top: -300px;
+	}
+
+	#logininput{
+		width: 90%;
+		margin-left: 13%;
+	}
+
+	#loginicons{
+		left: -20%;
+		top: 18px;
+	}
+
+	#inputcheckbox{
+		left: 30%;
+		top:210px;
+	}
+
+	#submit{
+		width: 100%;
+		border-radius: 0;
+		margin-left: 0;
+		margin-top: 0;
+		position: relative;
+		height: 50px;
+		margin-top: 100px;
+		background: #27a69a;
+	}
+
+	#submiticon{
+		margin-top: -6px;
+		margin-left: 60%;
+	}
+
+	#submitspan{
+		position: absolute;
+		display: inline;
+		font-size: 20px;
+		color: #fff;
+		top: 8px;
+		margin-left: 20%;
+	}
+
+	#inputsubmit{
+		width: 100%;
+		height: 100%;
+		margin-left: -90%;
+	}
+}
+

@@ -1,0 +1,101 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+/*小屏幕的时候*/
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/*大屏幕的时候*/
+@media screen and (min-width: 40em) {
+  .nav-collapse{
+    float: right;
+    width: 670px;
+  }
+  #header-main{
+    width: 1000px;
+    height: 60px;
+    /*background: red;*/
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .nav-collapse a{
+    margin-top: 10px;
+    padding:10px 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    height: 20px;
+    float: left;
+    color: #fff;
+  }
+  #signup,#loginin{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 4px 18px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+  }
+  #signup{
+    border: 1px solid #fff;
+    }
+  #loginin{
+    border: 2px solid #BEA8FF;
+    background: #BEA8FF;
+  }
+  #loginin:hover{
+    border: 2px solid #9A78FF;
+    background: #9A78FF;
+    color: #fff;
+    transition: 0.5s;
+  }
+  #signup:hover{
+    color: #fff;
+    border: 1px #CAB8FF solid;
+    background: #CAB8FF;
+    transition: 0.5s;
+  }
+  .nav-collapse a:hover{
+    color:#1ac6ff;
+    transition: 0.5s;
+  }
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

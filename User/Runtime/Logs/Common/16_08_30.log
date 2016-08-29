@@ -1,0 +1,12 @@
+[ 2016-08-30T00:05:20+08:00 ] 127.0.0.1 /user.php/Hom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Hom
+
+[ 2016-08-30T00:05:22+08:00 ] 127.0.0.1 /user.php/Hom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Hom
+

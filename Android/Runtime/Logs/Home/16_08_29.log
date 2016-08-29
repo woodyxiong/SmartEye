@@ -1,0 +1,276 @@
+[ 2016-08-29T15:55:20+08:00 ] 127.0.0.1 /api.php?a=index&c=index1
+ERR: 无法加载控制器:Index1
+
+[ 2016-08-29T15:55:21+08:00 ] 127.0.0.1 /api.php?a=index&c=index1
+ERR: 无法加载控制器:Index1
+
+[ 2016-08-29T15:55:27+08:00 ] 127.0.0.1 /api.php?a=index1&c=index
+ERR: 非法操作:index1
+
+[ 2016-08-29T16:23:05+08:00 ] 127.0.0.1 /api.php/home/login/index
+ERR: 无法加载控制器:Login
+
+[ 2016-08-29T16:30:26+08:00 ] 127.0.0.1 /api.php/home/login/index
+ERR: 非法操作:index
+
+[ 2016-08-29T16:30:28+08:00 ] 127.0.0.1 /api.php/home/login/index
+ERR: 非法操作:index
+
+[ 2016-08-29T18:46:01+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:46:03+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:46:20+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:46:22+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:46:57+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:46:59+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:50:44+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:50:47+08:00 ] 127.0.0.1 /api.php/home/login/login
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-08-29T18:52:41+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-08-29T18:52:53+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-08-29T18:53:30+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: user D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-08-29T18:55:44+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-08-29T18:56:43+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-08-29T18:57:06+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-08-29T18:57:29+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: jsoncodi D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-08-29T18:57:47+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-08-29T18:58:05+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-08-29T18:58:39+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-08-29T18:59:10+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-08-29T19:00:05+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [2] Illegal string offset 'password' D:\desktop\App\data.test\Android\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-08-29T19:00:57+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-08-29T19:01:06+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-08-29T19:01:53+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-29T19:01:57+08:00 ] 127.0.0.1 /api.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-08-29T19:05:24+08:00 ] 127.0.0.1 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-08-29T19:05:27+08:00 ] 127.0.0.1 /api.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载控制器:Index
+
