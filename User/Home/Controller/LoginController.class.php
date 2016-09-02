@@ -15,7 +15,7 @@ class LoginController extends Controller {
     			cookie('username',$username,302400);
     		}
     		session('username',$username);
-    		echo "success</br>";
+    		redirect(U('userindex/user'));
     	}else{
     		$this->error('密码输入错误','Login/login',2);
     	}

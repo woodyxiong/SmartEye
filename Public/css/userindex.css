@@ -1,0 +1,106 @@
+body{
+	overflow-y: hidden;
+}
+#camerabar{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+#camerabarcontainer{
+	width: 700px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#cameratab a{
+	color: #000;
+}
+
+.tabs .indicator{
+	background: #2856b6;
+}
+/*************camera bar over*************/
+.camera-container{
+	width: 900px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.status,.uptime,.infomation{
+	width: 30%;
+	height: 120px;
+	background: red;
+	float: left;
+	padding: 0 20px;
+	text-align: left;
+	cursor: default;
+} 
+
+.status{
+	background: #5c6bc0;
+} 
+.status:hover{
+	background: #8190E6;
+}
+
+.uptime{
+	margin-left: 5%;
+	background: #26c7db;
+}
+.uptime:hover{
+	background: #0FE3FD;
+}
+
+.infomation{
+	margin-left: 5%;
+	background: #1fbba6;
+}
+.infomation:hover{
+	background: #15D2B8;
+}
+
+.infotittle{
+	color: #fff;
+	font-size: 15px;
+	margin-left: 4px;
+}
+
+.info{
+	font-size: 25px;
+	margin-top: -10px;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+/************camera-status over**************/
+.chartbox{
+	width: 47%;
+	height: 350px;
+	background: red;
+	float: left;
+	margin-top: 30px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	transition:box-shadow 0.5s;
+
+}
+.chartbox2{
+	margin-left: 6%;
+}
+.chartbox:hover{
+	box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+.charttittle{
+	width: 100%;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.charts{
+	margin-top: 20px;
+	width: 100%;
+	height: 290px;
+	padding: 0 10px;
+}
