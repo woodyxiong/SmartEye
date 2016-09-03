@@ -27,7 +27,7 @@
         Skyeye
     </div>
     <div id="topbar">
-        <a href="userindex.html" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">个人主页</a>
+        <a href="<?php echo U('userindex/userindex');?>" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">个人主页</a>
         <a href="#"><i class="material-icons" id="topbarmail">build</i></a>
         <a href="#"><i class="material-icons" id="topbarmail">mail_outline</i></a>
         <a href="#"><i class="material-icons" id="topbarmail">fullscreen</i></a>
@@ -42,10 +42,11 @@
             <span><img src="/Public/img/manstudent.png" alt=""></span>
             <span id="name">林启同学</span>
         </div>
-        <li><a target="iframe" href="userindex.html" class="icona"><i class="material-icons" id="icon">account_circle</i>个人主页</a></li>
-        <li><a target="iframe" href="data.html" class="icona"><i class="material-icons" id="icon">apps</i>我的数据</a></li>
-        <li><a target="iframe" href="console.html" class="icona"><i class="material-icons" id="icon">build</i>设置参数</a></li>
-        <li><a target="iframe" href="camera.html" class="icona" href="camera.html" target="iframe"><i class="material-icons" id="icon">camera_alt</i>查看摄像头</a></li>
+        <li><a target="iframe" href="<?php echo U('userindex/userindex');?>" class="icona"><i class="material-icons" id="icon">account_circle</i>个人主页</a></li>
+        <li><a target="iframe" href="<?php echo U('data/data');?>" class="icona"><i class="material-icons" id="icon">apps</i>我的数据</a></li>
+        <li><a target="iframe" href="<?php echo U('console/console');?>" class="icona"><i class="material-icons" id="icon">build</i>设置参数</a></li>
+        <li><a target="iframe" href="<?php echo U('camera/camera');?>" class="icona" href="camera.html" target="iframe"><i class="material-icons" id="icon">camera_alt</i>查看摄像头</a></li>
+        <li><a class="icona" href="<?php echo U('user/quit');?>"><i class="material-icons" id="icon">exit_to_app</i>退出</a></li>
 
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -65,7 +66,7 @@
 <!-- 右下角的button over -->
 
 <!-- sledebar over -->
-<iframe name="iframe" src="<?php echo U('user/userindex');?>"></iframe>
+<iframe name="iframe" src="<?php echo U('userindex/userindex');?>"></iframe>
 
 </body>
 </html>

@@ -30,8 +30,8 @@
 			        </div>
 			        <div id="inputcheckbox">
 			        	<p>
-						    <input type="checkbox" id="test5" />
-						    <label for="test5">保持登录状态</label>
+						    <input name="setcookie" type="checkbox" id="test5" />
+						    <label for="test5">一周内自动登录</label>
 						</p>
 			        </div>
 			        <div class="waves-effect waves-circle" id="submit">
