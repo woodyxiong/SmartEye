@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>camera</title>
     <!-- import css -->
-    <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/Public/css/materialize.min.css"  media="screen,projection"/>
     <!-- 全局css文件 -->
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/Public/css/all.css">
     <!-- index css文件 -->
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/camera.css">
+    <link rel="stylesheet" type="text/css" href="/Public/css/camera.css">
     
     <!-- import js -->
-    <script type="text/javascript" src="__PUBLIC__/js/jquery.3.1.0.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
+    <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
 
     <!-- inport echarts.js -->
-    <script type="text/javascript" src="__PUBLIC__/js/charts/echarts.min.js"></script>
-    <script src="__PUBLIC__/js/charts/macarons.js"></script>
-    <script src="__PUBLIC__/js/charts/infographic.js"></script>
-    <script src="__PUBLIC__/js/charts/shine.js"></script>
+    <script type="text/javascript" src="/Public/js/charts/echarts.min.js"></script>
+    <script src="/Public/js/charts/macarons.js"></script>
+    <script src="/Public/js/charts/infographic.js"></script>
+    <script src="/Public/js/charts/shine.js"></script>
 
 </head>
 <body>
@@ -295,6 +295,6 @@ myChart.setOption(option);
 </script>
 <!-- chart4 over -->
 
-<script type="text/javascript" src="__PUBLIC__/js/camera.js"></script>
+<script type="text/javascript" src="/Public/js/camera.js"></script>
 </body>
 </html>
