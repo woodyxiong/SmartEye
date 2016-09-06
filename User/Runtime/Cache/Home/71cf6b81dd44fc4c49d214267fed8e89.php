@@ -96,10 +96,11 @@
         <div class="camera dashboard3 waves-effect waves-light">
             <div class="dashboard"></div>
         </div>
-        <div class="camera">
-
+        <div class="camera dashboard4 waves-effect waves-light">
+            <div class="dashboard"></div>
         </div>
     </div>
+    <div class="mapbox"></div>
 </section>                         
 
     
