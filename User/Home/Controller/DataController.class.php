@@ -8,4 +8,8 @@ class DataController extends Controller{
 		// var_dump($data);
 		$this->display();
 	}
+
+	public function excel(){
+		echo "string";
+	}
 }

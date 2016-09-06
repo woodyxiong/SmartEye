@@ -81,6 +81,10 @@
     <div class="data-tittle">甲醛含量</div>
     <div class="data-box">
         <div class="data-content" id="data1"></div>
+        <div class="data-bar">
+            <span>最大值：100</span>
+            <a class="waves-effect waves-light btn blue" href="<?php echo U('data/excel');?>">生成Excel文件</a>
+        </div>
     </div>
 </section>
 
@@ -109,17 +113,34 @@ option = {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量']
+        data:['甲醛含量'],
+        textStyle:{
+            fontFamily:'Open Sans,微軟正黑體,Microsoft Yahei,sans-serif',
+            fontSize:17
+        }
     },
     toolbox: {
         show : true,
         feature : {
             mark : {show: true},
             dataView : {show: true, readOnly: false},
+            dataZoom : {show: true},
+            dataView : {show: true},
+            magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
             magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
             restore : {show: true},
             saveAsImage : {show: true}
         }
+    },
+    dataZoom : {
+        show : true,
+        realtime : true,
+        start : 20,
+        end : 80
+    },
+    grid : {
+        x:'5%',
+        x2:'5%'
     },
     calculable : true,
     xAxis : [
