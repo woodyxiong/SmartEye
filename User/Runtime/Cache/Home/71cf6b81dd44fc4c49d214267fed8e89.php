@@ -90,6 +90,7 @@
         <div class="camera dashboard1 waves-effect waves-light">
             <div class="cameratittle">嘉庚学院北区</div>
             <div class="dashboard" id="camera1"></div>
+            <div class="cameratime">运行时长:&nbsp;&nbsp;17天14:52:35</div>
         </div>
         <div class="camera dashboard2 waves-effect waves-light">
             <div class="dashboard"></div>
@@ -102,8 +103,72 @@
         </div>
     </div>
     <div class="mapbox"></div>
-</section>                         
+    <div class="operationlog">
+        <div class="logtittle">用户操作日志</div>
+        <div class="logcontent">
+            <table class="bordered striped">
+                <thead>
+                    <tr>
+                        <th>时间</th>
+                        <th>ip</th>
+                        <th>内容</th>
+                        <th>级别</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改密码</td>
+                        <td>高</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paginationbox">
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">keyboard_arrow_left</i></a></li>
+                    <li class="active"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">keyboard_arrow_right</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
     
 
 
