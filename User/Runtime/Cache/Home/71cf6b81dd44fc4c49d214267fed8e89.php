@@ -88,6 +88,7 @@
     </div>
     <div class="camerabox">
         <div class="camera dashboard1 waves-effect waves-light">
+            <div class="cameratittle">嘉庚学院北区</div>
             <div class="dashboard" id="camera1"></div>
         </div>
         <div class="camera dashboard2 waves-effect waves-light">
@@ -191,32 +192,37 @@ myChart.setOption(option);
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('camera1'),'shine');
 option = {
-    title : {
-        // text: '某站点用户访问来源',
-        // subtext: '纯属虚构',
-        x:'center'
-    },
     tooltip : {
-        trigger: 'item',
-        formatter: "{a} <br/>{b} : {c} ({d}%)"
+        formatter: "{a} <br/>{c}%"
     },
-    legend: {
-        orient : 'vertical',
-        x : 'left',
-        data:['直接访问','邮件营销']
+    axis:{
+        show:false
     },
-    calculable : true,
     series : [
         {
-            name:'访问来源',
-            type:'pie',
-            radius : '55%',
-            center: ['50%', '60%'],
-            data:[
-                {value:335, name:'直接访问'},
-                {value:310, name:'邮件营销'}
-            ]
-        }
+            name:'识别比例',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 96, name: ''}],
+            axisTick:{show:false},
+            axisLabel:{show:false},
+            splitLine:{show:false},
+            pointer:{
+                length : '50%',
+                width : 7,
+                color : 'auto'
+            },
+            axisLine:{
+                lineStyle: {
+                        color: [
+                        [0.5, '#FF2F00'],
+                        [0.8, '#F55A5F'],
+                        [1, '#48b']
+                    ],
+                    width: 20
+                }
+            },
+        },
     ]
 };
 myChart.setOption(option);
