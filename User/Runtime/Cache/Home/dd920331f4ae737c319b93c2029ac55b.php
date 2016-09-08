@@ -42,11 +42,11 @@
             <span><img src="/Public/img/manstudent.png" alt=""></span>
             <span id="name">林启同学</span>
         </div>
-        <li><a target="iframe" href="<?php echo U('userindex/userindex');?>" class="icona"><i class="material-icons" id="icon">account_circle</i>个人主页</a></li>
-        <li><a target="iframe" href="<?php echo U('data/data');?>" class="icona"><i class="material-icons" id="icon">apps</i>我的数据</a></li>
-        <li><a target="iframe" href="<?php echo U('console/console');?>" class="icona"><i class="material-icons" id="icon">build</i>设置参数</a></li>
-        <li><a target="iframe" href="<?php echo U('camera/camera');?>" class="icona" href="camera.html" target="iframe"><i class="material-icons" id="icon">camera_alt</i>查看摄像头</a></li>
-        <li><a class="icona" href="<?php echo U('user/quit');?>"><i class="material-icons" id="icon">exit_to_app</i>退出</a></li>
+        <li class="slidea"><a target="iframe" href="<?php echo U('userindex/userindex');?>" class="icona"><i class="material-icons" id="icon">account_circle</i>个人主页</a></li>
+        <li class="slidea"><a target="iframe" href="<?php echo U('data/data');?>" class="icona"><i class="material-icons" id="icon">apps</i>我的数据</a></li>
+        <li class="slidea"><a target="iframe" href="<?php echo U('console/console');?>" class="icona"><i class="material-icons" id="icon">build</i>设置参数</a></li>
+        <li class="slidea"><a target="iframe" href="<?php echo U('camera/camera');?>" class="icona" href="camera.html" target="iframe"><i class="material-icons" id="icon">camera_alt</i>查看摄像头</a></li>
+        <li class="slidea"><a class="icona" href="<?php echo U('user/quit');?>"><i class="material-icons" id="icon">exit_to_app</i>退出</a></li>
 
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -57,16 +57,29 @@
         <i class="large material-icons">add</i>
     </a>
     <ul>
-        <li><a class="btn-floating indigo lighten-1btn tooltipped"  data-position="left" data-delay="50" data-tooltip="帮助" href="help.html" target="iframe"><i class="material-icons">help</i></a></li>
-        <li><a class="btn-floating red lighten-3 tooltipped" data-position="left" data-delay="50" data-tooltip="查看摄像头" href="camera.html" target="iframe"><i class="material-icons">camera_alt</i></a></li>
-        <li><a class="btn-floating deep-orange lighten-1 tooltipped" data-position="left" data-delay="50" data-tooltip="查看数据" href="data.html" target="iframe"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating indigo lighten-1btn tooltipped"  data-position="left" data-delay="50" data-tooltip="帮助" href="<?php echo U('help/help');?>" target="iframe"><i class="material-icons">help</i></a></li>
+        <li><a class="btn-floating red lighten-3 tooltipped" data-position="left" data-delay="50" data-tooltip="查看摄像头" href="<?php echo U('camera/camera');?>" target="iframe"><i class="material-icons">camera_alt</i></a></li>
+        <li><a class="btn-floating deep-orange lighten-1 tooltipped" data-position="left" data-delay="50" data-tooltip="查看数据" href="<?php echo U('data/data');?>" target="iframe"><i class="material-icons">insert_chart</i></a></li>
         <li><a class="btn-floating blue tooltipped" data-position="left" data-delay="50" data-tooltip="返回顶部" href="javascript:window.scrollTo(0,0);"><i class="material-icons">publish</i></a></li>
     </ul>
 </div>
 <!-- 右下角的button over -->
 
 <!-- sledebar over -->
-<iframe name="iframe" src="<?php echo U('userindex/userindex');?>"></iframe>
+<iframe name="iframe" id="iframe" scrolling="no" onload="changeheight()" src="<?php echo U('userindex/userindex');?>"></iframe>
+
+<section class="footer">
+    <div class="footerbox">
+        <div class="footer-left">Copyright © 2016 <a href="/index.php" target="_blank"> 智能天眼 </a> All rights reserved</div>
+        <div class="footer-right">
+            <a href="/index.php" target="_blank">网站主页</a>
+            <a href="mailto:a810354504@qq.com">联系我们</a>
+            <a href="mailto:a810354504@qq.com">技术支持</a>
+        </div>
+    </div>
+    
+</section>
+
 
 </body>
 </html>

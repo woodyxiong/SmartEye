@@ -20,7 +20,6 @@
     <script src="__PUBLIC__/js/charts/macarons.js"></script>
     <script src="__PUBLIC__/js/charts/infographic.js"></script>
     <script src="__PUBLIC__/js/charts/shine.js"></script>
-
 </head>
 <body>
 <section class="preloader">
@@ -90,16 +89,22 @@
         <div class="camera dashboard1 waves-effect waves-light">
             <div class="cameratittle">嘉庚学院北区</div>
             <div class="dashboard" id="camera1"></div>
-            <div class="cameratime">运行时长:&nbsp;&nbsp;17天14:52:35</div>
+            <div class="cameratime" time="2014-07-10 10:21:12"></div>
         </div>
         <div class="camera dashboard2 waves-effect waves-light">
-            <div class="dashboard"></div>
+            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="dashboard" id="camera2"></div>
+            <div class="cameratime" time="2014-07-13 10:21:12"></div>
         </div>
         <div class="camera dashboard3 waves-effect waves-light">
-            <div class="dashboard"></div>
+            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="dashboard" id="camera3"></div>
+            <div class="cameratime" time="2014-07-18 10:21:12"></div>
         </div>
         <div class="camera dashboard4 waves-effect waves-light">
-            <div class="dashboard"></div>
+            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="dashboard" id="camera4"></div>
+            <div class="cameratime" time="2014-07-19 10:21:12"></div>
         </div>
     </div>
     <div class="mapbox"></div>
@@ -121,37 +126,37 @@
                         <td>16-2-5 16:54:85</td>
                         <td>192.168.125.525</td>
                         <td>修改密码</td>
-                        <td>高</td>
+                        <td class="state">极高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改摄像机核心参数</td>
+                        <td class="state">高</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>登陆</td>
+                        <td class="state">低</td>
+                    </tr>
+                    <tr>
+                        <td>16-2-5 16:54:85</td>
+                        <td>192.168.125.525</td>
+                        <td>修改摄像头详情</td>
+                        <td class="state">低</td>
                     </tr>
                     <tr>
                         <td>16-2-5 16:54:85</td>
                         <td>192.168.125.525</td>
                         <td>修改密码</td>
-                        <td>高</td>
+                        <td class="state">极高</td>
                     </tr>
                     <tr>
                         <td>16-2-5 16:54:85</td>
                         <td>192.168.125.525</td>
-                        <td>修改密码</td>
-                        <td>高</td>
-                    </tr>
-                    <tr>
-                        <td>16-2-5 16:54:85</td>
-                        <td>192.168.125.525</td>
-                        <td>修改密码</td>
-                        <td>高</td>
-                    </tr>
-                    <tr>
-                        <td>16-2-5 16:54:85</td>
-                        <td>192.168.125.525</td>
-                        <td>修改密码</td>
-                        <td>高</td>
-                    </tr>
-                    <tr>
-                        <td>16-2-5 16:54:85</td>
-                        <td>192.168.125.525</td>
-                        <td>修改密码</td>
-                        <td>高</td>
+                        <td>登陆</td>
+                        <td class="state">低</td>
                     </tr>
                 </tbody>
             </table>
@@ -169,6 +174,7 @@
         </div>
     </div>
 </section>
+
     
 
 
@@ -191,7 +197,8 @@ var myChart = echarts.init(document.getElementById('data1'),'shine');
 // 指定图表的配置项和数据
 option = {
     tooltip : {
-        trigger: 'axis'
+        trigger: 'axis',
+        axisPointer:{'type':'none'}
     },
     calculable : true,
     grid:{
@@ -293,6 +300,129 @@ option = {
 myChart.setOption(option);
 </script>
 <!-- camera1 over -->
+<!-- camera2 begin -->
+<script type="text/javascript">
+// 基于准备好的dom，初始化echarts实例
+var myChart = echarts.init(document.getElementById('camera2'),'shine');
+option = {
+    tooltip : {
+        formatter: "{a} <br/>{c}%"
+    },
+    axis:{
+        show:false
+    },
+    series : [
+        {
+            name:'识别比例',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 96, name: ''}],
+            axisTick:{show:false},
+            axisLabel:{show:false},
+            splitLine:{show:false},
+            pointer:{
+                length : '50%',
+                width : 7,
+                color : 'auto'
+            },
+            axisLine:{
+                lineStyle: {
+                        color: [
+                        [0.5, '#FF2F00'],
+                        [0.8, '#F55A5F'],
+                        [1, '#48b']
+                    ],
+                    width: 20
+                }
+            },
+        },
+    ]
+};
+myChart.setOption(option);
+</script>
+<!-- camera2 over -->
+<!-- camera3 begin -->
+<script type="text/javascript">
+// 基于准备好的dom，初始化echarts实例
+var myChart = echarts.init(document.getElementById('camera3'),'shine');
+option = {
+    tooltip : {
+        formatter: "{a} <br/>{c}%"
+    },
+    axis:{
+        show:false
+    },
+    series : [
+        {
+            name:'识别比例',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 96, name: ''}],
+            axisTick:{show:false},
+            axisLabel:{show:false},
+            splitLine:{show:false},
+            pointer:{
+                length : '50%',
+                width : 7,
+                color : 'auto'
+            },
+            axisLine:{
+                lineStyle: {
+                        color: [
+                        [0.5, '#FF2F00'],
+                        [0.8, '#F55A5F'],
+                        [1, '#48b']
+                    ],
+                    width: 20
+                }
+            },
+        },
+    ]
+};
+myChart.setOption(option);
+</script>
+<!-- camera3 over -->
+<!-- camera4 begin -->
+<script type="text/javascript">
+// 基于准备好的dom，初始化echarts实例
+var myChart = echarts.init(document.getElementById('camera4'),'shine');
+option = {
+    tooltip : {
+        formatter: "{a} <br/>{c}%"
+    },
+    axis:{
+        show:false
+    },
+    series : [
+        {
+            name:'识别比例',
+            type:'gauge',
+            detail : {formatter:'{value}%'},
+            data:[{value: 96, name: ''}],
+            axisTick:{show:false},
+            axisLabel:{show:false},
+            splitLine:{show:false},
+            pointer:{
+                length : '50%',
+                width : 7,
+                color : 'auto'
+            },
+            axisLine:{
+                lineStyle: {
+                        color: [
+                        [0.5, '#FF2F00'],
+                        [0.8, '#F55A5F'],
+                        [1, '#48b']
+                    ],
+                    width: 20
+                }
+            },
+        },
+    ]
+};
+myChart.setOption(option);
+</script>
+<!-- camera4 over -->
 
 <script type="text/javascript" src="__PUBLIC__/js/userindex.js"></script>
 </body>
