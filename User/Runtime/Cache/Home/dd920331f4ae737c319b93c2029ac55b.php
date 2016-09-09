@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>个人管理页面</title>
     <!-- import css -->
     <link type="text/css" rel="stylesheet" href="/Public/css/materialize.min.css"  media="screen,projection"/>
@@ -70,7 +71,7 @@
 
 <section class="footer">
     <div class="footerbox">
-        <div class="footer-left">Copyright © 2016 <a href="/index.php" target="_blank"> 智能天眼 </a> All rights reserved</div>
+        <div class="footer-left">Copyright © 2016 <a href="/index.php" target="_blank"> 智能天眼 </a><span> All rights reserved</span></div>
         <div class="footer-right">
             <a href="/index.php" target="_blank">网站主页</a>
             <a href="mailto:a810354504@qq.com">联系我们</a>

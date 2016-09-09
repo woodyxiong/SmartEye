@@ -176,7 +176,23 @@ iframe{
 	margin-right: 0;
 }
 
+@media only screen and (min-width: 920px) and (max-width: 1300px) {
+	.footerbox{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
 
+@media only screen and (max-width: 920px) {
+	.footerbox{
+		width: 100%;
+	}
+
+	.footer-left{
+		width: 100%;
+		text-align: center;
+	}
+}
 
 
 
