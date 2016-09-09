@@ -74,7 +74,6 @@
             </div>
         </div>
     </div>
-    
 </section>
                                  
 <section id="camerabar">
@@ -86,6 +85,8 @@
                     <li class="tab col s3" id="cameratab"><a href="#camera2">摄像机2</a></li>
                     <li class="tab col s3 disabled"><a href="#camera3">摄像机3</a></li>
                     <li class="tab col s3 disabled"><a href="#camera4">摄像机4</a></li>
+                    <li class="tab col s3 disabled"><a href="#camera3">摄像机5</a></li>
+                    <li class="tab col s3 disabled"><a href="#camera4">摄像机6</a></li>
                 </ul>
             </div>
         </div>
@@ -94,14 +95,24 @@
 <section class="camera-container">
     <div id="camera1">
         <div class="status waves-effect waves-light btn-large">
-            <div class="infotittle">运行状态</div>
-            <div class="info">正在运行中</div>
+            <div class="camera-on">
+                <div class="infotittle">运行状态</div>
+                <div class="info">正在运行中</div>
+            </div>
+            <div class="camera-hover data-target="modal1>
+                <div class="hovertittle"><i id="toggle" class="material-icons">power_settings_new</i></div>
+                <div class="hoverinfo">开启/关闭 摄像头</div>
+            </div>
+            <div class="camera-off">
+                <div class="infotittle">运行状态</div>
+                <div class="info">摄像机已关闭</div>
+            </div>
         </div>
-        <div class="uptime waves-effect waves-light btn-large">
+        <div class="uptime">
             <div class="infotittle">运行时间</div>
-            <div class="info">352天&nbsp;&nbsp;&nbsp;&nbsp;15:15:15</div>
+            <div class="info" id="time" time="2014-07-10 10:21:12"></div>
         </div>
-        <div class="infomation waves-effect waves-light btn-large">
+        <div class="infomation">
             <div class="infotittle">摄像机基本信息</div>
             <div class="info">位于克莱维家中</div>
         </div>
@@ -129,6 +140,18 @@
     <div id="camera4"></div>
 </section>
 
+<!-- 打开关闭对话框 -->
+  <div id="dialog" class="modal">
+    <div class="modal-content">
+        <h5>是否确定关闭摄像头1</h5>
+    </div>
+    <div class="modal-footer">
+        <div class="modal-footer-box">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">取消</a>
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">确定</a>
+        </div>
+    </div>
+</div>
 
 
 
@@ -147,6 +170,12 @@ option = {
         data:['甲醛含量']
     },
     calculable : true,
+    grid:{
+            x:60,
+            x2:60,
+            y:60,
+            y2:60,
+    },
     xAxis : [
         {
             type : 'category',
@@ -186,6 +215,12 @@ option = {
         data:['甲醛含量']
     },
     calculable : true,
+    grid:{
+            x:60,
+            x2:60,
+            y:60,
+            y2:60,
+    },
     xAxis : [
         {
             type : 'category',
@@ -230,6 +265,12 @@ option = {
         data:['甲醛含量']
     },
     calculable : true,
+    grid:{
+            x:60,
+            x2:60,
+            y:60,
+            y2:60,
+    },
     xAxis : [
         {
             type : 'category',
@@ -269,6 +310,12 @@ option = {
         data:['甲醛含量']
     },
     calculable : true,
+    grid:{
+            x:60,
+            x2:60,
+            y:60,
+            y2:60,
+    },
     xAxis : [
         {
             type : 'category',

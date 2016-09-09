@@ -8,7 +8,7 @@ body{
 }
 
 #camerabarcontainer{
-	width: 700px;
+	width: 1270px;
 	margin: 0 auto;
 	height: auto;
 }
@@ -22,7 +22,7 @@ body{
 }
 /*************camera bar over*************/
 .camera-container{
-	width: 900px;
+	width: 1270px;
 	height: 1000px;
 	margin: 0 auto;
 }
@@ -39,6 +39,7 @@ body{
 
 .status{
 	background: #5c6bc0;
+	cursor: pointer;
 } 
 .status:hover{
 	background: #8190E6;
@@ -47,17 +48,15 @@ body{
 .uptime{
 	margin-left: 5%;
 	background: #26c7db;
-}
-.uptime:hover{
-	background: #0FE3FD;
+	line-height: 54px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .infomation{
 	margin-left: 5%;
 	background: #1fbba6;
-}
-.infomation:hover{
-	background: #15D2B8;
+	line-height: 54px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .infotittle{
@@ -71,11 +70,35 @@ body{
 	margin-top: -10px;
 	color: #fff;
 	border-bottom: 2px solid #fff;
+	white-space:pre;
 }
+
+.camera-off,.camera-hover{
+	display: none;
+	position: relative;
+}
+
+.hovertittle{
+	width: 100%;
+	text-align: center;
+	margin-top: 23px;
+}
+
+.hoverinfo{
+	margin-top: -35px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#toggle{
+	font-size: 80px;
+}
+
 /************camera-status over**************/
 .chartbox{
 	width: 47%;
-	height: 350px;
+	height: 450px;
 	background: red;
 	float: left;
 	margin-top: 30px;
@@ -94,13 +117,34 @@ body{
 .charttittle{
 	width: 100%;
 	font-size: 20px;
-	margin-top: 10px;
-	margin-left: 15px;
+	margin-top: 20px;
+	margin-left: 10%;
 }
 
 .charts{
 	margin-top: 20px;
 	width: 100%;
-	height: 290px;
-	padding: 0 10px;
+	height: 85%;
 }
+/*************data chart over**********/
+.modal{
+	width: 330px;
+}
+
+.modal-content{
+	padding-bottom: 10px!important;
+}
+
+.modal-content h5{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
