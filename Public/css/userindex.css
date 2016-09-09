@@ -175,29 +175,116 @@ body{
 	margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /************operationlog over************/
 
+/*响应式css*/
+@media only screen and (min-width: 615px) and (max-width: 1300px) {
+	.content{
+		width: 100%;
+	}
 
+	#data1{
+		width: 100%;
+		height: 294px;
+	}
 
+	.paginationbox{
+		float: right;
+		margin-left: 0;
+	}
+
+	.camerabox{
+		height: auto;
+	}
+
+	.camera{
+		width: 45%;
+		margin-left: 3%;
+		float: left;
+	}
+
+	.cameratime{
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 310px) and (max-width: 610px) {
+	.content{
+		width: 100%;
+		height: auto;
+	}
+
+	.chartcontainer{
+		height: 370px;
+	}
+
+	.charttittle{
+		overflow: hidden;
+		height: 60px;
+	}
+
+	.charttittle h5,h6{
+		float: left;
+		margin: 0;
+	}
+
+	.charttittle h6{
+		margin-left: 0;
+	}
+
+	.chart{
+		height: 290px;
+	}
+
+	#data1{
+		width: 100%;
+		height: 294px;
+	}
+
+	.camera{
+		width: 94%;
+		margin-left: 3%;
+	}
+
+	.camerabox{
+		height: auto;
+	}
+
+	.cameratime{
+		text-align: center;
+	}
+
+	.operationlog{
+		height: 650px;
+	}
+
+	.paginationbox{
+		margin-left: 0;
+		float: right;
+	}
+
+	.pagination{
+		width: 310px;
+	}
+}
+@media only screen and (min-width: 486px) and (max-width: 624px) {
+	.operationlog{
+		height: 490px;
+	}
+}
+@media only screen and (min-width: 310px) and (max-width: 360px) {
+	.operationlog{
+		height: 690px;
+	}
+
+	.paginationbox{
+		margin-left: 20px;
+		float: right;
+	}
+
+	.pagination{
+		width: 310px;
+	}
+}	
 
 
 
