@@ -81,7 +81,7 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3" id="cameratab"><a href="#camera1">摄像机1</a></li>
+                    <li class="tab col s3" id="cameratab"><a href="#camera1-status">摄像机1</a></li>
                     <li class="tab col s3" id="cameratab"><a href="#camera2">摄像机2</a></li>
                     <li class="tab col s3 disabled"><a href="#camera3">摄像机3</a></li>
                     <li class="tab col s3 disabled"><a href="#camera4">摄像机4</a></li>

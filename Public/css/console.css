@@ -1,0 +1,99 @@
+body{
+	/*overflow-y: hidden;*/
+}
+#camerabar{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+#camerabarcontainer{
+	width: 1270px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#cameratab a{
+	color: #000;
+}
+
+.tabs .indicator{
+	background: #2856b6;
+}
+/*************camera bar over*************/
+
+.content{
+	width: 1270px;
+	height: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.tittle{
+	margin-left: 20px;
+	font-size: 23px;
+	float: left;
+}
+
+.camera-tittle{
+	float: left;
+	margin-left: 50px;
+	margin-top: 8px;
+}
+
+.clear{
+	clear: both;
+}
+
+.simpletext{
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	width: 94%;
+	height: 500px;
+	margin-top: 30px;
+	padding-left:20px;
+	float: left;
+	background: #fff;
+	margin-left: 3%;
+}
+
+.form1tittle{
+	margin-top: 20px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.inputbox{
+	overflow: hidden;
+	float: left;
+}
+
+.input-field{
+	margin-top: 20px;
+	width: 500px;
+	float: left;
+}
+
+.inputicon{
+	position: absolute;
+	top: 16px;
+}
+
+.baidumap{
+	float: left;
+	width: 580px;
+	height: 340px;
+	background: red;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
