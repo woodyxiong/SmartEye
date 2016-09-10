@@ -93,7 +93,7 @@
     </div>
 </section>
 <section class="camera-container">
-    <div id="camera1">
+    <div id="camera1-status" status="on" time="2014-07-10 15:21:12">
         <div class="status waves-effect waves-light btn-large">
             <div class="camera-on">
                 <div class="infotittle">运行状态</div>
@@ -109,8 +109,14 @@
             </div>
         </div>
         <div class="uptime">
-            <div class="infotittle">运行时间</div>
-            <div class="info" id="time" time="2014-07-10 10:21:12"></div>
+            <div class="uptime-on">
+                <div class="infotittle">运行时间</div>
+                <div class="showtime info"></div>
+            </div>
+            <div class="uptime-off">
+                <div class="infotittle">等待运行时间</div>
+                <div class="showtime info"></div>
+            </div>
         </div>
         <div class="infomation">
             <div class="infotittle">摄像机基本信息</div>
@@ -141,14 +147,14 @@
 </section>
 
 <!-- 打开关闭对话框 -->
-  <div id="dialog" class="modal">
+<div id="dialog" class="modal">
     <div class="modal-content">
-        <h5>是否确定关闭摄像头1</h5>
+        <h5>是否确定<span class="modal-content-span"></span>摄像头1</h5>
     </div>
     <div class="modal-footer">
         <div class="modal-footer-box">
             <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">取消</a>
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">确定</a>
+            <a href="#!" id="toggleSubmit" class=" waves-effect waves-green btn-flat">确定</a>
         </div>
     </div>
 </div>

@@ -95,6 +95,10 @@ body{
 	font-size: 80px;
 }
 
+.uptime-off{
+	display: none;
+}
+
 /************camera-status over**************/
 .chartbox{
 	width: 47%;
