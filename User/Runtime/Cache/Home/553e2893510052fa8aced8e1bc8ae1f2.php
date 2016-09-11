@@ -14,7 +14,8 @@
     <!-- import js -->
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
-
+    <!-- import baidumap.js -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script>
 
 </head>
 <body>
@@ -91,9 +92,9 @@
         <div class="tittle">设置参数</div>
         <div class="camera-tittle">摄像机1</div>
         <div class="clear"></div>
-        <form class="simpletext" action="<?php echo U('data/data');?>" method="post">
+        <form class="simpletext" action="<?php echo U('console/data');?>" method="post">
             <div class="row">
-            <div class="form1tittle">摄像机简单信息描述</div>
+            <div class="formtittle">摄像机简单信息描述</div>
                 <div class="inputbox">
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">person</i>
@@ -114,7 +115,7 @@
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">alarm</i>
                         <input name="freq" id="freq" type="text" class="simpleinput freqinput" class="validate active">
-                        <label for="freq">频率</label>
+                        <label for="freq">一次运行等待时长</label>
                         <div class="selectbox">
                             <select>
                                 <option value="1">秒</option>
@@ -128,25 +129,69 @@
                     <div class="clear"></div>
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">location_on</i>
-                        <input id="icon_telephone" type="tel" class="simpleinput" class="validate active">
+                        <input value="请在右侧地图选择地点" disabled id="location" type="text" class="simpleinput" class="validate active">
                         <label for="icon_telephone">GPS位置</label>
                         <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="设置摄像机GPS位置">help</i>
                     </div>
-
                 </div>
-                
-                <div class="baidumap"></div>
+                <div id="baidumap"></div>
             </div>
-
-        
-
-
+            <div class="buttonbox">
+                <button class="btn waves-effect waves-light blue lighten-2 submit" type="submit" name="action">提交</button>
+                <button id="form1reset" class="btn waves-effect waves-teal" type="reset" name="action">重置</button>
+            </div>
         </form>
     </div>
+</section>
+<section class="showcamerabox">
+    <div class="content2">
+        <div class="showcamera">
+            <div class="form2tittle">设置需要分析的数据</div>
+            <div class="cameradata c1">
+                <div class="cdtittle">甲醛含量</div>
+                <div class="cdinfo">
+                    位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
+                </div>
+            </div>
+            <div class="cameradata c2">
+                <div class="cdtittle">二氧化氮含量</div>
+                <div class="cdinfo">
+                    位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
+                </div>
+            </div>
+            <div class="cameradata c3">
+                <div class="cdtittle">二氧化碳含量</div>
+                <div class="cdinfo">
+                    位于厦门大学嘉庚学院北区测试甲醇的含量爱上
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="cameradata c1">
+                <div class="cdtittle">二氧化硫含量</div>
+                <div class="cdinfo">
+                    位于厦门大学嘉庚学院北区测试甲醇的含量算法
+                </div>
+            </div>
+            <div class="addcd c2">
+                <i class="material-icons addicon" >add_circle_outline</i>
+            </div>
+        </div>
+    </div>
+    
 
 
 
-</section>                               
+
+
+
+
+
+
+
+</section>
+
+
+
 
 
 

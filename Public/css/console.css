@@ -21,10 +21,10 @@ body{
 	background: #2856b6;
 }
 /*************camera bar over*************/
-
+/*************simple camera setting*************/
 .content{
 	width: 1270px;
-	height: 1000px;
+	height: 600px;
 	margin:0 auto;
 	overflow: hidden;
 }
@@ -56,8 +56,9 @@ body{
 	margin-left: 3%;
 }
 
-.form1tittle{
-	margin-top: 10px;
+.formtittle{
+	margin-top: 20px;
+	margin-left: 15px;
 	font-size: 18px;
 	margin-bottom: 20px;
 }
@@ -94,13 +95,13 @@ body{
 	float: left;
 }
 
-.baidumap{
+#baidumap{
 	float: left;
 	width: 580px;
 	height: 320px;
-	background: red;
 	margin-top: 0px;
 	margin-left: 50px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .selectbox{
@@ -109,13 +110,140 @@ body{
 	margin-left: 20px;
 }
 
+.buttonbox{
+	width: 310px;
+	height: 50px;
+	float: right;
+	overflow: hidden;
+}
 
+.submit{
+	float: right;
+	margin-right: 43px;
+}
 
+#form1reset{
+	background: #f1f1f1;
+	box-shadow: 0;
+	color: #000;
+	float: right;
+	margin-right: 80px;
+}
+/*************simple camera setting*************/
+/*************conplex camera setting*************/
+.content2{
+	width: 1270px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
 
+.showcamerabox{
+	height: auto;
+	overflow: hidden;
+}
 
+.showcamera{
+	width: 94%;
+	margin-left: 3%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	padding: 20px;
+	padding-left: 0px;
+}
 
+.form2tittle{
+	font-size: 18px; 
+	margin-left: 37px;
+}
 
+.cameradata{
+	width: 330px;
+	height: 150px;
+	float: left;
+	background: #f2f2f2;
+	margin-top: 30px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	cursor: pointer;
+	transition: 0.2s box-shadow;
+}
 
+.cameradata:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.c1{
+	margin-left: 40px;
+}
+
+.c2{
+	margin-left: 57px;
+}
+
+.c3{
+	margin-left: 57px;
+}
+
+.line{
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+
+.cdtittle{
+	width: 100%;
+	height: 60px;
+	padding: 15px 0 15px 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.c1 .cdtittle{
+	background: #00bcd4;
+}
+
+.c2 .cdtittle{
+	background: #f44336;
+}
+
+.c3 .cdtittle{
+	background: #607d8b;
+}
+
+.cdinfo{
+	width: 100%;
+	height: 90px;
+	font-size: 15px;
+	padding: 15px;
+	line-height: 25px;
+}
+
+.addcd{
+	width: 330px;
+	height: 150px;
+	background: #f2f2f2;
+	float: left;
+	margin-top: 30px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	text-align: center;
+	cursor: pointer;
+	color: #ccc;
+	transition: 0.3s box-shadow;
+	transition: 0.3s background;
+}
+
+.addcd:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	background: #e6e6e6;
+}
+
+.addicon{
+	margin-top: 25px;
+	font-size: 100px;
+}
 
 
 

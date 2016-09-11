@@ -24,7 +24,7 @@
 						<label for="icon_prefix">用户名</label>
 			        </div>
 			        <div class="input-field col s6" id="logininput">
-						<i class="material-icons" id="loginicons">accessibility</i>
+						<i class="material-icons" id="loginicons">lock</i>
 						<input name="password" id="password" type="password" class="validate">
 						<label for="icon_telephone">密码</label>
 			        </div>
