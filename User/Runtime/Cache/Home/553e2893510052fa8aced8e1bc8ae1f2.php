@@ -97,21 +97,42 @@
                 <div class="inputbox">
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">person</i>
-                        <input name="cameraname" id="cameraname" type="text" value="摄像机1" class="validate active">
+                        <input name="cameraname" id="cameraname" type="text" value="摄像机1" class="simpleinput validate active">
                         <label for="cameraname">摄像机名字</label>
+                        <!-- <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="I am tooltip">help</i> -->
+                        
                     </div>
                     <div class="clear"></div>
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">info</i>
-                        <input name="camerainfo" id="camerainfo" type="text" class="validate active">
+                        <input name="camerainfo" id="camerainfo" class="simpleinput" type="text" class="validate active">
                         <label for="camerainfo">摄像头描述信息</label>
+                        <!-- <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="I am tooltip">help</i> -->
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="input-field col">
+                        <i class="material-icons prefix inputicon">alarm</i>
+                        <input name="freq" id="freq" type="text" class="simpleinput freqinput" class="validate active">
+                        <label for="freq">频率</label>
+                        <div class="selectbox">
+                            <select>
+                                <option value="1">秒</option>
+                                <option value="2">分钟</option>
+                                <option value="3">小时</option>
+                            </select>
+                        <!-- <label>Materialize Select</label> -->
+                        </div>
+                        <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="设置每隔多长时间取图像点">help</i>
                     </div>
                     <div class="clear"></div>
                     <div class="input-field col">
-                        <i class="material-icons prefix inputicon">build</i>
-                        <input id="icon_telephone" type="tel" class="validate active">
-                        <label for="icon_telephone">Telephone</label>
+                        <i class="material-icons prefix inputicon">location_on</i>
+                        <input id="icon_telephone" type="tel" class="simpleinput" class="validate active">
+                        <label for="icon_telephone">GPS位置</label>
+                        <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="设置摄像机GPS位置">help</i>
                     </div>
+
                 </div>
                 
                 <div class="baidumap"></div>
