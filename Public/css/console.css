@@ -136,12 +136,13 @@ body{
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .showcamerabox{
 	height: auto;
 	overflow: hidden;
+	padding-bottom: 0px;
 }
 
 .showcamera{
@@ -151,8 +152,7 @@ body{
 	overflow: hidden;
 	background: #fff;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-	padding: 20px;
-	padding-left: 0px;
+	padding: 20px 20px 40px 0;
 }
 
 .form2tittle{
@@ -161,6 +161,7 @@ body{
 }
 
 .cameradata{
+	position: relative;
 	width: 330px;
 	height: 150px;
 	float: left;
@@ -245,5 +246,40 @@ body{
 	font-size: 100px;
 }
 
+.operate{
+	position: absolute;
+	width: 100%;
+	height: 90px;
+	top: 60px;
+	display: none;
+}
+
+.set,.delete{
+	width: 50%;
+	float: left;
+	height: 90px;
+	text-align: center;
+	padding-top: 20px;
+	color: #ccc;
+	background: #f2f2f2;
+	transition: 0.2s background;
+}
+
+.hovericon{
+	font-size: 50px;
+}
+
+.set:hover,.delete:hover{
+	background: #e6e6e6;
+}
+
+#deletedialog{
+	width: 320px;
+}
+
+.modal-content{
+	padding-bottom: 0!important;
+	text-align: center;
+}
 
 

@@ -84,10 +84,11 @@
         <div class="data-bar">
             <span>最大值：100</span>
             <a class="waves-effect waves-light btn blue" href="{:U('data/excel')}">生成Excel文件</a>
+            <input type="date" class="datepicker">
         </div>
     </div>
-</section>
 
+</section>
 
 
 
@@ -162,6 +163,7 @@ option = {
     ],
     series : [
         {
+            smooth:true,
             name:'甲醛含量',
             type:'line',
             stack: '总量',

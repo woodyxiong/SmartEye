@@ -100,15 +100,12 @@
                         <i class="material-icons prefix inputicon">person</i>
                         <input name="cameraname" id="cameraname" type="text" value="摄像机1" class="simpleinput validate active">
                         <label for="cameraname">摄像机名字</label>
-                        <!-- <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="I am tooltip">help</i> -->
-                        
                     </div>
                     <div class="clear"></div>
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">info</i>
                         <input name="camerainfo" id="camerainfo" class="simpleinput" type="text" class="validate active">
                         <label for="camerainfo">摄像头描述信息</label>
-                        <!-- <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="I am tooltip">help</i> -->
                     </div>
                     <div class="clear"></div>
 
@@ -122,7 +119,6 @@
                                 <option value="2">分钟</option>
                                 <option value="3">小时</option>
                             </select>
-                        <!-- <label>Materialize Select</label> -->
                         </div>
                         <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="设置每隔多长时间取图像点">help</i>
                     </div>
@@ -152,17 +148,29 @@
                 <div class="cdinfo">
                     位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
                 </div>
+                <div class="operate">
+                    <div class="set"><i class="material-icons hovericon">settings</i></div>
+                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                </div>
             </div>
             <div class="cameradata c2">
                 <div class="cdtittle">二氧化氮含量</div>
                 <div class="cdinfo">
                     位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
                 </div>
+                <div class="operate">
+                    <div class="set"><i class="material-icons hovericon">settings</i></div>
+                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                </div>
             </div>
             <div class="cameradata c3">
                 <div class="cdtittle">二氧化碳含量</div>
                 <div class="cdinfo">
                     位于厦门大学嘉庚学院北区测试甲醇的含量爱上
+                </div>
+                <div class="operate">
+                    <div class="set"><i class="material-icons hovericon">settings</i></div>
+                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
                 </div>
             </div>
             <div class="line"></div>
@@ -171,11 +179,16 @@
                 <div class="cdinfo">
                     位于厦门大学嘉庚学院北区测试甲醇的含量算法
                 </div>
+                <div class="operate">
+                    <div class="set"><i class="material-icons hovericon">settings</i></div>
+                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                </div>
             </div>
             <div class="addcd c2">
                 <i class="material-icons addicon" >add_circle_outline</i>
             </div>
         </div>
+        <div class="line"></div>
     </div>
     
 
@@ -196,14 +209,14 @@
 
 
 <!-- 打开关闭对话框 -->
-<div id="dialog" class="modal">
+<div id="deletedialog" class="modal">
     <div class="modal-content">
-        <h5>是否确定<span class="modal-content-span"></span>摄像头1</h5>
+        <h5>是否确定删除数据</h5>
     </div>
     <div class="modal-footer">
         <div class="modal-footer-box">
             <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">取消</a>
-            <a href="#!" id="toggleSubmit" class=" waves-effect waves-green btn-flat">确定</a>
+            <a href="#!" id="deleteSubmit" class=" waves-effect waves-green btn-flat">确定</a>
         </div>
     </div>
 </div>
