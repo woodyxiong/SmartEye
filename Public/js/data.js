@@ -1,18 +1,32 @@
 $(document).ready(function(){
-	/*各项配置初始化*/
+/*各项配置初始化*/
 	$('.preloader').fadeOut(800);
+	// 日期初始化
 	$('.datepicker').pickadate({
 	    selectMonths: true,
 	    selectYears: 15
 	});
 
-	$('.chips-placeholder').material_chip({
-	    placeholder: 'Enter a tag',
-	    secondaryPlaceholder: '+Tag',
+	// chips初始化
+	var dataName=$('.data-tittle').text();
+	$('.chips-initial').material_chip({
+		placeholder: '添加数据',
+		secondaryPlaceholder: '添加数据'
 	  });
+	$('#chips').append('<div class="chipscover"></div>');
+	$('#chips').find('input').attr('disabled','');
+	$('#chips').find('input').attr('id','chipsinput');
+	$('.input').before('<div class="chip">'+dataName
+		+'<i class="material-icons close">close</i></div>')
 
-	/*各项配置初始化*/
+	// 右上角多选按钮初始化
 	flashDatacheck();
+
+	$('.chipscover').click(function() {
+		alert('asf');
+	});
+/*各项配置初始化*/
+	
 });
 
 /*右上角多选框*/
@@ -38,11 +52,10 @@ $(document).ready(function(){
 			$('#mydata2').fadeIn('200');
 		}
 	}
-
-
-
 /*右上角多选框*/
 
+/*点击chips input事件*/
+	
 
 
 
@@ -53,4 +66,4 @@ $(document).ready(function(){
 
 
 
-
+/*点击chipbox事件*/
