@@ -79,12 +79,29 @@
 <section class="data">
     <div class="data-camera">摄像头1</div>
     <div class="data-tittle">甲醛含量</div>
+    <div class="pickdata">
+        <form id="dataform" name="dataform" action="<?php echo U('data/excel');?>" method="post">
+            <div class="pickdatacheck">
+                <input type="checkbox" id="taifeng" />
+                <label for="taifeng">只查看某天</label>
+            </div>
+            <input type="date" placeholder="选择开始日期" class="datepicker" id="mydata1">
+            <div class="dataspan">-</div>
+            <input type="date" placeholder="选择结束日期" class="datepicker" id="mydata2">
+            <a href="javascript:void(0)" class="waves-effect waves-light btn picksubmit" id="picksubmit">查询</a>
+        </form>
+    </div>
     <div class="data-box">
         <div class="data-content" id="data1"></div>
         <div class="data-bar">
-            <span>最大值：100</span>
-            <a class="waves-effect waves-light btn blue" href="<?php echo U('data/excel');?>">生成Excel文件</a>
-            <input type="date" class="datepicker">
+            
+            <div class="chips chips-placeholder">
+            </div>
+            <!-- <a class="waves-effect waves-light btn blue" href="<?php echo U('data/excel');?>">生成Excel文件</a> -->
+            <!-- <div class="chip">
+                Tag
+                <i class="close material-icons">close</i>
+            </div> -->
         </div>
     </div>
 

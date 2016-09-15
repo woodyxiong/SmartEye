@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 
 
-
+/*各个数据是否需要修改或者删除*/
 $('.cameradata').hover(function() {
 	$(this).find('.operate').fadeIn('200');
 }, function() {
@@ -16,8 +16,7 @@ $('.cameradata').hover(function() {
 $('.delete').click(function() {
 	$('#deletedialog').openModal();
 });
-
-
+/*各个数据是否需要修改或者删除*/
 
 
 

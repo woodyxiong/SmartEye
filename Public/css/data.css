@@ -23,6 +23,41 @@ body{
 	float: left;
 }
 
+.pickdata{
+	width: 520px;
+	float: right;
+	height: 60px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-right: 10%;
+}
+
+.dataspan{
+	float: left;
+	margin:5px -10px 0 10px;
+	font-size: 20px;
+}
+
+.pickdatacheck{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#mydata1,#mydata2{
+	float: left;
+	width: 100px;
+	margin-left: 20px;
+	padding-left: 10px;
+	height: 30px;
+	margin-top: 7px;
+}
+
+.picksubmit{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
 .data-box{
 	width: 100%;
 	background: #fff;
@@ -47,8 +82,8 @@ body{
 	margin-top: 20px;
 }
 
-.data-bar a{
-	margin-left: 50px;
-}
+
+
+
 
 
