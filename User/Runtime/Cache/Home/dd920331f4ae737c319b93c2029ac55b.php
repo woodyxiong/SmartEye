@@ -38,23 +38,9 @@
 <!-- topbar over -->
 <!-- sledebar begin -->
 <nav class="slidebar">
-    <!-- <ul id="slide-out" class="side-nav">
-        <div id="slidebartittle">
-            <span><img src="/Public/img/manstudent.png" alt=""></span>
-            <span id="name">林启同学</span>
-        </div>
-        <li class="slidea"><a target="iframe" href="<?php echo U('userindex/userindex');?>" class="icona"><i class="material-icons" id="icon">account_circle</i>个人主页</a></li>
-        <li class="slidea"><a target="iframe" href="<?php echo U('data/data');?>" class="icona"><i class="material-icons" id="icon">apps</i>我的数据</a></li>
-        <li class="slidea"><a target="iframe" href="<?php echo U('console/console');?>" class="icona"><i class="material-icons" id="icon">build</i>设置参数</a></li>
-        <li class="slidea"><a target="iframe" href="<?php echo U('camera/camera');?>" class="icona" href="camera.html" target="iframe"><i class="material-icons" id="icon">camera_alt</i>查看摄像头</a></li>
-        <li class="slidea"><a class="icona" href="<?php echo U('user/quit');?>"><i class="material-icons" id="icon">exit_to_app</i>退出</a></li>
-    
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
     <ul id="slide-out" class="side-nav">
         <li>
             <div class="userView">
-                <!-- <img class="background" src="images/office.jpg"> -->
                 <a href="#!user"><img class="circle" src="/Public/img/manstudent.png" alt=""></a>
                 <a href="#!name"><span class="white-text name">林启同学</span></a>
             </div>

@@ -7,23 +7,16 @@ $(document).ready(function(){
 	    selectYears: 15
 	});
 
-	// chips初始化
-	var dataName=$('.data-tittle').text();
-	$('.chips-initial').material_chip({
-		placeholder: '添加数据',
-		secondaryPlaceholder: '添加数据'
-	  });
-	$('#chips').append('<div class="chipscover"></div>');
-	$('#chips').find('input').attr('disabled','');
-	$('#chips').find('input').attr('id','chipsinput');
-	$('.input').before('<div class="chip">'+dataName
-		+'<i class="material-icons close">close</i></div>')
+	// 下拉选择框初始化
+	$('select').material_select();
 
 	// 右上角多选按钮初始化
 	flashDatacheck();
 
+	// chips初始化
+	flashChips();
 	$('.chipscover').click(function() {
-		alert('asf');
+		$('#selectDatamodal').openModal();
 	});
 /*各项配置初始化*/
 	
@@ -55,6 +48,19 @@ $(document).ready(function(){
 /*右上角多选框*/
 
 /*点击chips input事件*/
+	// chips初始化
+	function flashChips(){
+		var dataName=$('.data-tittle').text();
+		$('.chips-initial').material_chip({
+			placeholder: '添加数据',
+			secondaryPlaceholder: '添加数据'
+		  });
+		$('#chips').append('<div class="chipscover"></div>');
+		$('#chips').find('input').attr('disabled','');
+		$('#chips').find('input').attr('id','chipsinput');
+		$('.input').before('<div class="chip">'+dataName
+		+'</div>')
+	}
 	
 
 

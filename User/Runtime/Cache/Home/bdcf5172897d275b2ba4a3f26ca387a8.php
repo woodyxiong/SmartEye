@@ -94,20 +94,77 @@
     <div class="data-box">
         <div class="data-content" id="data1"></div>
         <div class="data-bar">
-            <div class="chipsbox chips-initial" id="chips">
-                
+            <div class="chipsbox chips-initial" id="chips"></div>
+            <div class="toExcel">
+                <div class="alldata">
+                    <p>
+                        <input checked name="group1" type="radio" id="alldata" />
+                        <label for="alldata">生成整套数据</label>
+                    </p>
+                    <p>
+                        <input name="group1" type="radio" id="singledata" />
+                        <label for="singledata">只生成原始单个数据</label>
+                    </p>
+                </div>
+                <div class="toline">
+                    <p>
+                        <input checked name="group2" type="radio" id="toline" />
+                        <label for="toline">生成折线图</label>
+                    </p>
+                    <p>
+                        <input name="group2" type="radio" id="nottoline" />
+                        <label for="nottoline">不生成折线图</label>
+                    </p>
+                </div>
+                <a class="btn waves-effect blue lighten-2" id="toExcelsubmit" href="javascript:void(0)">生成数据报表</a>
             </div>
-            <!-- <a class="waves-effect waves-light btn blue" href="<?php echo U('data/excel');?>">生成Excel文件</a> -->
-            <!-- <div class="chip">
-                Tag
-                <i class="close material-icons">close</i>
-            </div> -->
+            <div class="toUserindex">
+                <div class="alldata">
+                    <p>
+                        <input checked name="group3" type="radio" id="alldata2" />
+                        <label for="alldata2">生成整套数据</label>
+                    </p>
+                    <p>
+                        <input name="group3" type="radio" id="singledata2" />
+                        <label for="singledata2">只生成原始单个数据</label>
+                    </p>
+                </div>
+                <a class="btn waves-effect blue darken-1" id="toUserindexsubmit" href="javascript:void(0)">生成数据到管理首页</a>
+            </div>
         </div>
     </div>
-
 </section>
 
 
+
+
+
+
+
+<div id="selectDatamodal" class="modal bottom-sheet">
+    <div class="modal-content">
+        <h4>添加数据</h4>
+        <div class="input-field" id="selectCamera">
+            <select>
+                <option value="" disabled selected>选择摄像头</option>
+                <option value="1">摄像头1</option>
+                <option value="2">摄像头2</option>
+                <option value="3">摄像头3</option>
+            </select>
+        </div>
+        <div class="input-field" id="selectData">
+            <select>
+                <option value="" disabled selected>选择数据</option>
+                <option value="1">北区甲醛数据</option>
+                <option value="2">南区甲醛数据</option>
+                <option value="3">北区甲醛数据</option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-light  blue lighten-2 btn">确定</a>
+    </div>
+</div>
 
 
 

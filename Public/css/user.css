@@ -84,49 +84,6 @@ main{
 	background: url(../img/slidebar.jpg) center center no-repeat;
 }
 
-/*#slidebartittle{
-	width: 100%;
-	height: 160px;
-	background: url(../img/slidebar.jpg) center center no-repeat;
-	background-size: 100%;
-}*/
-
-/*.slidea{
-	float: left!important;
-	width: 100%;
-}
-
-#slidebartittle span img{
-	width: 60px;
-	height: 60px;
-	margin-left: 15px;
-	margin-top: 60px;
-	border-radius: 50%;
-}
-
-#slidebartittle #name{
-	margin-left: -60px;
-	margin-top: 110px;
-	position: absolute;
-	color: #371CCC;
-}
-
-#icon{
-	font-size: 30px;
-	display: inline-block;
-	top:8px;
-	position: relative;
-	margin-top: -5px;
-	margin-right: 40px;
-	margin-left: -14px;
-}
-
-.icona:hover{
-	color:#6D6D6D;
-	transition: 0.5s;
-}*/
-
-
 /****************slidebar over****************/
 /***************iframe begin***************/
 iframe{

@@ -75,10 +75,10 @@ body{
 }
 
 .data-bar{
-	width: 80%;
+	width: 90%;
 	height: 50px;
 	float: left;
-	margin-left: 10%;
+	margin-left: 5%;
 	margin-top: 40px;
 }
 
@@ -86,6 +86,14 @@ body{
 	border:0;
 	margin-left: 0;
 	position: relative;
+	width: 50%;
+	background: #fdfeef;
+	height: 250px;
+	padding: 15px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+				0 2px 4px 0 rgba(0,0,0,0.12);
 }
 
 .chip{
@@ -104,6 +112,66 @@ body{
 #chipsinput{
 	z-index: 1;
 	position: relative;
+}
+
+#selectDatamodal{
+	height: 300px;
+}
+
+.modal-footer{
+	margin-top: -10px;
+	padding-right: 5%!important;
+}
+
+#selectCamera,#selectData{
+	width: 30%;
+	margin-left: 10%;
+	float: left;
+}
+
+#selectDatamodal h4{
+	margin-left: 10%;
+}
+
+.select-dropdown{
+	top: 0!important;
+}
+
+.toExcel{
+	padding: 38px 0 0 60px;
+	float: left;
+	width: 20%;
+	height: 250px;
+	border-radius: 3px;
+	background: #e9fbfc;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+				0 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.toline{
+	margin-top: 20px;
+}
+
+#toExcelsubmit{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.toUserindex{
+	padding: 38px 0 0 60px;
+	float: left;
+	width: 20%;
+	height: 250px;
+	border-radius: 3px;
+	background: #f9e6e6;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+				0 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+#toUserindexsubmit{
+	margin-top: 40px;
 }
 
 
