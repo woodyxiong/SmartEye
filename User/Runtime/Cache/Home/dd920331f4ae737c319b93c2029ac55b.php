@@ -22,17 +22,18 @@
 <!-- topbar begin -->
 <nav class="bar">
     <span id="bartoggle">
-        <i class="material-icons" id="barmenu">menu</i>
+        <i class="material-icons" id="barmenu" data-activates="slide-out">menu</i>
+        <a id="none" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </span>
     <div id="barinfo">
-        Skyeye
+        SkyEye
     </div>
     <div id="topbar">
         <a href="<?php echo U('userindex/userindex');?>" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">个人主页</a>
-        <a href="#"><i class="material-icons" id="topbarmail">build</i></a>
-        <a href="#"><i class="material-icons" id="topbarmail">mail_outline</i></a>
-        <a href="#"><i class="material-icons" id="topbarmail">fullscreen</i></a>
-        <a href="#"><i class="material-icons" id="topbarmail">more_vert</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">mail_outline</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">fullscreen</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">more_vert</i></a>
     </div>
 </nav>
 <!-- topbar over -->
@@ -46,16 +47,16 @@
             </div>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('userindex/userindex');?>" class="waves-effect"><i class="material-icons">account_circle</i>管理中心</a>
+            <a target="iframe" href="<?php echo U('userindex/userindex');?>" class="waves-effect slideb"><i class="material-icons">account_circle</i>管理中心</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('data/data');?>" class="waves-effect"><i class="material-icons">apps</i>我的数据</a>
+            <a target="iframe" href="<?php echo U('data/data');?>" class="waves-effect slideb"><i class="material-icons">apps</i>我的数据</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('console/console');?>" class="waves-effect"><i class="material-icons">build</i>设置参数</a>
+            <a target="iframe" href="<?php echo U('console/console');?>" class="waves-effect slideb"><i class="material-icons">build</i>设置参数</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('camera/camera');?>" class="waves-effect"><i class="material-icons">camera_alt</i>查看摄像头</a>
+            <a target="iframe" href="<?php echo U('camera/camera');?>" class="waves-effect slideb"><i class="material-icons">camera_alt</i>查看摄像头</a>
         </li>
         <li>
             <div class="divider"></div>
@@ -67,10 +68,9 @@
             <a class="waves-effect" href="<?php echo U('user/quit');?>"><i class="material-icons">exit_to_app</i>退出</a>
         </li>
       </ul>
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 </nav>
 <!-- 右下角的button begin -->
-<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+<div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
         <i class="large material-icons">add</i>
     </a>

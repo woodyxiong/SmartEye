@@ -19,7 +19,7 @@ main{
 #barmenu{
 	line-height: 50px;
 	height: auto;
-	font-size: 40px;
+	font-size: 25px;
 	margin-left: 20px;
 	color: #fff;
 	cursor: pointer;
@@ -27,14 +27,15 @@ main{
 }
 
 #barinfo{
-	line-height: 50px;
+	padding-top: 5px;
+	line-height: 40px;
 	float: left;
 	margin-left: 40px;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 #topbar{
-	width: 420px;
+	width: 385px;
 	height: 50px;
 	line-height: 50px;
 	font-size: 18px;
@@ -43,32 +44,36 @@ main{
 }
 
 #topbar a{
-	padding: 0 10px;
 	background: none;
 	box-shadow: none;
 	float: left;
+	font-size: 15px;
 }
 
 #topbar img{
 	display: inline-block;
 	border-radius: 50%;
 	line-height: 50px;
-	height: 35px;
-	width: 35px;
-	margin-top: -3px;
+	height: 30px;
+	width: 30px;
+	margin-top: 0px;
 	position: relative;
 	top: 9px;
 	margin-right: 10px;
 }
 
-#topbarmail{
-	margin-left: 15px;
-	font-size: 30px;
-	margin-top: -2px;
+.baricon{
+	padding: 3px 15px 0 15px;
+	margin-left: 0px;
+	margin-top: -5px;
 }
-#topbarmail:hover{
-	color:#FFB6B6;
-	transition: 0.5s;
+
+#topbarbuild{
+	font-size: 22px;
+}
+
+#topbarmail{
+	font-size: 25px;
 }
 
 
@@ -82,6 +87,10 @@ main{
 
 .userView{
 	background: url(../img/slidebar.jpg) center center no-repeat;
+}
+
+#none{
+	display: none;
 }
 
 /****************slidebar over****************/
@@ -142,6 +151,11 @@ iframe{
 	margin-right: 0;
 }
 
+.fixed-action-btn{
+	bottom: 45px;
+	right: 24px;
+}
+
 @media only screen and (min-width: 920px) and (max-width: 1300px) {
 	.footerbox{
 		width: 90%;
@@ -157,6 +171,15 @@ iframe{
 	.footer-left{
 		width: 100%;
 		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.footer{
+		height: 70px;
+	}
+	.footer-right{
+		display: none;
 	}
 }
 

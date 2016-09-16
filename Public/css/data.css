@@ -138,7 +138,8 @@ body{
 }
 
 .toExcel{
-	padding: 38px 0 0 60px;
+	text-align: left;
+	padding: 30px 3% 20px 3%;
 	float: left;
 	width: 20%;
 	height: 250px;
@@ -149,17 +150,23 @@ body{
 				0 2px 4px 0 rgba(0,0,0,0.12);
 }
 
-.toline{
-	margin-top: 20px;
+#toExcelsubmit{
+	width: 90%;
+	margin-top: 25px;
+	margin-left: 10%;
 }
 
-#toExcelsubmit{
+.alldata{
+	width: 92%;
+}
+
+.toline{
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 2%;
 }
 
 .toUserindex{
-	padding: 38px 0 0 60px;
+	padding: 30px 3% 20px 3%;
 	float: left;
 	width: 20%;
 	height: 250px;
@@ -170,8 +177,21 @@ body{
 				0 2px 4px 0 rgba(0,0,0,0.12);
 }
 
+.helpiconbox{
+	width: 100%;
+	text-align: center;
+}
+
+.helpicon{
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
 #toUserindexsubmit{
-	margin-top: 40px;
+	width: 94%;
+	margin-top: 25px;
+	margin-left: 3%;
 }
 
 

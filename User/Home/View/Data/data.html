@@ -128,8 +128,11 @@
                         <input name="group3" type="radio" id="singledata2" />
                         <label for="singledata2">只生成原始单个数据</label>
                     </p>
+                    <div class="helpiconbox">
+                        <i class="tooltipped material-icons helpicon prefix" data-position="bottom" data-delay="50" data-tooltip="生成图表到管理中心">help</i>
+                    </div>
                 </div>
-                <a class="btn waves-effect blue darken-1" id="toUserindexsubmit" href="javascript:void(0)">生成数据到管理首页</a>
+                <a class="btn waves-effect blue darken-1" id="toUserindexsubmit" href="javascript:void(0)">生成图表</a>
             </div>
         </div>
     </div>

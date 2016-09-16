@@ -1,20 +1,16 @@
 $(document).ready(function() {
 /*******************bar**********************/
-	// Initialize collapse button
-	$(".button-collapse").sideNav();
-	// Initialize collapsible (uncomment the line below if you use the dropdown variation)
-	//$('.collapsible').collapsible();
 	$('.button-collapse').sideNav({
-		menuWidth: 250, // Default is 240
+		menuWidth: 240, // Default is 240
 		edge: 'left', // Choose the horizontal origin
 	});
 	// Hide sideNav
 	//$('.button-collapse').sideNav('hide');
 	$('#bartoggle').click(function() {
-			$('.button-collapse').sideNav('show');
+		$('.button-collapse').sideNav('show');
 	});
 
-	$('.slidea').click(function(){
+	$('.slideb').click(function(){
 		$('.button-collapse').sideNav('hide');
 		setTimeout("$('#sidenav-overlay').fadeOut(500)",100);
 		// $('#sidenav-overlay').hide();
