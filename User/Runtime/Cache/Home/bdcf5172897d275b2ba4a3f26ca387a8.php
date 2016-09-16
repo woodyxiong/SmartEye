@@ -116,7 +116,7 @@
                         <label for="nottoline">不生成折线图</label>
                     </p>
                 </div>
-                <a class="btn waves-effect blue lighten-2" id="toExcelsubmit" href="javascript:void(0)">生成数据报表</a>
+                <a class="btn waves-effect blue lighten-2" id="toExcelsubmit" href="javascript:void(0)">生成报表</a>
             </div>
             <div class="toUserindex">
                 <div class="alldata">

@@ -61,7 +61,7 @@ body{
 .data-box{
 	width: 100%;
 	background: #fff;
-	height: 900px;
+	height: auto;
 	float: left;
 	margin-top: 20px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
@@ -76,10 +76,11 @@ body{
 
 .data-bar{
 	width: 90%;
-	height: 50px;
+	height: auto;
 	float: left;
 	margin-left: 5%;
 	margin-top: 40px;
+	padding-bottom: 50px;
 }
 
 #chips{
@@ -162,7 +163,6 @@ body{
 
 .toline{
 	margin-top: 20px;
-	margin-left: 2%;
 }
 
 .toUserindex{
@@ -194,7 +194,54 @@ body{
 	margin-left: 3%;
 }
 
+@media only screen and (max-width: 1180px) {
+	#chips{
+		width: 98%;
+		margin-left: 1%;
+	}
 
+	.toExcel{
+		width: 47%;
+		margin-left: 1%;
+		float: left;
+	}
 
+	.toUserindex{
+		width: 47%;
+		float: left;
+		margin-left: 4%;
+	}
 
+	.pickdata{
+		margin-top: 20px;
+		float: left;
+		margin-left: 10%;
+	}
+
+	#dataform{
+		margin-left: -9px;
+	}
+}
+
+@media only screen and (min-width: 340px) and (max-width: 562px) {
+	.pickdata{
+		width: 100%;
+		height: auto;
+	}
+
+	.pickdatacheck{
+		width: 100%;
+	}
+
+	#mydata1,#mydata2{
+		width: 32%;
+	}
+	#mydata1{
+		margin-left: 0;
+	}
+
+	#picksubmit{
+		margin-left: 10px;
+	}
+}
 
