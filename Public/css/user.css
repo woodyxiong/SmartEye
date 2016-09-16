@@ -80,11 +80,20 @@ main{
 	box-shadow: 0 0px 0px 0 rgba(0,0,0,0);
 }
 
-#slidebartittle{
+.userView{
+	background: url(../img/slidebar.jpg) center center no-repeat;
+}
+
+/*#slidebartittle{
 	width: 100%;
 	height: 160px;
 	background: url(../img/slidebar.jpg) center center no-repeat;
 	background-size: 100%;
+}*/
+
+/*.slidea{
+	float: left!important;
+	width: 100%;
 }
 
 #slidebartittle span img{
@@ -115,7 +124,7 @@ main{
 .icona:hover{
 	color:#6D6D6D;
 	transition: 0.5s;
-}
+}*/
 
 
 /****************slidebar over****************/

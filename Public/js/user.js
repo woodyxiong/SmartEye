@@ -5,7 +5,7 @@ $(document).ready(function() {
 	// Initialize collapsible (uncomment the line below if you use the dropdown variation)
 	//$('.collapsible').collapsible();
 	$('.button-collapse').sideNav({
-		menuWidth: 280, // Default is 240
+		menuWidth: 250, // Default is 240
 		edge: 'left', // Choose the horizontal origin
 	});
 	// Hide sideNav
