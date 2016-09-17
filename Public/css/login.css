@@ -126,5 +126,9 @@ body{
 		height: 100%;
 		margin-left: -90%;
 	}
+
+	#top{
+		background: #edecec;
+	}
 }
 

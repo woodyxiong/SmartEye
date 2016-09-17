@@ -29,9 +29,10 @@
         SkyEye
     </div>
     <div id="topbar">
-        <a href="<?php echo U('userindex/userindex');?>" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">个人主页</a>
-        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
+        <a href="<?php echo U('userindex/userindex');?>" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>
+        <a href="<?php echo U('console/console');?>" target="iframe" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">mail_outline</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">notifications</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">fullscreen</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">more_vert</i></a>
     </div>
@@ -84,7 +85,7 @@
 <!-- 右下角的button over -->
 
 <!-- sledebar over -->
-<iframe name="iframe" id="iframe" scrolling="no" onload="changeheight()" src="<?php echo U('userindex/userindex');?>"></iframe>
+<iframe name="iframe"   target="_self" id="iframe" scrolling="no" onload="changeheight()" src="<?php echo U('userindex/userindex');?>"></iframe>
 
 <section class="footer">
     <div class="footerbox">
