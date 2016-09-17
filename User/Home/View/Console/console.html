@@ -133,7 +133,7 @@
                 <div id="baidumap"></div>
             </div>
             <div class="buttonbox">
-                <button class="btn waves-effect waves-light blue lighten-2 submit" type="submit" name="action">提交</button>
+                <button id="form1submit" class="btn waves-effect waves-light blue lighten-2 submit" type="submit" name="action">提交</button>
                 <button id="form1reset" class="btn waves-effect waves-teal" type="reset" name="action">重置</button>
             </div>
         </form>

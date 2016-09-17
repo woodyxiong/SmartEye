@@ -24,7 +24,8 @@ body{
 /*************simple camera setting*************/
 .content{
 	width: 1270px;
-	height: 600px;
+	height: auto;
+	padding-bottom: 30px;
 	margin:0 auto;
 	overflow: hidden;
 }
@@ -48,9 +49,10 @@ body{
 .simpletext{
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	width: 94%;
-	height: 500px;
+	height: auto;
 	margin-top: 30px;
 	padding-left:20px;
+	padding-bottom: 20px;
 	float: left;
 	background: #fff;
 	margin-left: 3%;
@@ -66,7 +68,8 @@ body{
 .inputbox{
 	overflow: hidden;
 	float: left;
-	height: 350px;
+	height: auto;
+	padding-bottom: 10px;
 }
 
 .input-field{
@@ -136,7 +139,7 @@ body{
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .showcamerabox{
@@ -163,7 +166,7 @@ body{
 .cameradata{
 	position: relative;
 	width: 330px;
-	height: 150px;
+	height: auto;
 	float: left;
 	background: #f2f2f2;
 	margin-top: 30px;
@@ -282,6 +285,86 @@ body{
 	text-align: center;
 }
 
+@media only screen and (max-width: 1250px) {
+	#camerabarcontainer{
+		width: 98%;
+		margin-left: 1%;
+	}
 
+	.content{
+		width: 90%;
+		margin-left: 5%;
+	}
 
+	#baidumap{
+		width: 90%;
+		margin-left: 2%;
+	}
 
+	.content2{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.cameradata{
+		width: 42%;
+		margin-left: 6%;
+	}
+
+	.line{
+		display: none;
+	}
+
+	.addcd{
+		width: 42%;
+		margin-left: 6%;
+	}
+}
+
+@media only screen and (max-width: 726px) {
+	.cameradata,.addcd {
+		width: 90%;
+		margin-left: 6%;
+	}
+
+	.row{
+		width: 96%;
+		margin-left: 2%;
+		overflow: hidden;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	.inputbox{
+		width: 95%;
+	}
+
+	.input-field{
+		width: 100%;
+	}
+
+	#freq{
+		width: 50%!important;
+	}
+
+	#location{
+		width: 60%!important;
+	}
+
+	.buttonbox{
+		width: 95%;
+		margin-right: 2%;
+	}
+
+	#form1reset{
+		margin-right: 10%;
+	}
+
+	#form1submit{
+		margin-right: 10%;
+	}
+
+	.selectbox{
+		width: 30%;
+	}
+}

@@ -17,7 +17,13 @@ $(document).ready(function() {
 	});
 
 /*******************bar**********************/
+	// you have some messages<a href="#!">READ</a>
+	/*var $toastContent = $('I am toast content');
+	  Materialize.toast($toastContent, 5000);*/
 
+	var $toastContent = $('<span>有10条未读信息<a class="toasta" href="#!">查看</a></span>');
+	  Materialize.toast($toastContent, 3000);
+	
 	
 });
 /*******************iframe******************/

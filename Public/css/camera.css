@@ -23,7 +23,9 @@ body{
 /*************camera bar over*************/
 .camera-container{
 	width: 1270px;
-	height: 1000px;
+	height: auto;
+	padding-bottom: 30px;
+	overflow: hidden;
 	margin: 0 auto;
 }
 
@@ -143,12 +145,48 @@ body{
 	text-align: center;
 }
 
+@media only screen and (max-width: 1600px) {
+	.camera-container{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#camerabarcontainer{
+		width: 98%;
+		margin-left: 1%;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.info{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.camera-container{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#camera1-status{
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.status,.uptime,.infomation{
+		width: 98%;
+		margin-left: 1%;
+		margin-top: 20px;
+	}
+
+	.info{
+		font-size: 20px;
+	}
+
+	.chartbox{
+		width: 98%;
+		margin-left: 1%;
+	}
 
 
-
-
-
-
-
-
-
+}

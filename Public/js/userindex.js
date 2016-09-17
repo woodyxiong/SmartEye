@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$('.preloader').fadeOut(800);
-	
 });
 /**********ready function**********/
 /**********设置安全级别的颜色**********/

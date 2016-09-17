@@ -93,6 +93,11 @@ main{
 	display: none;
 }
 
+.toasta{
+	color: red;
+	margin-left: 15px;
+}
+
 /****************slidebar over****************/
 /***************iframe begin***************/
 iframe{
