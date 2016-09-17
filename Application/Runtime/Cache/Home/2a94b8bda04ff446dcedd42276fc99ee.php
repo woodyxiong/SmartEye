@@ -2,17 +2,15 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
-	<title>Workforce by templatemo</title>
+	<title>SkyEye | &nbsp;智能天眼</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-   
-	<!-- <link href='http://fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-	<link rel="stylesheet" href="/Public/index/css/animate.min.css">
-	<link rel="stylesheet" href="/Public/index/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/Public/index/css/font-awesome.min.css">		
-	<link rel="stylesheet" href="/Public/index/css/templatemo-style.css">
+
+	<link rel="stylesheet" href="/Public/css/animate.min.css">
+	<link rel="stylesheet" href="/Public/css/bootstrap.min.css">		
+	<link rel="stylesheet" href="/Public/css/templatemo-style.css">
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 	<div class="preloader">
@@ -32,11 +30,11 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home" class="smoothScroll">主页</a></li>
 					<li><a href="#service" class="smoothScroll">服务项目</a></li>
+					<li><a href="#portfolio" class="smoothScroll">应用情景</a></li>
 					<li><a href="#about" class="smoothScroll">关于我们</a></li>
-					<li><a href="#portfolio" class="smoothScroll">文件夹</a></li>
 					<li><a href="#contact" class="smoothScroll">联系我们</a></li>
-					<li><a href="#contact" class="smoothScroll">注册</a></li>
-					<li><a href="#contact" class="smoothScroll">登陆</a></li>
+					<li><a href="/user.php">注册</a></li>
+					<li><a href="/user.php">登陆</a></li>
 				</ul>
 			</div>
 		</div>
@@ -47,28 +45,37 @@
 			<div class="flexslider">
 				<ul class="slides">
 					<li>
-						<img src="/Public/index/images/slider/1.jpg" alt="Slide 1">
+						<img src="/Public/img/index/slider/1.jpg" alt="Slide 1">
 						<div class="slider-caption">
 							<div class="templatemo_homewrapper">
-								<h3 class="wow bounceIn">web design and development</h3>
-								<h1 class="wow bounce">Digital Studio</h1>
-								<h2>
+								<h1 class="wow bounce">SkyEye | 智能天眼</h1>
+								<h3>&nbsp;</h3>
+								<!-- <h2>
 									<span class="wow fadeIn" data-wow-delay="0.3s">WEB,</span>
 									<span class="wow fadeIn" data-wow-delay="0.6s">MOBILE,</span>
 									<span class="wow fadeIn" data-wow-delay="0.9s">UX DESIGN</span>
-								</h2>
-								<a href="#portfolio" class="smoothScroll templatemo-slider-btn btn btn-default">Learn More</a>
+								</h2> -->
+								<h3 class="wow bounceIn">帮助您便捷的采集有效数据，实时传输分析数据，实现数字化的智能监控</h3>
+								<h3>&nbsp;</h3>
+								<a href="/user.php" class="templatemo-slider-btn btn btn-default">登陆系统</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<img src="/Public/index/images/slider/2.jpg" alt="Slide 2">
+						<img src="/Public/img/index/slider/2.jpg" alt="Slide 2">
 						<div class="slider-caption">
 							<div class="templatemo_homewrapper">
-                            	<h2>CSS Flexbox</h2>
-								<h1>Flex Slider</h1>
-								<h3>Work on all modern browsers, IE 10+</h3>
-								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">Meet Our Team</a>	
+								<h1>多终端查看数据</h1>
+								<h2>&nbsp;</h2>
+                            	<h2>
+									<span class="wow fadeIn" data-wow-delay="0.3s">响应式网页,</span>
+									<span class="wow fadeIn" data-wow-delay="0.6s">安卓客户端,</span>
+									<span class="wow fadeIn" data-wow-delay="0.9s">微信公众号</span>
+								</h2>
+								<!-- <h3>响应式网页，安卓客户端，微信公众号查看</h3> -->
+								<h3>&nbsp;</h3>
+								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">安卓客户端</a>
+								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">微信公众号</a>	
 							</div>
 						</div>
 					</li>
@@ -82,51 +89,51 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center wow bounceIn">
-					<h2>Services</h2>
+					<h2>服务项目</h2>
 					<hr>
-					<h4>we specialize in web and mobile</h4>
+					<h4>专业的技术团队，为用户提供最优体验</h4>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="media">
 						<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
-							<i class="fa fa-laptop"></i>
+							<i class="material-icons fa">settings</i>
 						</div>
 						<div class="media-body">
-							<h3 class="media-heading">Web Design</h3>
-							<p>Workforce responsive template is a mobile friendly website design with animated transitions. You may download and modify this layout for your websites.</p>
+							<h3 class="media-heading">运营维护</h3>
+							<p>建立数字图像处理和仪表数据的自动识别相结合，实现远程监控和实时读读数</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="media">
 						<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
-							<i class="fa fa-android"></i>
+							<i class="material-icons fa">phonelink</i>
 						</div>
 						<div class="media-body">
-							<h3 class="media-heading">Mobile App</h3>
-							<p>Please tell your friends about templatemo.com website. Thank you. Credit goes to <a rel="nofollow" href="https://pixabay.com" target="_blank">Pixabay</a> for images used in this template.</p>
+							<h3 class="media-heading">移动终端</h3>
+							<p>网页响应式设计加之安卓客户端和微信让用户随时随地查看仪表的实时数据</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="media">
 						<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
-							<i class="fa fa-paper-plane"></i>
+							<i class="material-icons fa">camera_alt</i>
 						</div>
 						<div class="media-body">
-							<h3 class="media-heading">SEO Marketing</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+							<h3 class="media-heading">图像采集</h3>
+							<p>我们通过摄像头实现对仪表数据的捕捉避免人眼的视觉疲劳和误差提高整体的工作效率</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="media">
 						<div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
-							<i class="fa fa-html5"></i>
+							<i class="material-icons fa">show_charts</i>
 						</div>
 						<div class="media-body">
-							<h3 class="media-heading">HTML5 &amp; CSS3</h3>
-							<p>This is based on Bootstrap v3.3.4 layout. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+							<h3 class="media-heading">数据分析</h3>
+							<p>我们将采集到的数据进行专业分析以图标的方式向用户呈现最具效力的数据</p>
 						</div>
 					</div>
 				</div>
@@ -149,13 +156,111 @@
 			</div>
 		</div>
 	</div>
-	<!-- end divider -->
+	<!-- end divider -->	
+	<!-- start portfolio -->
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="wow bounceIn">
+						<h2 class="wow bounceIn">应用情景</h2>
+						<hr>
+						<h4>可以用在N种不同的场合让工作更有效率</h4>
+					</div>
+					<div class="iso-section wow fadeIn" data-wow-delay="0.6s">
+
+						<ul class="filter-wrapper clearfix">
+							<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".wallpaper">Wallpaper</a></li>
+						</ul>
+
+						<div class="iso-box-section">
+							<div class="iso-box-wrapper col4-iso-box">
+
+								<div class="iso-box graphic photoshop wallpaper col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-1.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>	
+											</div>											
+										</div>
+									</div>
+								</div>
+								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-2.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-3.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-4.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-5.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="iso-box graphic photoshop col-md-4 col-sm-6 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="/Public/img/index/portfolio-img-6.jpg" class="fluid-img" alt="portfolio img">
+										<div class="portfolio-overlay">
+											<div class="portfolio-description">
+												<!-- <a href="#"><i class="material-icons fa">zoom_in</i></a>
+												<a href="#"><i class="material-icons fa">link</i></a> -->
+												<h4>Project title</h4>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end portfolio -->
 	<!-- start about -->
 	<section id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wow bounceIn">
-					<h2>About</h2>
+					<h2>关于我们</h2>
 					<hr>
 					<h4>a little about our company...</h4>
 				</div>
@@ -184,21 +289,21 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
-						<img src="/Public/index/images/team-img-1.png" class="img-responsive" alt="about img">
+						<img src="/Public/img/index/team-img-1.png" class="img-responsive" alt="about img">
 						<h3>Cindy Davis</h3>
 						<h5>Founder &amp; Director</h5>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
-						<img src="/Public/index/images/team-img-2.png" class="img-responsive" alt="about img">
+						<img src="/Public/img/index/team-img-2.png" class="img-responsive" alt="about img">
 						<h3>Jenny Meno</h3>
 						<h5>Creative Manager</h5>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
-						<img src="/Public/index/images/team-img-3.png" class="img-responsive" alt="about img">
+						<img src="/Public/img/index/team-img-3.png" class="img-responsive" alt="about img">
 						<h3>Catherine Barkley</h3>
 						<h5>Co-Founder &amp; Designer</h5>
 					</div>
@@ -207,139 +312,31 @@
 		</div>
 	</section>
 	<!-- end about -->
-	<!-- start portfolio -->
-	<section id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="wow bounceIn">
-						<h2 class="wow bounceIn">Portfolio</h2>
-						<hr>
-						<h4>our lastest projects in the past 6 months</h4>
-					</div>
-					<div class="iso-section wow fadeIn" data-wow-delay="0.6s">
-
-						<ul class="filter-wrapper clearfix">
-							<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".wallpaper">Wallpaper</a></li>
-						</ul>
-
-						<div class="iso-box-section">
-							<div class="iso-box-wrapper col4-iso-box">
-
-								<div class="iso-box graphic photoshop wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-1.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>	
-											</div>											
-										</div>
-									</div>
-								</div>
-								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-2.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-3.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-4.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-5.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="iso-box graphic photoshop col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="/Public/index/images/portfolio-img-6.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end portfolio -->
 	<!-- start contact -->
 	<section id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="wow bounceIn">
-						<h2 class="wow bounceIn">Contact</h2>
+						<h2 class="wow bounceIn">联系我们</h2>
 						<hr>
-						<h4>Talk to us for more assistance...</h4>
+						<h4>快和我们谈谈吧</h4>
 					</div>					
 					<form action="#" method="post" role="form">
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" placeholder="Name" class="form-control">
+							<input type="text" placeholder="姓名" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="email" placeholder="Email" class="form-control">
+							<input type="email" placeholder="邮箱" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" placeholder="Subject" class="form-control">
+							<input type="text" placeholder="电话" class="form-control">
 						</div>
 						<div class="col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
-							<textarea class="form-control" rows="5" placeholder="Message"></textarea>
+							<textarea class="form-control" rows="5" placeholder="相对我们说的话..."></textarea>
 						</div>
 						<div class="col-md-offset-3 col-sm-offset-3 col-sm-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-							<input type="submit" value="Send Message" class="form-control">
+							<input type="submit" value="发送" class="form-control">
 						</div>
 					</form>
 				</div>
@@ -352,7 +349,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="social-icon wow fadeIn" data-wow-delay="0.3s">
-						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#"><i class="material-icons fa">zoom_in</i></a></li>
 						<li><a href="#" class="fa fa-twitter"></a></li>
 						<li><a href="#" class="fa fa-instagram"></a></li>
 					</ul>
@@ -360,13 +357,13 @@
 			</div>
 		</div>
 	</footer>
-	<script src="/Public/index/js/jquery.js"></script>
-	<script src="/Public/index/js/bootstrap.min.js"></script>
-	<script src="/Public/index/js/jquery.flexslider.js"></script>
-	<script src="/Public/index/js/isotope.js"></script>
-	<script src="/Public/index/js/imagesloaded.min.js"></script>
-	<script src="/Public/index/js/smoothscroll.js"></script>
-	<script src="/Public/index/js/wow.min.js"></script>
-	<script src="/Public/index/js/custom.js"></script>
+	<script src="/Public/js/indexjquery.js"></script>
+	<script src="/Public/js/bootstrap.min.js"></script>
+	<script src="/Public/js/jquery.flexslider.js"></script>
+	<script src="/Public/js/isotope.js"></script>
+	<script src="/Public/js/imagesloaded.min.js"></script>
+	<script src="/Public/js/smoothscroll.js"></script>
+	<script src="/Public/js/wow.min.js"></script>
+	<script src="/Public/js/custom.js"></script>
 </body>
 </html>
