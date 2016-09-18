@@ -120,23 +120,23 @@
         </div>
         <div class="infomation">
             <div class="infotittle">摄像机基本信息</div>
-            <div class="info">位于克莱维家中</div>
+            <div class="info">处于厦大北区测量站</div>
         </div>
         <!-- 图表结构 -->
         <div class="chartbox">
-            <div class="charttittle">甲醛含量</div>
+            <div class="charttittle">PM2.5</div>
             <div class="charts" id="chart1"></div>
         </div>
         <div class="chartbox chartbox2">
-            <div class="charttittle">哈哈哈</div>
+            <div class="charttittle">甲醛含量</div>
             <div class="charts" id="chart2"></div>
         </div>
         <div class="chartbox">
-            <div class="charttittle">阿斯顿发</div>
+            <div class="charttittle">一氧化碳含量</div>
             <div class="charts" id="chart3"></div>
         </div>
         <div class="chartbox chartbox2">
-            <div class="charttittle">哈哈哈</div>
+            <div class="charttittle">二氧化碳含量</div>
             <div class="charts" id="chart4"></div>
         </div>
         <!-- 图表结构 -->
@@ -200,7 +200,7 @@ option = {
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[120, 132, 45, 45, 90, 71, 120]
         }
     ]
 };
@@ -250,7 +250,7 @@ option = {
                     color:'#26c7db',
                 }
             },
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[120, 427, 74, 42, 87, 24, 120]
         }
     ]
 };
@@ -295,7 +295,7 @@ option = {
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[120, 45, 101, 452, 90, 45, 45]
         }
     ]
 };
@@ -340,7 +340,7 @@ option = {
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[120, 45, 101, 42, 90, 45, 210]
         }
     ]
 };

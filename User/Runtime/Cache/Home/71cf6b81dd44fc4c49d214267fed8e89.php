@@ -95,17 +95,17 @@
             <div class="cameratime" time="2014-07-10 10:21:12"></div>
         </div>
         <div class="camera dashboard2 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="cameratittle">嘉庚学院中区</div>
             <div class="dashboard" id="camera2"></div>
             <div class="cameratime" time="2014-07-13 10:21:12"></div>
         </div>
         <div class="camera dashboard3 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="cameratittle">嘉庚学院南区</div>
             <div class="dashboard" id="camera3"></div>
             <div class="cameratime" time="2014-07-18 10:21:12"></div>
         </div>
         <div class="camera dashboard4 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院北区</div>
+            <div class="cameratittle">嘉庚学院后山</div>
             <div class="dashboard" id="camera4"></div>
             <div class="cameratime" time="2014-07-19 10:21:12"></div>
         </div>
@@ -246,7 +246,7 @@ option = {
                     areaStyle: {type: 'default',color:'#f0dd2f'},color: '#f0dd2f'
                 }
             },
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[120, 132, 78, 145, 42, 71, 52]
         },
         {
             name:'乙地浓度',
@@ -257,7 +257,7 @@ option = {
                     areaStyle: {type: 'default',color:'#e4e4e4'},color: '#e4e4e4'
                 }
             },
-            data:[220, 182, 72, 424, 290, 330, 310]
+            data:[220, 182, 72, 424, 290, 330, 41]
         },
         {
             name:'丙地浓度',

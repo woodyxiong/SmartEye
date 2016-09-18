@@ -282,7 +282,7 @@ h4
 /* start service */
 #service
     {
-        background: #ffffff;
+        background: #f9f9f9;
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -328,6 +328,7 @@ h3.about-title {
 }
 #about
     {
+        background: #fff;
         padding-top: 80px;
         padding-bottom: 80px;
     }
