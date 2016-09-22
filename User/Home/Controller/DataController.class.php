@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class DataController extends Controller{
 	public function data(){
+		needNotlogin();
 		$data=M("data")->where("instrumentid=1")->select();
 		$this->assign('data',$data);
 		// var_dump($data);

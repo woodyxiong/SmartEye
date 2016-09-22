@@ -212,15 +212,15 @@
 
 						<ul class="filter-wrapper clearfix">
 							<li><a href="#" data-filter="*" class="selected opc-main-bg">所有情景</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".graphic">野外数据采集</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".photoshop">野外环境监测</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".wallpaper">生产车间检测</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".out">野外数据采集</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".in">实验室数据检测</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".factory">生产车间检测</a></li>
 						</ul>
 
 						<div class="iso-box-section">
 							<div class="iso-box-wrapper col4-iso-box">
 
-								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box out col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/snowdatacoll.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
@@ -231,7 +231,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box out col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/outdoor1.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
@@ -242,7 +242,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box out col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/outdoor2.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
@@ -253,7 +253,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box factory col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/fatory.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
@@ -264,7 +264,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box in col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/lab1.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
@@ -275,7 +275,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="iso-box graphic photoshop col-md-4 col-sm-6 col-xs-12">
+								<div class="iso-box factory photoshop col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="/Public/img/index/fatory2.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">

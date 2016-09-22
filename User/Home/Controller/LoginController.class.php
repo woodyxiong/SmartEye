@@ -9,6 +9,7 @@ class LoginController extends Controller {
     	$username=$_POST['username'];
     	$password=$_POST['password'];
     	$setcookie=$_POST['setcookie'];
+        sleep(3);
     	$user=M('user')->where("username='".$username."'")->find();
     	if(md5($password)==$user['password']){
     		if($setcookie=="on"){

@@ -4,12 +4,13 @@ use Think\Controller;
 class UserController extends Controller{
 	public function user()
 	{
+		needNotlogin();
 		$this->display();
 	}
 
 	public function quit(){
-		session('username','');
-		// $this->success('您已经成功退出','Camera/camera',2);
+		session('username',null);
+		cookie('username',null);
 		redirect(U('login/login'));
 	}
 }

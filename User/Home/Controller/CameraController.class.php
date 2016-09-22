@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class CameraController extends Controller{
 	public function camera(){
+		needNotlogin();
 		$this->display();
 	}
 
