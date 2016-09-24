@@ -10,7 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="/Public/css/login.css">
 	<!-- import js -->
 	<script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
-	<!-- <script type="text/javascript" src="/Public/js/jquery.validate.min.js"></script> -->
 	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
 	<script type="text/javascript" src="/Public/js/materialize.min.js"></script>
@@ -20,13 +19,12 @@
 <div id="top">
 	<div id="form">
 		<div class="row">
-		    <form action="<?php echo U('login/checklogin');?>" id="signinform" method="post" class="col s12">
+		    <form action="<?php echo U('login/checklogin');?>" id="signinform" method="post" class="col s12" onSubmit="return check();">
 		        <div class="row">
 			        <div class="input-field col s6" id="logininput">
 						<i class="material-icons" id="loginicons">person</i>
 						<input id="username" type="text" name="username" required>
 						<label for="username">用户名</label>
-						<!-- <label for="username" data-error="格式错误" data-success="正确" class="">用户名</label> -->
 			        </div>
 			        <div class="input-field col s6" id="logininput">
 						<i class="material-icons" id="loginicons">lock</i>

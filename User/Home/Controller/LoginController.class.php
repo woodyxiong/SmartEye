@@ -9,7 +9,15 @@ class LoginController extends Controller {
     	$username=$_POST['username'];
     	$password=$_POST['password'];
     	$setcookie=$_POST['setcookie'];
-        sleep(3);
+        
+        //过滤字符串
+        $reg='/[\da-zA-Z]{0,}/';
+        preg_match($reg,$username,$temp);
+        if (!($username==$temp[0])) {
+            $this->error('含有非法字符','login/login',2);
+        }
+
+        //开始验证
     	$user=M('user')->where("username='".$username."'")->find();
     	if(md5($password)==$user['password']){
     		if($setcookie=="on"){
