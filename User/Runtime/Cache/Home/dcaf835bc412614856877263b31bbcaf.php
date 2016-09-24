@@ -10,23 +10,28 @@
 	<link rel="stylesheet" type="text/css" href="/Public/css/login.css">
 	<!-- import js -->
 	<script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
+	<!-- <script type="text/javascript" src="/Public/js/jquery.validate.min.js"></script> -->
+	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
 	<script type="text/javascript" src="/Public/js/materialize.min.js"></script>
+	<script type="text/javascript" src="/Public/js/login.js"></script>
 </head>
 <body>
 <div id="top">
 	<div id="form">
 		<div class="row">
-		    <form action="<?php echo U('login/checklogin');?>" method="post" class="col s12">
+		    <form action="<?php echo U('login/checklogin');?>" id="signinform" method="post" class="col s12">
 		        <div class="row">
 			        <div class="input-field col s6" id="logininput">
 						<i class="material-icons" id="loginicons">person</i>
-						<input id="icon_prefix" type="text" class="validate" name="username">
-						<label for="icon_prefix">用户名</label>
+						<input id="username" type="text" name="username" required>
+						<label for="username">用户名</label>
+						<!-- <label for="username" data-error="格式错误" data-success="正确" class="">用户名</label> -->
 			        </div>
 			        <div class="input-field col s6" id="logininput">
 						<i class="material-icons" id="loginicons">lock</i>
-						<input name="password" id="password" type="password" class="validate">
-						<label for="icon_telephone">密码</label>
+						<input name="password" id="password" type="password" required>
+						<label for="password">密码</label>
 			        </div>
 			        <div id="inputcheckbox">
 			        	<p>
