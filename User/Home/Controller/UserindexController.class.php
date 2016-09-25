@@ -4,14 +4,12 @@ use Think\Controller;
 class UserindexController extends Controller{
 	public function userindex(){
 		needNotlogin();
-
 		$userid=session('userid');
-		// M('data')->
-		// echo $userid;
+		// 渲染camera
+		$camera=M('camera')->where("userid='".$userid."'")->select();
+		$this->assign('camera',$camera);
 
-		
 
-
-		$this->display();
+		// $this->display();
 	}
 }
