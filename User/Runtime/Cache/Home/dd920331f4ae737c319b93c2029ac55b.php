@@ -44,7 +44,7 @@
         <li>
             <div class="userView">
                 <a href="#!user"><img class="circle" src="/Public/img/manstudent.png" alt=""></a>
-                <a href="#!name"><span class="white-text name">林启同学</span></a>
+                <a href="#!name"><span class="white-text name"><?php echo ($username); ?>同学</span></a>
             </div>
         </li>
         <li>

@@ -14,15 +14,16 @@ class LoginController extends Controller {
         $reg='/[\da-zA-Z]{0,}/';
         preg_match($reg,$username,$temp);
         if (!($username==$temp[0])) {
-            $this->error('含有非法字符','login/login',2);
+            $this->error('你竟然背着我偷偷做坏事','login/login',2);
         }
 
         //开始验证
     	$user=M('user')->where("username='".$username."'")->find();
     	if(md5($password)==$user['password']){
     		if($setcookie=="on"){
-    			cookie('username',$username,302400);
+    			cookie('userid',$user['userid'],302400);
     		}
+            session('userid',$user['userid']);
     		session('username',$username);
     		redirect(U('user/user'));
     	}else{
