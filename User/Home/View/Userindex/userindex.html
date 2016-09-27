@@ -89,26 +89,30 @@
         </div>
     </div>
     <div class="camerabox">
-        <div class="camera dashboard1 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院北区</div>
-            <div class="dashboard" id="camera1"></div>
-            <div class="cameratime" time="2014-07-10 10:21:12"></div>
-        </div>
-        <div class="camera dashboard2 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院中区</div>
-            <div class="dashboard" id="camera2"></div>
-            <div class="cameratime" time="2014-07-13 10:21:12"></div>
-        </div>
-        <div class="camera dashboard3 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院南区</div>
-            <div class="dashboard" id="camera3"></div>
-            <div class="cameratime" time="2014-07-18 10:21:12"></div>
-        </div>
-        <div class="camera dashboard4 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院后山</div>
-            <div class="dashboard" id="camera4"></div>
-            <div class="cameratime" time="2014-07-19 10:21:12"></div>
-        </div>
+        <volist name="camera" id="cameralist" mod="4">
+            <eq name="mod" value="0">
+                <div class="camera dashboard1 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid0']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname0}</div>
+                    <div class="dashboard" id="camera1"></div>
+                    <div class="cameratime" time="2014-07-10 10:21:12"></div>
+                </div>
+                <div class="camera dashboard2 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid1']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname1}</div>
+                    <div class="dashboard" id="camera2"></div>
+                    <div class="cameratime" time="2014-07-13 10:21:12"></div>
+                </div>
+                <div class="camera dashboard3 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid2']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname2}</div>
+                    <div class="dashboard" id="camera3"></div>
+                    <div class="cameratime" time="2014-07-18 10:21:12"></div>
+                </div>
+                <div class="camera dashboard4 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid3']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname3}</div>
+                    <div class="dashboard" id="camera4"></div>
+                    <div class="cameratime" time="2014-07-19 10:21:12"></div>
+                </div>
+            </eq>
+        </volist>
     </div>
     <div class="mapbox" id="mapbox"></div>
     <div class="operationlog">

@@ -63,8 +63,9 @@ body{
 /****************mamera begin************/
 .camerabox{
 	width: 100%;
-	height: 300px;
+	height: auto;
 	overflow: hidden;
+	padding-bottom: 20px;
 }
 .camera{
 	width: 275.3px;
@@ -73,12 +74,8 @@ body{
 	float: left;
 	margin-top: 30px;
 	margin-left: 30px;
-	cursor: default;
+	cursor: pointer;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-.camera:first-child{
-	margin-left: 3%;
 }
 
 .cameratittle{
@@ -97,6 +94,7 @@ body{
 }
 
 .dashboard1{
+	margin-left: 3%;
 	background: #00D4D4;
 }
 

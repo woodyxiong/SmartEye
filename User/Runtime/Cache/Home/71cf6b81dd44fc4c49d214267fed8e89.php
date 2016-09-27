@@ -89,26 +89,26 @@
         </div>
     </div>
     <div class="camerabox">
-        <div class="camera dashboard1 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院北区</div>
-            <div class="dashboard" id="camera1"></div>
-            <div class="cameratime" time="2014-07-10 10:21:12"></div>
-        </div>
-        <div class="camera dashboard2 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院中区</div>
-            <div class="dashboard" id="camera2"></div>
-            <div class="cameratime" time="2014-07-13 10:21:12"></div>
-        </div>
-        <div class="camera dashboard3 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院南区</div>
-            <div class="dashboard" id="camera3"></div>
-            <div class="cameratime" time="2014-07-18 10:21:12"></div>
-        </div>
-        <div class="camera dashboard4 waves-effect waves-light">
-            <div class="cameratittle">嘉庚学院后山</div>
-            <div class="dashboard" id="camera4"></div>
-            <div class="cameratime" time="2014-07-19 10:21:12"></div>
-        </div>
+        <?php if(is_array($camera)): $i = 0; $__LIST__ = $camera;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cameralist): $mod = ($i % 4 );++$i; if(($mod) == "0"): ?><div class="camera dashboard1 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid0']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname0"]); ?></div>
+                    <div class="dashboard" id="camera1"></div>
+                    <div class="cameratime" time="2014-07-10 10:21:12"></div>
+                </div>
+                <div class="camera dashboard2 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid1']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname1"]); ?></div>
+                    <div class="dashboard" id="camera2"></div>
+                    <div class="cameratime" time="2014-07-13 10:21:12"></div>
+                </div>
+                <div class="camera dashboard3 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid2']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname2"]); ?></div>
+                    <div class="dashboard" id="camera3"></div>
+                    <div class="cameratime" time="2014-07-18 10:21:12"></div>
+                </div>
+                <div class="camera dashboard4 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid3']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname3"]); ?></div>
+                    <div class="dashboard" id="camera4"></div>
+                    <div class="cameratime" time="2014-07-19 10:21:12"></div>
+                </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
     </div>
     <div class="mapbox" id="mapbox"></div>
     <div class="operationlog">
