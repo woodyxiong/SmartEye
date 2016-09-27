@@ -12,17 +12,16 @@ function needNotlogin()
 	}else{// cookie不为空
 		
 		//过滤字符串
-        $reg='/[\da-zA-Z]{0,}/';
-        preg_match($reg,$cookieUserid,$temp);
-        if (!($cookieUserid==$temp[0])) {
-            $this->error('你竟然背着我偷偷做坏事','login/login',2);
-        }
+		$reg='/[\da-zA-Z]{0,}/';
+		preg_match($reg,$cookieUserid,$temp);
+		if (!($cookieUserid==$temp[0])) {
+		    $this->error('你竟然背着我偷偷做坏事','login/login',2);
+		}
 
-        // 确认登陆
-        $user=M('user')->where("userid='".$cookieUsername."'")->find();
-        var_dump($user);
-        session('username',$user['username']);
-        session('userid',$user['userid']);
+		// 确认登陆
+		$user=M('user')->where("userid='".$cookieUserid."'")->find();
+		session('username',$user['username']);
+		session('userid',$user['userid']);
 	}
 
 }
