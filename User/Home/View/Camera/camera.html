@@ -93,7 +93,7 @@
     </div>
 </section>
 <section class="camera-container">
-    <div id="camera1-status" status="on" time="2014-07-10 15:21:12">
+    <div id="camera1-status" status={$user.status} time="{$user.time}">
         <div class="status waves-effect waves-light btn-large">
             <div class="camera-on">
                 <div class="infotittle">运行状态</div>
@@ -119,26 +119,22 @@
             </div>
         </div>
         <div class="infomation">
-            <div class="infotittle">摄像机基本信息</div>
-            <div class="info">处于厦大北区测量站</div>
+            <div class="infotittle">摄像机名字</div>
+            <div class="info">{$user.cameraname}</div>
         </div>
         <!-- 图表结构 -->
-        <div class="chartbox">
-            <div class="charttittle">PM2.5</div>
-            <div class="charts" id="chart1"></div>
-        </div>
-        <div class="chartbox chartbox2">
-            <div class="charttittle">甲醛含量</div>
-            <div class="charts" id="chart2"></div>
-        </div>
-        <div class="chartbox">
-            <div class="charttittle">一氧化碳含量</div>
-            <div class="charts" id="chart3"></div>
-        </div>
-        <div class="chartbox chartbox2">
-            <div class="charttittle">二氧化碳含量</div>
-            <div class="charts" id="chart4"></div>
-        </div>
+        <volist name="instrument" id="ins" mod="2">
+        <eq name="mod" value="0">
+            <div class="chartbox">
+                <div class="charttittle">{$ins.instrumentinfo0}</div>
+                <div class="charts" id="chart1"></div>
+            </div>
+            <div class="chartbox chartbox2">
+                <div class="charttittle">{$ins.instrumentinfo1}</div>
+                <div class="charts" id="chart2"></div>
+            </div>
+        </eq>
+        </volist>
         <!-- 图表结构 -->
     </div>
     <div id="camera2"></div>

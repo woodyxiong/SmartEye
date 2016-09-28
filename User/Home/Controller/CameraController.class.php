@@ -17,21 +17,31 @@ class CameraController extends Controller{
 			$this->error('权限错误');
 		}
 
-		// 输出数据表
+		// 输出数据表 名
 		$instrument=M('instrument')->where("cameraid='".$cameraid."'")->select();
-		foreach ($instrument $a => $b) {
+		foreach ($instrument as $a => $b) {
 			if($a%2==0){
-				$instrument[$a]['instumentinfo0']=$instrument[$a]['instrumentinfo'];
+				$instrument[$a]['instrumentinfo0']=$instrument[$a]['instrumentinfo'];
 				$instrument[$a]['instumentid0']=$instrument[$a]['instrumentid'];
 			}elseif($a%2==1){
-				$instrument[$a-1]['instumentinfo1']=$instrument[$a]['instrumentinfo'];
-				$instrument[$a-1]['instumentid2']=$instrument[$a]['instrumentid'];
+				$instrument[$a-1]['instrumentinfo1']=$instrument[$a]['instrumentinfo'];
+				$instrument[$a-1]['instumentid1']=$instrument[$a]['instrumentid'];
 			}
 		}
 
+		// 输出表 内容
+		
+
+
+
+
+
+
+
+		$this->assign('user',$user);
 		$this->assign('instrument',$instrument);
 
-		var_dump($instrument);
+		// var_dump($instrument);
 
 
 
@@ -40,7 +50,7 @@ class CameraController extends Controller{
 
 
 
-		// $this->display();
+		$this->display();
 
 	}
 
