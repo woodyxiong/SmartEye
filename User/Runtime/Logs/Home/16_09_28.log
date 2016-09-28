@@ -1,0 +1,2831 @@
+[ 2016-09-28T11:02:45+08:00 ] 127.0.0.1 /user.php/login/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:03:23+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:04:50+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] preg_match(): Unknown modifier 'd' D:\App\back-end\ThinkPHP\Common\functions.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:04:59+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] preg_match(): Unknown modifier 'd' D:\App\back-end\ThinkPHP\Common\functions.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:05:59+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:06:32+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] preg_match(): Unknown modifier 'd' D:\App\back-end\ThinkPHP\Common\functions.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:06:59+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] preg_match(): Unknown modifier 'd' D:\App\back-end\ThinkPHP\Common\functions.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:07:10+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] preg_match(): Compilation failed: nothing to repeat at offset 0 D:\App\back-end\ThinkPHP\Common\functions.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:08:50+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:08:53+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\App\back-end\User\Home\Controller\LoginController.class.php 第 9 行.
+NOTIC: [8] Undefined index: password D:\App\back-end\User\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:09:00+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\App\back-end\User\Home\Controller\LoginController.class.php 第 9 行.
+NOTIC: [8] Undefined index: password D:\App\back-end\User\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:10:52+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user` WHERE ( username='asdf' ) LIMIT 1   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:10:54+08:00 ] 127.0.0.1 /user.php/login/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:11:09+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-28T11:11:09+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:11:09+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0710s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:11:13+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:11:18+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:12:21+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:12:39+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:12:40+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:12:55+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:13:07+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:15:28+08:00 ] 127.0.0.1 /user.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:15:35+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:15:36+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:15:42+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:16:02+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:16:09+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:16:28+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:16:59+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:17:11+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:17:28+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:18:48+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:22:33+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userid D:\App\back-end\User\Home\Controller\CameraController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 13 行.
+
+[ 2016-09-28T11:23:25+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:23:47+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:24:49+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:24:53+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:25:00+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:26:43+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' )  [ RunTime:0.0000s ]
+
+[ 2016-09-28T11:27:51+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-28T11:28:12+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:28:21+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' )  [ RunTime:0.0000s ]
+
+[ 2016-09-28T11:28:37+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' )  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Home\Controller\CameraController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: user D:\App\back-end\User\Home\Controller\CameraController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:28:47+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' )  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Home\Controller\CameraController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:29:31+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:29:43+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:29:48+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( 'cameraid=1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:31:01+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:31:10+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:31:27+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:31:41+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 17 行.
+
+[ 2016-09-28T11:32:39+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 18 行.
+
+[ 2016-09-28T11:32:47+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:33:22+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 18 行.
+
+[ 2016-09-28T11:33:44+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:33:47+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:33:56+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:34:03+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:34:35+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:34:48+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:35:00+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:35:30+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:35:31+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:35:34+08:00 ] 127.0.0.1 /user.php/user/quit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:35:34+08:00 ] 127.0.0.1 /user.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:35:42+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-28T11:35:42+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:35:42+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:35:47+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:35:59+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:36:06+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:36:59+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+NOTIC: [2] Illegal string offset 'userid' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:37:03+08:00 ] 127.0.0.1 /user.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:37:08+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:37:34+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-28T11:37:34+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:37:34+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:37:37+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:40:10+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:40:10+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:40:16+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:40:21+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:40:26+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:40:35+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-28T11:40:49+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:41:24+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T11:41:38+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+
+[ 2016-09-28T11:44:22+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: session D:\App\back-end\User\Home\Controller\CameraController.class.php 第 16 行.
+
+[ 2016-09-28T11:44:40+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T11:44:54+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:18:42+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2016-09-28T15:18:48+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:18:52+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:18:57+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:19:36+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:19:51+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='6' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:19:54+08:00 ] 127.0.0.1 /user.php/camera/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:2
+
+[ 2016-09-28T15:19:56+08:00 ] 127.0.0.1 /user.php/camera/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:2
+
+[ 2016-09-28T15:20:12+08:00 ] 127.0.0.1 /user.php/camera/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:2
+
+[ 2016-09-28T15:20:14+08:00 ] 127.0.0.1 /user.php/camera/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:2
+
+[ 2016-09-28T15:20:15+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:20:20+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:20:23+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:21:00+08:00 ] 127.0.0.1 /user.php/camera/toggle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:22:07+08:00 ] 127.0.0.1 /user.php/camera/toggle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:22:11+08:00 ] 127.0.0.1 /user.php/camera/toggle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:45:29+08:00 ] 127.0.0.1 /user.php/login/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:45:36+08:00 ] 127.0.0.1 /user.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: setcookie D:\App\back-end\User\Home\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `user` WHERE ( username='clever' ) LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2016-09-28T22:45:36+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:45:37+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0550s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:45:43+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:45:48+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:46:36+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:47:29+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:47:29+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:50:03+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:50:03+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:50:50+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:50:50+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Use of undefined constant cameraid3 - assumed 'cameraid3' D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Use of undefined constant cameraid3 - assumed 'cameraid3' D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:51:03+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:51:04+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Use of undefined constant cameraid3 - assumed 'cameraid3' D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Use of undefined constant cameraid3 - assumed 'cameraid3' D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:51:13+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:51:13+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraid0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 92 行.
+NOTIC: [8] Undefined index: cameraname0 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 93 行.
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:51:41+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:51:42+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:05+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:06+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:53:17+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:53:17+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:53:24+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:53:25+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:42+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:43+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:52+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:53:57+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:54:03+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:54:14+08:00 ] 127.0.0.1 /user.php/camera/camera.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:54:27+08:00 ] 127.0.0.1 /user.php/user/user.html?cameraid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:54:28+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cameraid1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 97 行.
+NOTIC: [8] Undefined index: cameraname1 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 102 行.
+NOTIC: [8] Undefined index: cameraname2 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 107 行.
+NOTIC: [8] Undefined index: cameraname3 D:\App\back-end\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:54:40+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:54:46+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T22:54:50+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='8' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T22:54:58+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='6' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:08:08+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='5' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:08:56+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:09:07+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='$cameraid' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:09:16+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant asdf - assumed 'asdf' D:\App\back-end\User\Home\Controller\CameraController.class.php 第 21 行.
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='asdf' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:11:33+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'data.asf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `asf`
+ERR: 1146:Table 'data.asf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `asf`
+
+[ 2016-09-28T23:11:34+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:11:34+08:00 ] 127.0.0.1 /user.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:11:49+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'cameaid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `instrument` WHERE ( cameaid='5' ) 
+ERR: 1054:Unknown column 'cameaid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `instrument` WHERE ( cameaid='5' ) 
+
+[ 2016-09-28T23:11:50+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:11:50+08:00 ] 127.0.0.1 /user.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:12:11+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:12:21+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='5' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:12:28+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:14:12+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T23:14:19+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:19:52+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:20:26+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:20:38+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T23:21:04+08:00 ] 127.0.0.1 /user.php/camera/camera.html?cameraid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

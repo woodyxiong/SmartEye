@@ -5,10 +5,8 @@ class UserindexController extends Controller{
 	public function userindex(){
 		needNotlogin();
 		$userid=session('userid');
-		
+		// 导出数据
 		$camera=M('camera')->where("userid='".$userid."'")->select();
-		// var_dump($camera);
-
 		foreach ($camera as $a => $b) {
 			if ($a%4==0){
 				$camera[$a]['cameraid0']=$camera[$a]['cameraid'];
@@ -24,15 +22,10 @@ class UserindexController extends Controller{
 				$camera[$a-3]['cameraname3']=$camera[$a]['cameraname'];
 			}
 		}
+
 		// 渲染camera
-		$camera=M('camera')->where("userid='".$userid."'")->select();
 		$this->assign('camera',$camera);
 
-		$this->assign('camera',$camera);
-
-		
-
-		// var_dump($camera);
 		$this->display();
 	}
 }
