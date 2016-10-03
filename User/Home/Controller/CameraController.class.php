@@ -18,18 +18,27 @@ class CameraController extends Controller{
 		}
 
 		// 输出数据表 名
-		$instrument=M('instrument')->where("cameraid='".$cameraid."'")->select();
+		$instrument=M('instrument')->where("cameraid='".$cameraid."'")->field('instrumentid,instrumentinfo')->select();
 		foreach ($instrument as $a => $b) {
+			// 整理数据表
 			if($a%2==0){
 				$instrument[$a]['instrumentinfo0']=$instrument[$a]['instrumentinfo'];
-				$instrument[$a]['instumentid0']=$instrument[$a]['instrumentid'];
+				$instrument[$a]['instrumentid0']=$instrument[$a]['instrumentid'];
+				// 输出表 内容
+				$instrument[$a]['data0']=M('data')->where("instrumentid='".$instrument[$a]['instrumentid']."'")->field('data,datatime')->order('datatime desc')->limit(15)->select();
+				// 倒序输出
+				$instrument[$a]['data0']=array_reverse($instrument[$a]['data0']);
 			}elseif($a%2==1){
 				$instrument[$a-1]['instrumentinfo1']=$instrument[$a]['instrumentinfo'];
-				$instrument[$a-1]['instumentid1']=$instrument[$a]['instrumentid'];
+				$instrument[$a-1]['instrumentid1']=$instrument[$a]['instrumentid'];
+				// 输出表 内容
+				$instrument[$a-1]['data1']=M('data')->where("instrumentid='".$instrument[$a]['instrumentid']."'")->field('data,datatime')->order('datatime desc')->limit(15)->select();
+				// 倒序输出
+				$instrument[$a-1]['data1']=array_reverse($instrument[$a-1]['data1']);
 			}
 		}
+		var_dump($instrument[0][data0]);
 
-		// 输出表 内容
 		
 
 
@@ -40,13 +49,6 @@ class CameraController extends Controller{
 
 		$this->assign('user',$user);
 		$this->assign('instrument',$instrument);
-
-		// var_dump($instrument);
-
-
-
-
-
 
 
 

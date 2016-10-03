@@ -124,12 +124,12 @@
         </div>
         <!-- 图表结构 -->
         <?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ins): $mod = ($i % 2 );++$i; if(($mod) == "0"): ?><div class="chartbox">
-                <div class="charttittle"><?php echo ($ins["instrumentinfo0"]); ?></div>
-                <div class="charts" id="chart1"></div>
+                <div class="charttittle"><?php echo ($ins["instrumentinfo0"]); echo ($ins["instrumentid0"]); ?></div>
+                <div class="charts" id="<?php echo ($ins["instrumentid0"]); ?>"></div>
             </div>
             <div class="chartbox chartbox2">
                 <div class="charttittle"><?php echo ($ins["instrumentinfo1"]); ?></div>
-                <div class="charts" id="chart2"></div>
+                <div class="charts" id="<?php echo ($ins["instrumentid1"]); ?>"></div>
             </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <!-- 图表结构 -->
     </div>
@@ -155,17 +155,16 @@
 
 
 
-<!-- chart1 -->
-<script type="text/javascript">
+<?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$inst): $mod = ($i % 2 );++$i; if(($mod) == ""): ?><script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart1'),'shine');
+var myChart = echarts.init(document.getElementById('<?php echo ($inst["instrumentid0"]); ?>'),'shine');
 // 指定图表的配置项和数据
 option = {
     tooltip : {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量']
+        data:['<?php echo ($inst["instrumentinfo0"]); ?>']
     },
     calculable : true,
     grid:{
@@ -178,7 +177,10 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
+            data:[
+                <?php if(is_array($inst['data0'])): $i = 0; $__LIST__ = $inst['data0'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>'<?php echo ($data["datatime"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
+            ]
+            // data : ['周一','周二','周三','周四','周五','周六','周日']
         }
     ],
     yAxis : [
@@ -188,11 +190,13 @@ option = {
     ],
     series : [
         {
-            name:'甲醛含量',
+            name:'<?php echo ($inst["instrumentinfo0"]); ?>',
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
-            data:[120, 132, 45, 45, 90, 71, 120]
+            data:[
+                <?php if(is_array($inst['data0'])): $i = 0; $__LIST__ = $inst['data0'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>'<?php echo ($data["data"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
+            ]
         }
     ]
 };
@@ -203,14 +207,14 @@ myChart.setOption(option);
 <!-- chart2 -->
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart2'));
+var myChart = echarts.init(document.getElementById('<?php echo ($inst["instrumentid1"]); ?>'));
 // 指定图表的配置项和数据
 option = {
     tooltip : {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量']
+        data:['<?php echo ($inst["instrumentinfo1"]); ?>']
     },
     calculable : true,
     grid:{
@@ -223,7 +227,9 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
+            data : [
+                <?php if(is_array($inst['data1'])): $i = 0; $__LIST__ = $inst['data1'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>'<?php echo ($data["datatime"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
+            ]
         }
     ],
     yAxis : [
@@ -233,7 +239,7 @@ option = {
     ],
     series : [
         {
-            name:'甲醛含量',
+            name:'<?php echo ($inst["instrumentinfo1"]); ?>',
             type:'line',
             stack: '总量',
             itemStyle: {
@@ -242,103 +248,16 @@ option = {
                     color:'#26c7db',
                 }
             },
-            data:[120, 427, 74, 42, 87, 24, 120]
+            data:[
+                <?php if(is_array($inst['data1'])): $i = 0; $__LIST__ = $inst['data1'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>'<?php echo ($data["data"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
+            ]
         }
     ]
 };
 myChart.setOption(option);
 </script>
-<!-- chart2 over -->
+<!-- chart2 over --><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 
-<!-- chart3 -->
-<script type="text/javascript">
-// 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart3'),'shine');
-// 指定图表的配置项和数据
-option = {
-    tooltip : {
-        trigger: 'axis'
-    },
-    legend: {
-        data:['甲醛含量']
-    },
-    calculable : true,
-    grid:{
-            x:60,
-            x2:60,
-            y:60,
-            y2:60,
-    },
-    xAxis : [
-        {
-            type : 'category',
-            boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
-        }
-    ],
-    yAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    series : [
-        {
-            name:'甲醛含量',
-            type:'line',
-            stack: '总量',
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 45, 101, 452, 90, 45, 45]
-        }
-    ]
-};
-myChart.setOption(option);
-</script>
-<!-- chart3 over -->
-
-<!-- chart4 -->
-<script type="text/javascript">
-// 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart4'),'shine');
-// 指定图表的配置项和数据
-option = {
-    tooltip : {
-        trigger: 'axis'
-    },
-    legend: {
-        data:['甲醛含量']
-    },
-    calculable : true,
-    grid:{
-            x:60,
-            x2:60,
-            y:60,
-            y2:60,
-    },
-    xAxis : [
-        {
-            type : 'category',
-            boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
-        }
-    ],
-    yAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    series : [
-        {
-            name:'甲醛含量',
-            type:'line',
-            stack: '总量',
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 45, 101, 42, 90, 45, 210]
-        }
-    ]
-};
-myChart.setOption(option);
-</script>
-<!-- chart4 over -->
 
 <script type="text/javascript" src="/Public/js/camera.js"></script>
 </body>

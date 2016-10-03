@@ -126,12 +126,12 @@
         <volist name="instrument" id="ins" mod="2">
         <eq name="mod" value="0">
             <div class="chartbox">
-                <div class="charttittle">{$ins.instrumentinfo0}</div>
-                <div class="charts" id="chart1"></div>
+                <div class="charttittle">{$ins.instrumentinfo0}{$ins.instrumentid0}</div>
+                <div class="charts" id="{$ins.instrumentid0}"></div>
             </div>
             <div class="chartbox chartbox2">
                 <div class="charttittle">{$ins.instrumentinfo1}</div>
-                <div class="charts" id="chart2"></div>
+                <div class="charts" id="{$ins.instrumentid1}"></div>
             </div>
         </eq>
         </volist>
@@ -159,17 +159,19 @@
 
 
 
-<!-- chart1 -->
+<volist name="instrument" id="inst" mod="2">
+<eq name="mod" val="0">
+
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart1'),'shine');
+var myChart = echarts.init(document.getElementById('{$inst.instrumentid0}'),'shine');
 // 指定图表的配置项和数据
 option = {
     tooltip : {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量']
+        data:['{$inst.instrumentinfo0}']
     },
     calculable : true,
     grid:{
@@ -182,7 +184,12 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
+            data:[
+                <volist name="inst['data0']" id="data">
+                    '{$data.datatime}',
+                </volist>
+            ]
+            // data : ['周一','周二','周三','周四','周五','周六','周日']
         }
     ],
     yAxis : [
@@ -192,11 +199,15 @@ option = {
     ],
     series : [
         {
-            name:'甲醛含量',
+            name:'{$inst.instrumentinfo0}',
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
-            data:[120, 132, 45, 45, 90, 71, 120]
+            data:[
+                <volist name="inst['data0']" id="data">
+                        '{$data.data}',
+                </volist>
+            ]
         }
     ]
 };
@@ -207,14 +218,14 @@ myChart.setOption(option);
 <!-- chart2 -->
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart2'));
+var myChart = echarts.init(document.getElementById('{$inst.instrumentid1}'));
 // 指定图表的配置项和数据
 option = {
     tooltip : {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量']
+        data:['{$inst.instrumentinfo1}']
     },
     calculable : true,
     grid:{
@@ -227,7 +238,11 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
+            data : [
+                <volist name="inst['data1']" id="data">
+                    '{$data.datatime}',
+                </volist>
+            ]
         }
     ],
     yAxis : [
@@ -237,7 +252,7 @@ option = {
     ],
     series : [
         {
-            name:'甲醛含量',
+            name:'{$inst.instrumentinfo1}',
             type:'line',
             stack: '总量',
             itemStyle: {
@@ -246,103 +261,20 @@ option = {
                     color:'#26c7db',
                 }
             },
-            data:[120, 427, 74, 42, 87, 24, 120]
+            data:[
+                <volist name="inst['data1']" id="data">
+                    '{$data.data}',
+                </volist>
+            ]
         }
     ]
 };
 myChart.setOption(option);
 </script>
 <!-- chart2 over -->
+</eq>
+</volist>
 
-<!-- chart3 -->
-<script type="text/javascript">
-// 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart3'),'shine');
-// 指定图表的配置项和数据
-option = {
-    tooltip : {
-        trigger: 'axis'
-    },
-    legend: {
-        data:['甲醛含量']
-    },
-    calculable : true,
-    grid:{
-            x:60,
-            x2:60,
-            y:60,
-            y2:60,
-    },
-    xAxis : [
-        {
-            type : 'category',
-            boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
-        }
-    ],
-    yAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    series : [
-        {
-            name:'甲醛含量',
-            type:'line',
-            stack: '总量',
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 45, 101, 452, 90, 45, 45]
-        }
-    ]
-};
-myChart.setOption(option);
-</script>
-<!-- chart3 over -->
-
-<!-- chart4 -->
-<script type="text/javascript">
-// 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('chart4'),'shine');
-// 指定图表的配置项和数据
-option = {
-    tooltip : {
-        trigger: 'axis'
-    },
-    legend: {
-        data:['甲醛含量']
-    },
-    calculable : true,
-    grid:{
-            x:60,
-            x2:60,
-            y:60,
-            y2:60,
-    },
-    xAxis : [
-        {
-            type : 'category',
-            boundaryGap : false,
-            data : ['周一','周二','周三','周四','周五','周六','周日']
-        }
-    ],
-    yAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    series : [
-        {
-            name:'甲醛含量',
-            type:'line',
-            stack: '总量',
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data:[120, 45, 101, 42, 90, 45, 210]
-        }
-    ]
-};
-myChart.setOption(option);
-</script>
-<!-- chart4 over -->
 
 <script type="text/javascript" src="__PUBLIC__/js/camera.js"></script>
 </body>

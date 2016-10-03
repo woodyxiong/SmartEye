@@ -6,7 +6,6 @@ class DataController extends Controller{
 		needNotlogin();
 		$data=M("data")->where("instrumentid=1")->select();
 		$this->assign('data',$data);
-		// var_dump($data);
 		$this->display();
 	}
 
