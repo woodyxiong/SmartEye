@@ -93,7 +93,7 @@
     </div>
 </section>
 <section class="camera-container">
-    <div id="camera1-status" status=<?php echo ($user["status"]); ?> time="<?php echo ($user["time"]); ?>">
+    <div id="camera1-status" cameraid=<?php echo ($user["cameraid"]); ?> status=<?php echo ($user["status"]); ?> time="<?php echo ($user["time"]); ?>">
         <div class="status waves-effect waves-light btn-large">
             <div class="camera-on">
                 <div class="infotittle">运行状态</div>

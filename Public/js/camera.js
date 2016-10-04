@@ -6,6 +6,7 @@ $(document).ready(function(){
 });
 // status(on,off) 摄像头的工作状态
 var status=$('#camera1-status').attr('status');
+var cameraid=$('#camera1-status').attr('cameraid');
 var specialStr=$('h5').html();
 /**********刷新页面整体摄像头开关**********/
 
@@ -23,7 +24,7 @@ function toggle(){
 		$('.camera-off').show();
 		$('.uptime-off').show();
 	}else{
-		alert('获取参数错误');
+		// alert('获取参数错误');
 	}
 	runTime();
 }
@@ -59,7 +60,7 @@ function runTime(){
 	}else if(status=='off'){
 		str="等待运行时长:   ";
 	}else{
-		alert('参数错误');
+		// alert('参数错误');
 	}
 	var time = $('#camera1-status').attr('time');
 	var oldTime=Date.parse(new Date(time));
@@ -112,12 +113,16 @@ $('#toggleSubmit').click(function() {
 	$.post(
 		"/user.php/camera/toggle", 
 		{
+			cameraid:cameraid,
 			nowstatus:status,
 			operate:operate
 		}, 
 		function(data, textStatus, xhr) {
-			if(data=='on'||data=='off'){
-				$('#camera1-status').attr('status', data);
+			if(!data==''){
+				// 解析收到的json
+				var Input = eval ("(" + data + ")");
+				$('#camera1-status').attr('status', Input.nowstatus);
+				$('#camera1-status').attr('time', Input.datetime);
 				$('h5').text('操作成功');
 				setTimeout("$('#dialog').closeModal();",200);
 				toggle();

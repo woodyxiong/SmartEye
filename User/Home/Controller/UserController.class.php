@@ -8,7 +8,6 @@ class UserController extends Controller{
 
 		$username=session('username');
 		$this->assign('username',$username);
-
 		$this->display();
 	}
 

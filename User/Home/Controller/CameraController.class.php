@@ -37,15 +37,6 @@ class CameraController extends Controller{
 				$instrument[$a-1]['data1']=array_reverse($instrument[$a-1]['data1']);
 			}
 		}
-		var_dump($instrument[0][data0]);
-
-		
-
-
-
-
-
-
 
 		$this->assign('user',$user);
 		$this->assign('instrument',$instrument);
@@ -57,15 +48,54 @@ class CameraController extends Controller{
 	}
 
 	public function toggle(){
+		needNotlogin();
 		$nowstatus=$_POST['nowstatus'];
 		$operate=$_POST['operate'];
-		//echo $operate;
-		//echo $operate;
-		if($operate=='on'){
-			echo "on";
-		}elseif ($operate=='off') {
-			echo "off";
+		$cameraid=I('post.cameraid/d');
+
+		// 判断cameraid是否属于用户
+		$camera=M('camera')->where("cameraid='".$cameraid."'")->find();
+		if($camera['userid']==session('userid')){
+			//权限正确
+		}else{
+			$this->error('权限错误');
 		}
+
+		// 查看状态
+		$data['time']=date("Y-m-d H:i:s");
+		$data['ip']=get_client_ip();
+		$data['userid']=session('userid');
+
+		$realstatus=$camera['status'];
+		if($realstatus==$operate){}
+		elseif($realstatus=='on'&&$operate=='off'){
+			// 关闭摄像头
+			$update['status']="off";
+			$update['time']=$data['time'];
+			M('camera')->where("cameraid='".$cameraid."'")->data($update)->save();
+			$data['operation']="关闭了摄像头(".$camera['cameraname'].")";
+			M('log')->data($data)->add();
+			$output = array(
+				'nowstatus'=>'off',
+				'datetime'=>$data['time']
+			 );
+			echo json_encode($output);
+		}
+		elseif($realstatus=='off'&&$operate=='on'){
+			// 打开摄像头
+			$update['status']="on";
+			$update['time']=$data['time'];
+			M('camera')->where("cameraid='".$cameraid."'")->data($update)->save();
+			$data['operation']="打开了摄像头(".$camera['cameraname'].")";
+			M('log')->data($data)->add();
+			$output = array(
+				'nowstatus'=>'on',
+				'datetime'=>$data['time']
+			 );
+			echo json_encode($output);
+		}
+
+
 		
 	}
 }
