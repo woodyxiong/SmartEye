@@ -116,7 +116,7 @@
                         <label for="nottoline">不生成折线图</label>
                     </p>
                 </div>
-                <a class="btn waves-effect blue lighten-2" id="toExcelsubmit" href="javascript:void(0)">生成报表</a>
+                <a class="btn waves-effect blue lighten-2" id="toExcelsubmit" href="<?php echo U('data/excel');?>">生成Excel表</a>
             </div>
             <div class="toUserindex">
                 <div class="alldata">
@@ -132,7 +132,7 @@
                         <i class="tooltipped material-icons helpicon prefix" data-position="bottom" data-delay="50" data-tooltip="生成图表到管理中心">help</i>
                     </div>
                 </div>
-                <a class="btn waves-effect blue darken-1" id="toUserindexsubmit" href="<?php echo U('data/excel');?>">生成图表</a>
+                <a class="btn waves-effect blue darken-1" id="toUserindexsubmit" href="#">生成图表</a>
             </div>
         </div>
     </div>

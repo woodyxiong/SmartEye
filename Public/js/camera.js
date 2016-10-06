@@ -2,12 +2,22 @@
 $(document).ready(function(){
 	$('.preloader').fadeOut(800);
 	toggle();
-	
+
+	// status(on,off) 摄像头的工作状态
+	var status=$('#camera1-status').attr('status');
+	var cameraid=$('#camera1-status').attr('cameraid');
+	var specialStr=$('h5').html();
+
+	// 谁是active
+	var classCi='ci'+cameraid;
+	$('.tab').children('a').removeClass('active');
+	$('.'+classCi).children('a').addClass('active');
+	$('ul.tabs').tabs();
+	// console.log('.'+classCi);
+
+
 });
-// status(on,off) 摄像头的工作状态
-var status=$('#camera1-status').attr('status');
-var cameraid=$('#camera1-status').attr('cameraid');
-var specialStr=$('h5').html();
+
 /**********刷新页面整体摄像头开关**********/
 
 function toggle(){
@@ -127,14 +137,14 @@ $('#toggleSubmit').click(function() {
 				setTimeout("$('#dialog').closeModal();",200);
 				toggle();
 				// setTimeout("$('h5').html(specialStr)",300);
-				
 			}
-
 	});
 });
-
-
-
-
-
 /**********控制对话框的确定开关按钮**********/
+
+/**********materiali tab控制演示跳转**********/
+$('.cameratab').click(function(event) {
+	var link=$(this).attr('link');
+	setTimeout(function(){window.location=link},200)
+});
+/**********materiali tab控制演示跳转**********/

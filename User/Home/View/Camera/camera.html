@@ -81,12 +81,11 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3" id="cameratab"><a href="#camera1-status">摄像机1</a></li>
-                    <li class="tab col s3" id="cameratab"><a href="#camera2">摄像机2</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机3</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机4</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机5</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机6</a></li>
+                    <volist name="cameras" id="cs">
+                        <li class="tab col s3 cameratab ci{$cs.cameraid}" id="cameratab" link="{:U('camera/camera',array('cameraid'=>$cs['cameraid']))}"><a href="#camera4">{$cs.cameraname}</a></li>
+                    </volist>
+<!--                     <li class="tab col s3"><a class="active" href="#camera4">摄像机6</a></li>
+ -->
                 </ul>
             </div>
         </div>

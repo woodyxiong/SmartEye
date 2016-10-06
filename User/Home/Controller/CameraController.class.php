@@ -17,6 +17,10 @@ class CameraController extends Controller{
 			$this->error('权限错误');
 		}
 
+		// 输出所有摄像头
+		$cameras=M('camera')->where("userid='".session('userid')."'")->field('cameraname,cameraid')->select();
+
+
 		// 输出数据表 名
 		$instrument=M('instrument')->where("cameraid='".$cameraid."'")->field('instrumentid,instrumentinfo')->select();
 		foreach ($instrument as $a => $b) {
@@ -38,6 +42,7 @@ class CameraController extends Controller{
 			}
 		}
 
+		$this->assign('cameras',$cameras);
 		$this->assign('user',$user);
 		$this->assign('instrument',$instrument);
 

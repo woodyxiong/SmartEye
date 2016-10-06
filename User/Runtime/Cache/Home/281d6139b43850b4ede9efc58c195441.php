@@ -81,12 +81,9 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3" id="cameratab"><a href="#camera1-status">摄像机1</a></li>
-                    <li class="tab col s3" id="cameratab"><a href="#camera2">摄像机2</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机3</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机4</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机5</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机6</a></li>
+                    <?php if(is_array($cameras)): $i = 0; $__LIST__ = $cameras;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cs): $mod = ($i % 2 );++$i;?><li class="tab col s3 cameratab ci<?php echo ($cs["cameraid"]); ?>" id="cameratab" link="<?php echo U('camera/camera',array('cameraid'=>$cs['cameraid']));?>"><a href="#camera4"><?php echo ($cs["cameraname"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+<!--                     <li class="tab col s3"><a class="active" href="#camera4">摄像机6</a></li>
+ -->
                 </ul>
             </div>
         </div>
