@@ -1,19 +1,19 @@
+// status(on,off) 摄像头的工作状态
+var status=$('#camera1-status').attr('status');
+var cameraid=$('#camera1-status').attr('cameraid');
+var specialStr=$('h5').html();
+
 // ready function
 $(document).ready(function(){
 	$('.preloader').fadeOut(800);
 	toggle();
 
-	// status(on,off) 摄像头的工作状态
-	var status=$('#camera1-status').attr('status');
-	var cameraid=$('#camera1-status').attr('cameraid');
-	var specialStr=$('h5').html();
 
 	// 谁是active
 	var classCi='ci'+cameraid;
 	$('.tab').children('a').removeClass('active');
 	$('.'+classCi).children('a').addClass('active');
 	$('ul.tabs').tabs();
-	// console.log('.'+classCi);
 
 
 });
@@ -93,7 +93,7 @@ function runTime(){
 /**********控制打开关闭对话框**********/
 $('.camera-hover').click(function() {
 	diaStatus=true;
-	$('h5').html(specialStr);
+	// $('h5').html(specialStr);
 	if(status=='on'){
 		$('.modal-content-span').text('关闭');
 	}else if(status=='off'){

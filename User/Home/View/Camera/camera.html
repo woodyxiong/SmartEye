@@ -84,8 +84,6 @@
                     <volist name="cameras" id="cs">
                         <li class="tab col s3 cameratab ci{$cs.cameraid}" id="cameratab" link="{:U('camera/camera',array('cameraid'=>$cs['cameraid']))}"><a href="#camera4">{$cs.cameraname}</a></li>
                     </volist>
-<!--                     <li class="tab col s3"><a class="active" href="#camera4">摄像机6</a></li>
- -->
                 </ul>
             </div>
         </div>
@@ -125,11 +123,11 @@
         <volist name="instrument" id="ins" mod="2">
         <eq name="mod" value="0">
             <div class="chartbox">
-                <div class="charttittle">{$ins.instrumentinfo0}{$ins.instrumentid0}</div>
+                <div class="charttittle"><a href="{:U('data/data',array('instrumentid'=>$ins['instrumentid0']))}">{$ins.instrumentinfo0}</a></div>
                 <div class="charts" id="{$ins.instrumentid0}"></div>
             </div>
             <div class="chartbox chartbox2">
-                <div class="charttittle">{$ins.instrumentinfo1}</div>
+                <div class="charttittle"><a href="{:U('data/data',array('instrumentid'=>$ins['instrumentid1']))}">{$ins.instrumentinfo1}</a></div>
                 <div class="charts" id="{$ins.instrumentid1}"></div>
             </div>
         </eq>

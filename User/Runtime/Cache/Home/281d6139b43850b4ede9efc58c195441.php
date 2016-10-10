@@ -82,8 +82,6 @@
             <div class="col s12">
                 <ul class="tabs">
                     <?php if(is_array($cameras)): $i = 0; $__LIST__ = $cameras;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cs): $mod = ($i % 2 );++$i;?><li class="tab col s3 cameratab ci<?php echo ($cs["cameraid"]); ?>" id="cameratab" link="<?php echo U('camera/camera',array('cameraid'=>$cs['cameraid']));?>"><a href="#camera4"><?php echo ($cs["cameraname"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
-<!--                     <li class="tab col s3"><a class="active" href="#camera4">摄像机6</a></li>
- -->
                 </ul>
             </div>
         </div>
@@ -121,11 +119,11 @@
         </div>
         <!-- 图表结构 -->
         <?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ins): $mod = ($i % 2 );++$i; if(($mod) == "0"): ?><div class="chartbox">
-                <div class="charttittle"><?php echo ($ins["instrumentinfo0"]); echo ($ins["instrumentid0"]); ?></div>
+                <div class="charttittle"><a href="<?php echo U('data/data',array('instrumentid'=>$ins['instrumentid0']));?>"><?php echo ($ins["instrumentinfo0"]); ?></a></div>
                 <div class="charts" id="<?php echo ($ins["instrumentid0"]); ?>"></div>
             </div>
             <div class="chartbox chartbox2">
-                <div class="charttittle"><?php echo ($ins["instrumentinfo1"]); ?></div>
+                <div class="charttittle"><a href="<?php echo U('data/data',array('instrumentid'=>$ins['instrumentid1']));?>"><?php echo ($ins["instrumentinfo1"]); ?></a></div>
                 <div class="charts" id="<?php echo ($ins["instrumentid1"]); ?>"></div>
             </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <!-- 图表结构 -->

@@ -4288,3 +4288,1370 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002432s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002617s ]
 
+[ 2016-10-06T16:12:12+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014610s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0047s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0050s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.095258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.095383s ]
+
+[ 2016-10-06T16:12:25+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0072s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0031s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-10-06T16:12:34+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0041s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='5' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-10-06T16:33:58+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014478s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0031s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0045s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012197s ]
+
+[ 2016-10-06T16:33:58+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0040s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0035s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-10-06T16:34:02+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0046s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0047s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0015s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2016-10-06T16:41:47+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0031s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0032s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003252s ]
+
+[ 2016-10-06T16:41:53+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0070s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0034s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2016-10-06T16:41:57+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0056s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0044s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0008s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2016-10-06T17:08:44+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0037s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0028s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='7' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='11' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='15' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-10-06T17:08:50+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0034s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0043s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-10-06T17:08:58+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0033s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0077s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='6' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='10' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='14' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-10-06T17:09:02+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0072s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0042s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='7' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='11' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='15' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-10-06T17:09:06+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0046s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0038s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0011s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='8' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='12' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='16' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-10-06T17:15:23+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0049s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0050s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='8' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='12' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='16' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2016-10-06T17:15:28+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0056s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0053s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0021s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0009s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-10-06T17:15:37+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0035s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0032s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0020s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='6' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='10' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='14' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2016-10-06T17:15:42+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0032s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0067s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='7' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='11' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='15' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2016-10-06T17:15:46+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0047s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0070s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0008s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='8' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='12' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='16' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-10-06T17:15:51+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='5' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0042s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='5' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-10-06T17:15:55+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0033s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0044s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-10-06T17:18:07+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0033s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0030s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-10-06T17:18:15+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0038s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0082s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='6' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='10' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='14' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-10-06T17:18:22+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0075s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0044s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='7' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='11' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='15' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-10-06T17:18:28+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0032s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='4' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0040s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='4' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='8' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='12' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='16' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003279s ]
+
+[ 2016-10-06T17:18:39+08:00 ] 127.0.0.1 /user.php/user/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-10-06T17:18:41+08:00 ] 127.0.0.1 /user.php/userindex/userindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: cameraid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraname1 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 98 行.
+NOTIC: [8] Undefined index: cameraid2 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraname2 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 103 行.
+NOTIC: [8] Undefined index: cameraid3 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+NOTIC: [8] Undefined index: cameraname3 D:\desktop\App\data.test\User\Runtime\Cache\Home\71cf6b81dd44fc4c49d214267fed8e89.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2016-10-06T17:18:54+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0053s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0029s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-10-06T17:19:02+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0055s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0045s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='2' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='6' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='10' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='14' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2016-10-06T20:13:43+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013360s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0056s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0033s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='1' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0006s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='5' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0005s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='9' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='13' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.200514s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.200588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.083286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.083415s ]
+
+[ 2016-10-06T20:13:54+08:00 ] 127.0.0.1 /user.php/camera/camera/cameraid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0045s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0038s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='3' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='7' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0007s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='11' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0004s ]
+SQL: SELECT `data`,`datatime` FROM `data` WHERE ( instrumentid='15' ) ORDER BY datatime desc LIMIT 15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\desktop\App\data.test\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+NOTIC: [8] Undefined index: instrumentid0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 157 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 164 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 178 行.
+NOTIC: [8] Undefined index: instrumentinfo0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 190 行.
+NOTIC: [8] Undefined index: data0 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 195 行.
+NOTIC: [8] Undefined index: instrumentid1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 207 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 214 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 228 行.
+NOTIC: [8] Undefined index: instrumentinfo1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 239 行.
+NOTIC: [8] Undefined index: data1 D:\desktop\App\data.test\User\Runtime\Cache\Home\281d6139b43850b4ede9efc58c195441.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002166s ]
+

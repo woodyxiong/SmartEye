@@ -8,14 +8,10 @@ class CameraController extends Controller{
 		// 获取参数
 		$cameraid=I('get.cameraid/d');
 
-
-		// 判断cameraid是否属于用户
+		// 检察权限
+		$cameraid=checkCamera($cameraid);
 		$user=M('camera')->where("cameraid='".$cameraid."'")->find();
-		if($user['userid']==session('userid')){
-			//权限正确
-		}else{
-			$this->error('权限错误');
-		}
+
 
 		// 输出所有摄像头
 		$cameras=M('camera')->where("userid='".session('userid')."'")->field('cameraname,cameraid')->select();
@@ -59,12 +55,11 @@ class CameraController extends Controller{
 		$cameraid=I('post.cameraid/d');
 
 		// 判断cameraid是否属于用户
+		$newcameraid=checkCamera($cameraid);
+		if(!$newcameraid==$cameraid)
+			exit(0);
 		$camera=M('camera')->where("cameraid='".$cameraid."'")->find();
-		if($camera['userid']==session('userid')){
-			//权限正确
-		}else{
-			$this->error('权限错误');
-		}
+		
 
 		// 查看状态
 		$data['time']=date("Y-m-d H:i:s");
@@ -101,6 +96,6 @@ class CameraController extends Controller{
 		}
 
 
-		
+
 	}
 }

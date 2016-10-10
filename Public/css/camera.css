@@ -122,9 +122,13 @@ body{
 
 .charttittle{
 	width: 100%;
-	font-size: 20px;
 	margin-top: 20px;
 	margin-left: 10%;
+}
+
+.charttittle a{
+	color: #000;
+	font-size: 20px;
 }
 
 .charts{

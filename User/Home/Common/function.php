@@ -23,5 +23,27 @@ function needNotlogin()
 		session('username',$user['username']);
 		session('userid',$user['userid']);
 	}
-
 }
+
+
+/**
+ * 判断是否属于用户的camera
+ * @param  int 	$cameraid	从网页get到的cameraid值
+ * @return int  $cameraid       
+ */
+function checkCamera($cameraid){
+	// 判断cameraid是否属于用户
+	$user=M('camera')->where("cameraid='".$cameraid."'")->find();
+	if($user['userid']==session('userid')){
+		//权限正确
+	}else{
+		// 若get到的参数错误
+		$error=M('camera')->where("userid='".session('userid')."'")->find();
+		$cameraid=$error['cameraid'];
+	}
+	return $cameraid;
+}
+
+
+
+
