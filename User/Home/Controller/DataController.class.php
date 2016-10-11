@@ -9,11 +9,27 @@ class DataController extends Controller{
 		$instrumentid=I('get.instrumentid/d');
 		$instrumentid=checkInstrument($instrumentid);
 
+		// 加载data
+		$data=M('data')->where($condition)->field('datatime,data')->limit(30)->select();
+
+		// 显示数据信息
+		$instrument=M('instrument')->where("instrumentid='".$instrumentid."'")->field('instrumentinfo,cameraid,instrumentid')->find();
+		$camera=M('camera')->where("cameraid='".$instrument['cameraid']."'")->field('cameraname')->find();
+		$instrument['camera']=$camera['cameraname'];
+
+		$this->assign('instrument',$instrument);
+		$this->assign('data',$data);
+		$this->display();
+	}
+
+	public function date(){
 		// 接收day
-		$receive['checkday']=I('checkday','');
-		$receive['date1']=I('date1','');
-		$receive['date2']=I('date2','');
-		$condition['instrumentid']=$instrumentid;
+		$receive['checkday']=I('post.checkday','');
+		$receive['date1']=I('post.date1','');
+		$receive['date2']=I('post.date2','');
+		$receive['instrumentid']=I('post.instrumentid','');
+
+		$condition['instrumentid']=$receive['instrumentid'];
 
 		// 单日查询
 		if($receive['checkday']=='on'){
@@ -26,23 +42,11 @@ class DataController extends Controller{
 			$splitdate=split('-',$receive['date2']);
 			$receive['date2']=$splitdate[0].'-'.$splitdate[1].'-'.($splitdate[2]+1);
 			$condition['datatime']=array(array('EGT',$receive['date1']),array(array('ELT',$receive['date2'])));
-			// $condition['datatime']=array('LT',$receive['date2']);
 		}
-
-
-		// 加载data
-		$data=M('data')->where($condition)->select();
-
-		// 显示数据信息
-		$instrument=M('instrument')->where("instrumentid='".$instrumentid."'")->field('instrumentinfo,cameraid')->find();
-		$camera=M('camera')->where("cameraid='".$instrument['cameraid']."'")->field('cameraname')->find();
-		$instrument['camera']=$camera['cameraname'];
-		// echo $instrument['instrumentinfo'];
-		// echo $instrument['camera'];
-
-		$this->assign('instrument',$instrument);
-		$this->assign('data',$data);
-		$this->display();
+		$data=M('data')->where($condition)->field('datatime,data')->limit(30)->select();
+		echo json_encode($data);
+		// var_dump($data);
+		// echo M('data')->getLastSql();
 	}
 
 	public function excel(){

@@ -19,13 +19,52 @@ $(document).ready(function(){
 		$('#selectDatamodal').openModal();
 	});
 /*各项配置初始化*/
-	
 });
 
 /*右上角多选框*/
 	//提交按钮
+	/**
+	 * 日期按钮按下之后用ajax提交
+	 * @param  checkday 单选框
+	 * @param  date1 			第一个日期
+	 * @param  date2 			第二个日期
+	 * @param  instrumentid 	数据的id
+	 */
+	var receive=new Array();
 	$('#picksubmit').click(function() {
-		$('#dataform').submit();
+		var checkday=$('#taifeng').val();
+		var date1=$("input[name='date1']").val();
+		var date2=$("input[name='date2']").val();
+		var instrumentid=$('.data-tittle').attr('instrumentid');
+		$('#picksubmit').html("查询中");
+		$.post(
+			"/user.php/data/date", 
+			{
+				checkday:checkday,
+				date1:date1,
+				date2:date2,
+				instrumentid
+			},
+			/**
+			 * 服务器接收并返回json
+			 * @param  data    服务器返回的json格式
+			 * @param  receive 解析完成的数组
+			 * @return  
+			 */
+			function(data, textStatus, xhr) {
+				if(!data==''){
+					receive=eval("("+data+")");
+					for (x in receive)
+					{
+						datax[x]=receive[x]['datatime'];
+						datay[x]=receive[x]['data'];
+					}
+					console.log(datay);
+					option.xAxis[0].data=datax;
+					option.series[0].data=datay;
+					myChart.setOption(option);
+				}
+			});
 	});
 	$('.pickdatacheck').click(function() {
 		flashDatacheck();
@@ -45,6 +84,8 @@ $(document).ready(function(){
 			$('#mydata2').fadeIn('200');
 		}
 	}
+
+
 /*右上角多选框*/
 
 /*点击chips input事件*/
@@ -61,15 +102,5 @@ $(document).ready(function(){
 		$('.input').before('<div class="chip">'+dataName
 		+'</div>')
 	}
-	
-
-
-
-
-
-
-
-
-
-
 /*点击chipbox事件*/
+

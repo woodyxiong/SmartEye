@@ -78,9 +78,9 @@
                                  
 <section class="data">
     <div class="data-camera"><?php echo ($instrument['camera']); ?></div>
-    <div class="data-tittle"><?php echo ($instrument['instrumentinfo']); ?></div>
+    <div class="data-tittle" instrumentid="<?php echo ($instrument['instrumentid']); ?>"><?php echo ($instrument['instrumentinfo']); ?></div>
     <div class="pickdata">
-        <form id="dataform" name="dataform" action="<?php echo U('data/data');?>" method="post">
+        <form id="dataform" name="dataform">
             <div class="pickdatacheck">
                 <input name="checkday" type="checkbox" id="taifeng"/>
                 <label for="taifeng">只查看某天</label>
@@ -164,20 +164,15 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
+<script>
+    var datax=[<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>'<?php echo ($vo["datatime"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>];
+    var datay=[<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>'<?php echo ($vo["data"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>];
+</script>
 
 
 <!-- chart1 -->
 <script type="text/javascript">
+
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('data1'),'shine');
 // 指定图表的配置项和数据
@@ -186,7 +181,7 @@ option = {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量'],
+        data:['<?php echo ($instrument['instrumentinfo']); ?>'],
         textStyle:{
             fontFamily:'Open Sans,微軟正黑體,Microsoft Yahei,sans-serif',
             fontSize:17
@@ -220,10 +215,7 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data:[
-                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>'<?php echo ($vo["datatime"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
-
-            ]
+            data:datax
         }
     ],
     yAxis : [
@@ -234,14 +226,11 @@ option = {
     series : [
         {
             smooth:true,
-            name:'甲醛含量',
+            name:'<?php echo ($instrument['instrumentinfo']); ?>',
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
-            data:[
-                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>'<?php echo ($vo["data"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
-
-            ]
+            data:datay
         }
     ]
 };

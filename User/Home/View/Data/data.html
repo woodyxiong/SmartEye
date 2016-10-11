@@ -78,9 +78,9 @@
                                  
 <section class="data">
     <div class="data-camera">{$instrument['camera']}</div>
-    <div class="data-tittle">{$instrument['instrumentinfo']}</div>
+    <div class="data-tittle" instrumentid="{$instrument['instrumentid']}">{$instrument['instrumentinfo']}</div>
     <div class="pickdata">
-        <form id="dataform" name="dataform" action="{:U('data/data')}" method="post">
+        <form id="dataform" name="dataform">
             <div class="pickdatacheck">
                 <input name="checkday" type="checkbox" id="taifeng"/>
                 <label for="taifeng">只查看某天</label>
@@ -164,20 +164,19 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
+<script>
+    var datax=[<volist name="data" id="vo">
+                    '{$vo.datatime}',
+                </volist>];
+    var datay=[<volist name="data" id="vo">
+                    '{$vo.data}',
+                </volist>];
+</script>
 
 
 <!-- chart1 -->
 <script type="text/javascript">
+
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('data1'),'shine');
 // 指定图表的配置项和数据
@@ -186,7 +185,7 @@ option = {
         trigger: 'axis'
     },
     legend: {
-        data:['甲醛含量'],
+        data:['{$instrument['instrumentinfo']}'],
         textStyle:{
             fontFamily:'Open Sans,微軟正黑體,Microsoft Yahei,sans-serif',
             fontSize:17
@@ -220,12 +219,7 @@ option = {
         {
             type : 'category',
             boundaryGap : false,
-            data:[
-                <volist name="data" id="vo">
-                    '{$vo.datatime}',
-                </volist>
-
-            ]
+            data:datax
         }
     ],
     yAxis : [
@@ -236,16 +230,11 @@ option = {
     series : [
         {
             smooth:true,
-            name:'甲醛含量',
+            name:'{$instrument['instrumentinfo']}',
             type:'line',
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
-            data:[
-                <volist name="data" id="vo">
-                    '{$vo.data}',
-                </volist>
-
-            ]
+            data:datay
         }
     ]
 };
