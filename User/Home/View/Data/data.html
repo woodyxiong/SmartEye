@@ -77,17 +77,17 @@
 </section>
                                  
 <section class="data">
-    <div class="data-camera">摄像头1</div>
-    <div class="data-tittle">甲醛含量</div>
+    <div class="data-camera">{$instrument['camera']}</div>
+    <div class="data-tittle">{$instrument['instrumentinfo']}</div>
     <div class="pickdata">
-        <form id="dataform" name="dataform" action="{:U('data/excel')}" method="post">
+        <form id="dataform" name="dataform" action="{:U('data/data')}" method="post">
             <div class="pickdatacheck">
-                <input type="checkbox" id="taifeng" />
+                <input name="checkday" type="checkbox" id="taifeng"/>
                 <label for="taifeng">只查看某天</label>
             </div>
-            <input type="date" placeholder="选择开始日期" class="datepicker" id="mydata1">
+            <input name="date1" type="date" placeholder="选择开始日期" class="datepicker" id="mydata1">
             <div class="dataspan">-</div>
-            <input type="date" placeholder="选择结束日期" class="datepicker" id="mydata2">
+            <input name="date2" type="date" placeholder="选择结束日期" class="datepicker" id="mydata2">
             <a href="javascript:void(0)" class="waves-effect waves-light btn picksubmit" id="picksubmit">查询</a>
         </form>
     </div>
@@ -108,11 +108,11 @@
                 </div>
                 <div class="toline">
                     <p>
-                        <input checked name="group2" type="radio" id="toline" />
+                        <input checked name="group2" type="radio" id="toline"/>
                         <label for="toline">生成折线图</label>
                     </p>
                     <p>
-                        <input name="group2" type="radio" id="nottoline" />
+                        <input name="group2" type="radio" id="nottoline"/>
                         <label for="nottoline">不生成折线图</label>
                     </p>
                 </div>

@@ -82,7 +82,7 @@
             <div class="col s12">
                 <ul class="tabs">
                     <volist name="cameras" id="cs">
-                        <li class="tab col s3 cameratab ci{$cs.cameraid}" id="cameratab" link="{:U('camera/camera',array('cameraid'=>$cs['cameraid']))}"><a href="#camera4">{$cs.cameraname}</a></li>
+                        <li class="tab col s3 cameratab ci{$cs.cameraid}" id="cameratab" link="{:U('camera/camera',array('cameraid'=>$cs['cameraid']))}"><a href="{:U('camera/camera',array('cameraid'=>$cs['cameraid']))}">{$cs.cameraname}</a></li>
                     </volist>
                 </ul>
             </div>

@@ -5,7 +5,42 @@ class DataController extends Controller{
 	public function data(){
 		needNotlogin();
 		
-		$data=M("data")->where("instrumentid=1")->select();
+		// 判断instrumentid
+		$instrumentid=I('get.instrumentid/d');
+		$instrumentid=checkInstrument($instrumentid);
+
+		// 接收day
+		$receive['checkday']=I('checkday','');
+		$receive['date1']=I('date1','');
+		$receive['date2']=I('date2','');
+		$condition['instrumentid']=$instrumentid;
+
+		// 单日查询
+		if($receive['checkday']=='on'){
+			$splitdate=split('-',$receive['date1']);
+			$mergedate=$splitdate[0].'-%'.$splitdate[1].'-%'.$splitdate[2];
+			$condition['datatime']=array('LIKE',$mergedate);
+		}
+		// 多日查询
+		if((!$receive['date1']==null)&&(!$receive['date2']==null)){
+			$splitdate=split('-',$receive['date2']);
+			$receive['date2']=$splitdate[0].'-'.$splitdate[1].'-'.($splitdate[2]+1);
+			$condition['datatime']=array(array('EGT',$receive['date1']),array(array('ELT',$receive['date2'])));
+			// $condition['datatime']=array('LT',$receive['date2']);
+		}
+
+
+		// 加载data
+		$data=M('data')->where($condition)->select();
+
+		// 显示数据信息
+		$instrument=M('instrument')->where("instrumentid='".$instrumentid."'")->field('instrumentinfo,cameraid')->find();
+		$camera=M('camera')->where("cameraid='".$instrument['cameraid']."'")->field('cameraname')->find();
+		$instrument['camera']=$camera['cameraname'];
+		// echo $instrument['instrumentinfo'];
+		// echo $instrument['camera'];
+
+		$this->assign('instrument',$instrument);
 		$this->assign('data',$data);
 		$this->display();
 	}

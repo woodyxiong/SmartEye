@@ -44,6 +44,21 @@ function checkCamera($cameraid){
 	return $cameraid;
 }
 
+/**
+ * 判断instrument是否属于用户
+ * @param  int  $instrument
+ * @return int  $instrument
+ */
+function checkInstrument($instrumentid){
+	$camera=M('instrument')->where("instrumentid='".$instrumentid."'")->find();
+	$cameraid=$camera['cameraid'];
+	$newCameraid=checkCamera($cameraid);
+	if(!$newCameraid==$cameraid){
+		$error=M('instrument')->where("cameraid='".$newCameraid."'")->select();
+		$instrumentid=$error[0]['instrumentid'];
+	}
+	return $instrumentid;
+}
 
 
 
