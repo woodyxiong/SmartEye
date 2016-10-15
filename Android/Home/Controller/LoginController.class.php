@@ -3,17 +3,17 @@ namespace Home\Controller;
 use Think\Controller;
 class LoginController extends Controller {
     public function login(){
-    	$jsoncode=$_GET['json'];
-    	// $jsoncode='{"username":"clever","password":"clever"}';
-    	// 开始解析json
-		$jsonobj=json_decode($jsoncode,true);
-		$user=M('user')->where("username='".$jsonobj['username']."'")->find();
-		//验证密码
-		$password=md5($jsonobj['password']);
-		if($user['password']==$password){
-			echo "登陆成功";
-		}else{
-			echo "登录失败";
-		}
+    	echo "login";
+        $username=$_POST['username'];
+        $password=$_POST['password'];
+        var_dump($username);
+        var_dump($password);
+
+        $user=M('user')->where("username='".$username."'")->find();
+    	if(md5($password)==$user['password']){
+    		echo "1登陆成功";
+    	}else{
+    		echo "0登录失败";
+    	}
     }
 }
