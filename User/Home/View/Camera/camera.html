@@ -124,11 +124,11 @@
         <eq name="mod" value="0">
             <div class="chartbox">
                 <div class="charttittle"><a href="{:U('data/data',array('instrumentid'=>$ins['instrumentid0']))}">{$ins.instrumentinfo0}</a></div>
-                <div class="charts" id="{$ins.instrumentid0}"></div>
+                <div class="charts" id="charts{$ins.instrumentid0}"></div>
             </div>
             <div class="chartbox chartbox2">
                 <div class="charttittle"><a href="{:U('data/data',array('instrumentid'=>$ins['instrumentid1']))}">{$ins.instrumentinfo1}</a></div>
-                <div class="charts" id="{$ins.instrumentid1}"></div>
+                <div class="charts" id="charts{$ins.instrumentid1}"></div>
             </div>
         </eq>
         </volist>
@@ -156,12 +156,12 @@
 
 
 
-<volist name="instrument" id="inst" mod="2">
+<volist name="instrument" id="inst" mod="1">
 <eq name="mod" val="0">
 
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('{$inst.instrumentid0}'),'shine');
+var myChart = echarts.init(document.getElementById('charts{$inst.instrumentid0}'),'shine');
 // 指定图表的配置项和数据
 option = {
     tooltip : {
@@ -215,7 +215,7 @@ myChart.setOption(option);
 <!-- chart2 -->
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('{$inst.instrumentid1}'));
+var myChart = echarts.init(document.getElementById('charts{$inst.instrumentid1}'));
 // 指定图表的配置项和数据
 option = {
     tooltip : {

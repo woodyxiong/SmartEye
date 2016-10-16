@@ -120,11 +120,11 @@
         <!-- 图表结构 -->
         <?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ins): $mod = ($i % 2 );++$i; if(($mod) == "0"): ?><div class="chartbox">
                 <div class="charttittle"><a href="<?php echo U('data/data',array('instrumentid'=>$ins['instrumentid0']));?>"><?php echo ($ins["instrumentinfo0"]); ?></a></div>
-                <div class="charts" id="<?php echo ($ins["instrumentid0"]); ?>"></div>
+                <div class="charts" id="charts<?php echo ($ins["instrumentid0"]); ?>"></div>
             </div>
             <div class="chartbox chartbox2">
                 <div class="charttittle"><a href="<?php echo U('data/data',array('instrumentid'=>$ins['instrumentid1']));?>"><?php echo ($ins["instrumentinfo1"]); ?></a></div>
-                <div class="charts" id="<?php echo ($ins["instrumentid1"]); ?>"></div>
+                <div class="charts" id="charts<?php echo ($ins["instrumentid1"]); ?>"></div>
             </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <!-- 图表结构 -->
     </div>
@@ -150,9 +150,9 @@
 
 
 
-<?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$inst): $mod = ($i % 2 );++$i; if(($mod) == ""): ?><script type="text/javascript">
+<?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$inst): $mod = ($i % 1 );++$i; if(($mod) == ""): ?><script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('<?php echo ($inst["instrumentid0"]); ?>'),'shine');
+var myChart = echarts.init(document.getElementById('charts<?php echo ($inst["instrumentid0"]); ?>'),'shine');
 // 指定图表的配置项和数据
 option = {
     tooltip : {
@@ -202,7 +202,7 @@ myChart.setOption(option);
 <!-- chart2 -->
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('<?php echo ($inst["instrumentid1"]); ?>'));
+var myChart = echarts.init(document.getElementById('charts<?php echo ($inst["instrumentid1"]); ?>'));
 // 指定图表的配置项和数据
 option = {
     tooltip : {
