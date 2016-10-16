@@ -148,9 +148,7 @@
 
 
 
-
-
-<?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$inst): $mod = ($i % 1 );++$i; if(($mod) == ""): ?><script type="text/javascript">
+<?php if(is_array($instrument)): $i = 0; $__LIST__ = $instrument;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$inst): $mod = ($i % 2 );++$i; if(($mod) == ""): ?><script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts<?php echo ($inst["instrumentid0"]); ?>'),'shine');
 // 指定图表的配置项和数据
@@ -175,7 +173,6 @@ option = {
             data:[
                 <?php if(is_array($inst['data0'])): $i = 0; $__LIST__ = $inst['data0'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?>'<?php echo ($data["datatime"]); ?>',<?php endforeach; endif; else: echo "" ;endif; ?>
             ]
-            // data : ['周一','周二','周三','周四','周五','周六','周日']
         }
     ],
     yAxis : [
@@ -200,6 +197,7 @@ myChart.setOption(option);
 <!-- chart1 over -->
 
 <!-- chart2 -->
+<?php echo ($inst["instrumentinfo1"]); ?>
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts<?php echo ($inst["instrumentid1"]); ?>'));

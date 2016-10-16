@@ -154,11 +154,8 @@
 
 
 
-
-
-<volist name="instrument" id="inst" mod="1">
+<volist name="instrument" id="inst" mod="2">
 <eq name="mod" val="0">
-
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts{$inst.instrumentid0}'),'shine');
@@ -186,7 +183,6 @@ option = {
                     '{$data.datatime}',
                 </volist>
             ]
-            // data : ['周一','周二','周三','周四','周五','周六','周日']
         }
     ],
     yAxis : [
@@ -213,6 +209,7 @@ myChart.setOption(option);
 <!-- chart1 over -->
 
 <!-- chart2 -->
+{$inst.instrumentinfo1}
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts{$inst.instrumentid1}'));

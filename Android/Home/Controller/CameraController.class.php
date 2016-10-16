@@ -3,7 +3,6 @@ namespace Home\Controller;
 use Think\Controller;
 class CameraController extends Controller {
     public function camera(){
-        // echo "camera";
         $cameraid=$_POST['cameraid'];
         $cameraid=$_GET['cameraid'];
 
