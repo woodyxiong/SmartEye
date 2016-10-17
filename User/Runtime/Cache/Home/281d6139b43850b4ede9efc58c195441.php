@@ -182,6 +182,7 @@ option = {
     ],
     series : [
         {
+            smooth:true,
             name:'<?php echo ($inst["instrumentinfo0"]); ?>',
             type:'line',
             stack: '总量',
@@ -197,7 +198,6 @@ myChart.setOption(option);
 <!-- chart1 over -->
 
 <!-- chart2 -->
-<?php echo ($inst["instrumentinfo1"]); ?>
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts<?php echo ($inst["instrumentid1"]); ?>'));
@@ -232,6 +232,7 @@ option = {
     ],
     series : [
         {
+            smooth:true,
             name:'<?php echo ($inst["instrumentinfo1"]); ?>',
             type:'line',
             stack: '总量',

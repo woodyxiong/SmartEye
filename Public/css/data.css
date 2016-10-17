@@ -117,6 +117,7 @@ body{
 
 #selectDatamodal{
 	height: 300px;
+	padding-bottom:20px; 
 }
 
 .modal-footer{

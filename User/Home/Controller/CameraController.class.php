@@ -43,7 +43,7 @@ class CameraController extends Controller{
 		$this->assign('instrument',$instrument);
 
 
-		dump($instrument);
+		// dump($instrument);
 		$this->display();
 
 	}

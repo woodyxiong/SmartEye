@@ -192,6 +192,7 @@ option = {
     ],
     series : [
         {
+            smooth:true,
             name:'{$inst.instrumentinfo0}',
             type:'line',
             stack: '总量',
@@ -209,7 +210,6 @@ myChart.setOption(option);
 <!-- chart1 over -->
 
 <!-- chart2 -->
-{$inst.instrumentinfo1}
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
 var myChart = echarts.init(document.getElementById('charts{$inst.instrumentid1}'));
@@ -234,7 +234,7 @@ option = {
             boundaryGap : false,
             data : [
                 <volist name="inst['data1']" id="data">
-                    '{$data.datatime}',
+                        '{$data.datatime}',
                 </volist>
             ]
         }
@@ -246,6 +246,7 @@ option = {
     ],
     series : [
         {
+            smooth:true,
             name:'{$inst.instrumentinfo1}',
             type:'line',
             stack: '总量',
@@ -257,7 +258,7 @@ option = {
             },
             data:[
                 <volist name="inst['data1']" id="data">
-                    '{$data.data}',
+                        '{$data.data}',
                 </volist>
             ]
         }

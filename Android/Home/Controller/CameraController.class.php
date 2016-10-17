@@ -4,7 +4,6 @@ use Think\Controller;
 class CameraController extends Controller {
     public function camera(){
         $cameraid=$_POST['cameraid'];
-        $cameraid=$_GET['cameraid'];
 
         $camera=M('camera')->field('cameraname,status,time')->where("cameraid='".$cameraid."'")->find();
 

@@ -16,9 +16,12 @@ class DataController extends Controller{
 		$instrument=M('instrument')->where("instrumentid='".$instrumentid."'")->field('instrumentinfo,cameraid,instrumentid')->find();
 		$camera=M('camera')->where("cameraid='".$instrument['cameraid']."'")->field('cameraname')->find();
 		$instrument['camera']=$camera['cameraname'];
+		$camera=M('camera')->where("userid='".session('userid')."'")->field('cameraname,cameraid')->select();
 
+		$this->assign('camera',$camera);
 		$this->assign('instrument',$instrument);
 		$this->assign('data',$data);
+		// dump($camera);
 		$this->display();
 	}
 
@@ -45,9 +48,18 @@ class DataController extends Controller{
 		}
 		$data=M('data')->where($condition)->field('datatime,data')->limit(30)->select();
 		echo json_encode($data);
-		// var_dump($data);
-		// echo M('data')->getLastSql();
 	}
+
+	public function showinstrument(){
+		needNotlogin();
+		/**
+		 * @param $cameraid
+		 */
+		$cameraid=$_POST['cameraid'];
+		$instrument=M('instrument')->field('instrumentid,instrumentinfo')->where("cameraid='".$cameraid."'")->select();
+		echo json_encode($instrument);
+	}
+
 
 	public function excel(){
 		header('Content-type: text/html; charset=utf-8');

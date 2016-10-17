@@ -143,19 +143,14 @@
     <div class="modal-content">
         <h4>添加数据</h4>
         <div class="input-field" id="selectCamera">
-            <select>
+            <select class="selectcamera" name="selectcamera">
                 <option value="" disabled selected>选择摄像头</option>
-                <option value="1">摄像头1</option>
-                <option value="2">摄像头2</option>
-                <option value="3">摄像头3</option>
+                <?php if(is_array($camera)): $i = 0; $__LIST__ = $camera;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$camera): $mod = ($i % 2 );++$i;?><option value="<?php echo ($camera["cameraid"]); ?>"><?php echo ($camera["cameraname"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>]; 
             </select>
         </div>
         <div class="input-field" id="selectData">
-            <select>
+            <select id="selectinstrument">
                 <option value="" disabled selected>选择数据</option>
-                <option value="1">北区甲醛数据</option>
-                <option value="2">南区甲醛数据</option>
-                <option value="3">北区甲醛数据</option>
             </select>
         </div>
     </div>

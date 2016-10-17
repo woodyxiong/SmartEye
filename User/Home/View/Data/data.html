@@ -143,19 +143,16 @@
     <div class="modal-content">
         <h4>添加数据</h4>
         <div class="input-field" id="selectCamera">
-            <select>
+            <select class="selectcamera" name="selectcamera">
                 <option value="" disabled selected>选择摄像头</option>
-                <option value="1">摄像头1</option>
-                <option value="2">摄像头2</option>
-                <option value="3">摄像头3</option>
+                <volist name="camera" id="camera">
+                    <option value="{$camera.cameraid}">{$camera.cameraname}</option>
+                </volist>]; 
             </select>
         </div>
         <div class="input-field" id="selectData">
-            <select>
+            <select id="selectinstrument">
                 <option value="" disabled selected>选择数据</option>
-                <option value="1">北区甲醛数据</option>
-                <option value="2">南区甲醛数据</option>
-                <option value="3">北区甲醛数据</option>
             </select>
         </div>
     </div>
