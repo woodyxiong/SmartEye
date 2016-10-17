@@ -2754,3 +2754,278 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
 
+[ 2016-10-17T16:08:08+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023244s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0004s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012999s ]
+
+[ 2016-10-17T16:08:17+08:00 ] 127.0.0.1 /user.php/data/showinstrument
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0058s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-10-17T16:09:22+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0004s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-10-17T16:09:35+08:00 ] 127.0.0.1 /user.php/data/showinstrument
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0119s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-10-17T16:09:54+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0005s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-10-17T16:10:05+08:00 ] 127.0.0.1 /user.php/data/showinstrument
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0078s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-10-17T16:10:36+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0005s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-10-17T16:10:53+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0007s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002858s ]
+
+[ 2016-10-17T16:11:09+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0004s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-10-17T16:11:23+08:00 ] 127.0.0.1 /user.php/data/showinstrument
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0048s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='2' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-10-17T16:25:54+08:00 ] 127.0.0.1 /user.php/data/data?instrumentid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: condition D:\desktop\App\data.test\User\Home\Controller\DataController.class.php 第 13 行.
+SQL: SELECT `datatime`,`data` FROM `data` LIMIT 30   [ RunTime:0.0004s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001800s ]
+
+[ 2016-10-17T16:26:04+08:00 ] 127.0.0.1 /user.php/data/showinstrument
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0035s ]
+SQL: SELECT `instrumentid`,`instrumentinfo` FROM `instrument` WHERE ( cameraid='1' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+

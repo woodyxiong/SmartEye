@@ -23,6 +23,7 @@ $(document).ready(function(){
 	/*添加数据内的显示instrument*/
 	$('.selectcamera').find('li').click(function() {
 		var cameraid=$("[name=selectcamera]").val();
+		console.log("anle")
 		$.post("/user.php/data/showinstrument", 
 			{
 				cameraid: cameraid
