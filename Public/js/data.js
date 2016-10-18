@@ -19,10 +19,14 @@ $(document).ready(function(){
 		$('#selectDatamodal').openModal();
 	});
 
-	
 	/*添加数据内的显示instrument*/
-	$('.selectcamera').find('li').click(function() {
-		var cameraid=$("[name=selectcamera]").val();
+	
+	$("[name=selectcamera]").change(function(event) {
+		var cameraid;
+		var data;
+		var instrumentselect;
+		cameraid=$("[name=selectcamera]").val();
+		// alert('asf')
 		console.log("anle")
 		$.post("/user.php/data/showinstrument", 
 			{
@@ -30,16 +34,17 @@ $(document).ready(function(){
 			}, 
 			function(data, textStatus, xhr) {
 			if(!data==''){
-				var data = eval ("(" + data + ")");
+				data = eval ("(" + data + ")");
+				$('#selectinstrument').html('<option value="" disabled selected>选择数据</option>');
 				$.each(data, function(index, val) {
-					var instrumentselect='<option value="'+this.instrumentid+'">'+this.instrumentinfo+'</option>';
+					instrumentselect='<option value="'+this.instrumentid+'">'+this.instrumentinfo+'</option>';
 					$('#selectinstrument').append(instrumentselect);
 					$('select').material_select();
 				});
-
 			}
 		});
 	});
+	
 	/*添加数据内的显示instrument*/
 	
 /*各项配置初始化*/
@@ -127,5 +132,7 @@ $(document).ready(function(){
 		+'</div>')
 	}
 /*点击chipbox事件*/
+
+
 
 
