@@ -175,12 +175,33 @@ function addInstrument(){
 		
 	})
 }
-
-
-
-
-
-
 /*添加instrument的按钮*/
 
+/*生成excel按钮*/
+$('#toExcelsubmit').click(function(event) {
+	console.log("asdfas")
+    var form = $('<form></form>');
+    // 设置属性
+    form.attr('action', '/user.php/data/excel');
+    form.attr('method', 'post');
+    form.attr('target', '_self');
+    // 创建Input
+    var my_input = $('<input type="text" name="instrumentid" />');
+    my_input.attr('value', $('.data-tittle').attr('instrumentid'));
+    // 附加到Form
+    form.append(my_input);
+    // 提交表单
+    form.submit();
+    // 注意return false取消链接的默认动作
+    return false;
+});
 
+
+
+
+
+
+
+
+
+/*生成excel按钮*/

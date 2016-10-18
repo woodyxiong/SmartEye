@@ -16209,3 +16209,531 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
 
+[ 2016-10-18T21:56:28+08:00 ] 127.0.0.1 /user.php/data/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-10-18T21:56:58+08:00 ] 127.0.0.1 /user.php/data/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-10-18T21:56:59+08:00 ] 127.0.0.1 /user.php/data/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-10-18T21:59:55+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0032s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0032s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0040s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-10-18T22:01:50+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0070s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0043s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0029s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-10-18T22:02:14+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0030s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0041s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0044s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-10-18T22:03:13+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0041s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0046s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0039s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-10-18T22:05:29+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0049s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0042s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0042s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2016-10-18T22:05:40+08:00 ] 127.0.0.1 /user.php/data/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-10-18T22:05:40+08:00 ] 127.0.0.1 /user.php/data/excel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005364s ]
+
+[ 2016-10-18T22:09:28+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0042s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0032s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0031s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-10-18T22:09:34+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-18T22:09:53+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+
+[ 2016-10-18T22:20:44+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0044s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0043s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0033s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-10-18T22:21:15+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0041s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0059s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0041s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-10-18T22:21:48+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0046s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0045s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0030s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-10-18T22:22:06+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0036s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0043s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0035s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-10-18T22:23:00+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0060s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0064s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0046s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-10-18T22:23:06+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-10-18T22:23:07+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-10-18T22:23:20+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0031s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0035s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0032s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-10-18T22:23:27+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+
+[ 2016-10-18T22:23:27+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+
+[ 2016-10-18T22:24:33+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0041s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0057s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0043s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-10-18T22:24:39+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-10-18T22:24:48+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-10-18T22:24:56+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-10-18T22:25:02+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-10-18T22:25:04+08:00 ] 127.0.0.1 /user.php/data/data/instrumentid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0040s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='1' ) LIMIT 30   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0041s ]
+SQL: SELECT `instrumentinfo`,`cameraid`,`instrumentid` FROM `instrument` WHERE ( instrumentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0041s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-10-18T22:25:13+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2016-10-18T22:58:56+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-10-18T22:58:56+08:00 ] 127.0.0.1 /user.php/data/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+
