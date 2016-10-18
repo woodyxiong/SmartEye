@@ -1,5 +1,8 @@
 $(document).ready(function(){
 /*各项配置初始化*/
+	// 初始化一个对象，用来保存新加进来的data数据
+	newData=new Object();
+	newDataarray=new Array();
 	$('.preloader').fadeOut(800);
 	// 日期初始化
 	$('.datepicker').pickadate({
@@ -20,32 +23,10 @@ $(document).ready(function(){
 	});
 
 	/*添加数据内的显示instrument*/
-	
-	$("[name=selectcamera]").change(function(event) {
-		var cameraid;
-		var data;
-		var instrumentselect;
-		cameraid=$("[name=selectcamera]").val();
-		// alert('asf')
-		console.log("anle")
-		$.post("/user.php/data/showinstrument", 
-			{
-				cameraid: cameraid
-			}, 
-			function(data, textStatus, xhr) {
-			if(!data==''){
-				data = eval ("(" + data + ")");
-				$('#selectinstrument').html('<option value="" disabled selected>选择数据</option>');
-				$.each(data, function(index, val) {
-					instrumentselect='<option value="'+this.instrumentid+'">'+this.instrumentinfo+'</option>';
-					$('#selectinstrument').append(instrumentselect);
-					$('select').material_select();
-				});
-			}
-		});
-	});
-	
-	/*添加数据内的显示instrument*/
+	showinstrument();
+
+	/*添加instrument的按钮*/
+	addInstrument();
 	
 /*各项配置初始化*/
 });
@@ -133,6 +114,73 @@ $(document).ready(function(){
 	}
 /*点击chipbox事件*/
 
+/*显示instrument*/
+function showinstrument(){
+	$("[name=selectcamera]").change(function(event) {
+		var cameraid;
+		var data;
+		var instrumentselect;
+		cameraid=$("[name=selectcamera]").val();
+		$.post("/user.php/data/showinstrument", 
+			{
+				cameraid: cameraid
+			}, 
+			function(data, textStatus, xhr) {
+			if(!data==''){
+				data = eval ("(" + data + ")");
+				$('#selectinstrument').html('<option value="" disabled selected>选择数据</option>');
+				$.each(data, function(index, val) {
+					instrumentselect='<option value="'+this.instrumentid+'">'+this.instrumentinfo+'</option>';
+					$('#selectinstrument').append(instrumentselect);
+					$('select').material_select();
+				});
+			}
+		});
+	});
+}
+/*显示instrument*/
 
+/*添加instrument的按钮*/
+var addInstrumentid;
+var receivedata;
+function addInstrument(){
+	$('#instrumentok').click(function(event) {
+		addInstrumentid=$("[name='selectinstrument']").val();
+		$.post("/user.php/data/adddata", 
+			{
+				instrumentid:addInstrumentid
+			}, 
+			function(data, textStatus, xhr) {
+			if(!data==''){
+				receivedata=data;
+				receivedata = eval ("(" + receivedata + ")");
+				newData.smooth='true';
+				newData.name=receivedata.instrumentinfo.instrumentinfo;
+				newData.type='line';
+				newData.stack='总量';
+				newData.itemStyle={normal: {areaStyle: {type: 'default'}}};
+				// 清空数组
+				newDataarray=[];
+				$('.input').before('<div class="chip">'+receivedata.instrumentinfo.instrumentinfo+'</div>');
+				$.each(receivedata, function(index, val) {
+					if(index!='instrumentinfo'){
+						newDataarray.push(val.data);
+					}
+				});
+				newData.data=newDataarray;
+				option["series"].push(newData);
+				myChart.setOption(option);
+			}
+		});
+		
+	})
+}
+
+
+
+
+
+
+/*添加instrument的按钮*/
 
 

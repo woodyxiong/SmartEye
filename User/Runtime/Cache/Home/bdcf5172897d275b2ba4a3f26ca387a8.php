@@ -149,7 +149,7 @@
             </select>
         </div>
         <div class="input-field" id="selectData">
-            <select id="selectinstrument">
+            <select id="selectinstrument" name="selectinstrument">
                 <option value="" disabled selected>选择数据</option>
             </select>
         </div>
@@ -226,7 +226,15 @@ option = {
             stack: '总量',
             itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
             data:datay
-        }
+        },
+        // {
+        //     smooth:true,
+        //     name:'asdfasdfasf',
+        //     type:'line',
+        //     stack: '总量',
+        //     itemStyle: {normal: {areaStyle: {type: 'default'},color:'#8190E6'}},
+        //     data:datay
+        // }
     ]
 };
 myChart.setOption(option);
