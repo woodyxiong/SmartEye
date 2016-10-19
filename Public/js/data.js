@@ -179,7 +179,6 @@ function addInstrument(){
 
 /*生成excel按钮*/
 $('#toExcelsubmit').click(function(event) {
-	console.log("asdfas")
     var form = $('<form></form>');
     // 设置属性
     form.attr('action', '/user.php/data/excel');
