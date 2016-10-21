@@ -285,6 +285,128 @@ body{
 	text-align: center;
 }
 
+/*设置的弹框样式*/
+#set{
+	width: 600px;
+	height: auto;
+	max-height: none;
+}
+
+.modalbody{
+	position: relative;
+	width: 600px;
+	height: 500px;
+}
+
+.mdtitle{
+	position: absolute;
+	margin-top: 10px;
+	font-size: 20px;
+	border-left: 3px #f00 solid;
+	margin-left: 30px;
+	padding-left: 10px;
+}
+
+.imagebox{
+	margin-left: 25px;
+	width: 250px;
+	height: 350px;
+	background: #ccc;
+	position: absolute;
+	margin-top: 55px;
+	text-align: center;
+	display: table-cell;
+
+}
+
+.imagebox img{
+	vertical-align: middle;
+	box-shadow: 
+}
+
+.mdnav{
+	/*background: #ddd;*/
+	right: 40px;
+	position: absolute;
+	cursor: default;
+}
+
+.mdnav .step{
+	margin-top: 10px;
+	float: left;
+	font-size: 18px;
+	margin-left: 10px;
+	color: #ccc;
+}
+
+.mdnav .nowstep{
+	color: #673ab7;
+	border-bottom: 2px solid #673ab7;
+}
+
+.stepcarousel{
+	position: absolute;
+	top:430px;
+	right: 30px;
+}
+
+.stepcarousel a{
+	margin-left: 20px;
+}
+
+.stepcarousel .cancel{
+	color: #555;
+}
+
+.realset{
+	width: 260px;
+	height: 350px;
+	background: red;
+	position: absolute;
+	top: 55px;
+	right: 25px;
+	overflow: hidden;
+}
+
+.stepbox{
+	overflow: hidden;
+	width: 780px;
+	height: 350px;
+}
+
+.step1{
+	width: 260px;
+	height: 350px;
+	background: white;
+	float: left;
+}
+
+.step2{
+	width: 260px;
+	height: 350px;
+	background: blue;
+	float: left;
+}
+
+.step3{
+	width: 260px;
+	height: 350px;
+	background: yellow;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1250px) {
 	#camerabarcontainer{
 		width: 98%;

@@ -9,7 +9,8 @@ $(document).ready(function(){
 	$('.'+classCi).children('a').addClass('active');
 	$('ul.tabs').tabs();
 
-
+	// 打开页面的时候直接打开modal
+	$('#set').openModal();
 });
 
 
@@ -34,6 +35,13 @@ $('.cameratab').click(function(event) {
 /**********materiali tab控制演示跳转**********/
 
 
+///////////////////////////
+// 重头戏                //
+// instument的可视化界面 //
+///////////////////////////
+$('.set').click(function() {
+	$('#set').openModal();
+});
 
 
 

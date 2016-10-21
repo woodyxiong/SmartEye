@@ -15,7 +15,7 @@
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
     <!-- import baidumap.js -->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script>
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script> -->
 
 </head>
 <body>
@@ -185,17 +185,6 @@
         </div>
         <div class="line"></div>
     </div>
-    
-
-
-
-
-
-
-
-
-
-
 </section>
 
 
@@ -203,7 +192,7 @@
 
 
 
-<!-- 打开关闭对话框 -->
+<!-- 数据删除对话框 -->
 <div id="deletedialog" class="modal">
     <div class="modal-content">
         <h5>是否确定删除数据</h5>
@@ -212,6 +201,36 @@
         <div class="modal-footer-box">
             <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">取消</a>
             <a href="#!" id="deleteSubmit" class=" waves-effect waves-green btn-flat">确定</a>
+        </div>
+    </div>
+</div>
+
+<!-- 更改/添加数据对话框 -->
+<div class="modal" id="set">
+    <div class="modalbody">
+        <div class="mdtitle">截图</div>
+        <div class="imagebox">
+            <img class="z-depth-1" src="/Public/img/pic3.bmp">
+        </div>
+        <div class="mdnav">
+            <div class="step nowstep">截图</div>
+            <div class="step">灰度</div>
+            <div class="step">二值</div>
+            <div class="step">数据名称</div>
+        </div>
+
+        <div class="realset">
+            <div class="stepbox">
+                <div class="step1"></div>
+                <div class="step3"></div>
+                <div class="step2"></div>
+            </div>
+        </div>
+
+        <div class="stepcarousel">
+            <a class="waves-effect waves-light btn grey lighten-3 cancel">取消</a>
+            <a class="waves-effect waves-light btn blue lighten-2">上一步</a>
+            <a class="waves-effect waves-light btn blue darken-2">下一步</a>
         </div>
     </div>
 </div>
