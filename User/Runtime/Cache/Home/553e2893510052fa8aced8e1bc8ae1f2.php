@@ -76,12 +76,7 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3" id="cameratab"><a href="#camera1-status">摄像机1</a></li>
-                    <li class="tab col s3" id="cameratab"><a href="#camera2">摄像机2</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机3</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机4</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera3">摄像机5</a></li>
-                    <li class="tab col s3 disabled"><a href="#camera4">摄像机6</a></li>
+                    <?php if(is_array($cameras)): $i = 0; $__LIST__ = $cameras;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cs): $mod = ($i % 2 );++$i;?><li class="tab col s3 cameratab ci<?php echo ($cs["cameraid"]); ?>" id="cameratab" link="<?php echo U('console/console',array('cameraid'=>$cs['cameraid']));?>"><a href="<?php echo U('console/console',array('cameraid'=>$cs['cameraid']));?>"><?php echo ($cs["cameraname"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                 </ul>
             </div>
         </div>
@@ -90,7 +85,7 @@
 <section class="form1">
     <div class="content">
         <div class="tittle">设置参数</div>
-        <div class="camera-tittle">摄像机1</div>
+        <div class="camera-tittle" cameraid=<?php echo ($camera["cameraid"]); ?>><?php echo ($camera["cameraname"]); ?></div>
         <div class="clear"></div>
         <form class="simpletext" action="<?php echo U('console/data');?>" method="post">
             <div class="row">

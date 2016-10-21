@@ -188,20 +188,44 @@
 <script type="text/javascript">
     // 百度地图API功能
     var map = new BMap.Map("mapbox");    // 创建Map实例
-    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 14);  // 初始化地图,设置中心点坐标和地图级别
     map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    map.setCurrentCity("漳州");          // 设置地图显示的城市 此项是必须设置的
     map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    // 浏览器定位
+    var geolocation = new BMap.Geolocation();
+    geolocation.getCurrentPosition(function(r)
+    {
+        if(this.getStatus() == BMAP_STATUS_SUCCESS){
+            var mk = new BMap.Marker(r.point);
+            map.addOverlay(mk);
+            map.panTo(r.point);
+            // alert('您的位置：'+r.point.lng+','+r.point.lat);
+        }
+        else {
+            // alert('failed'+this.getStatus());
+        }        
+    },{enableHighAccuracy: true})
+
+        // 批量逆向地址解析
+        var index = 0;
+        var myGeo = new BMap.Geocoder();
+        var adds = [
+            new BMap.Point(118.053054,24.382278),
+            new BMap.Point(118.052964,24.366314),
+            new BMap.Point(118.053872,24.372769),
+            new BMap.Point(118.048922,24.382311),
+            new BMap.Point(118.048922,24.381208)
+        ];
+        for(var i = 0; i<adds.length; i++){
+            var marker = new BMap.Marker(adds[i]);
+            map.addOverlay(marker);
+            marker.setLabel(new BMap.Label("我是商圈:"+(i+1),{offset:new BMap.Size(20,-10)}));
+        }
 </script>
 
 <!-- map over -->
-
-
-
-
-
-
-
 
 <!-- chart1 -->
 <script type="text/javascript">

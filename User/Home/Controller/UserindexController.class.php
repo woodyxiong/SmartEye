@@ -6,7 +6,7 @@ class UserindexController extends Controller{
 		needNotlogin();
 		$userid=session('userid');
 		// 导出数据
-		$camera=M('camera')->where("userid='".$userid."'")->select();
+		$camera=M('camera')->field('cameraid,cameraname,longitude,latitude')->where("userid='".$userid."'")->select();
 		foreach ($camera as $a => $b) {
 			if ($a%4==0){
 				$camera[$a]['cameraid0']=$camera[$a]['cameraid'];

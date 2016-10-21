@@ -21,7 +21,7 @@ $(document).ready(function() {
 	/*var $toastContent = $('I am toast content');
 	  Materialize.toast($toastContent, 5000);*/
 
-	var $toastContent = $('<span>有10条未读信息<a class="toasta" href="#!">查看</a></span>');
+	var $toastContent = $('<span>有10条未读信息<a class="toasta" target="iframe" href="/user.php/study/study">查看</a></span>');
 	  Materialize.toast($toastContent, 3000);
 	
 	

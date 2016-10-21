@@ -10,7 +10,6 @@ class DataController extends Controller{
 		// $instrumentid=checkInstrument($instrumentid);
 
 		// 加载data
-		// $data=M('data')->where($condition)->field('datatime,data')->limit(30)->select();
 		$data=M('data')->where("instrumentid='".$instrumentid."'")->field('datatime,data')->limit(30)->select();
 
 		// 显示数据信息
@@ -92,6 +91,7 @@ class DataController extends Controller{
 			$temp=array();
 			// dump($data);
 			foreach ($data as $a => $b) {
+				$temp['A']=$instrumentinfo;
 				foreach ($b as $c => $d) {
 					if($c=='datatime'){
 						$temp['B']=$d;

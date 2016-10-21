@@ -1,0 +1,125 @@
+.mainbody{
+	margin-top: 40px;
+	width: 100%;
+	height: 1000px;
+}
+
+.content{
+	width: 1250px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.tittle{
+	margin-left: 45px;
+	font-size: 23px;
+	border-left: 3px solid #f00;
+	padding-left: 10px;
+}
+
+.studybox{
+	margin-top: 20px;
+	width: 100%;
+	height: 500px;
+}
+
+.study{
+	width: 100%;
+	margin-top: 35px;
+}
+
+.cameraname{
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.mycollapsible{
+	margin-top: 20px;
+	width: 98%;
+	margin-left: 1%;
+}
+
+.opened{
+	color: #2585F4;
+}
+
+.didntopened{
+	color: #F44336;
+}
+
+.mych{
+	position: relative;
+}
+
+.chspan{
+	margin-left: 20px;
+}
+
+.mynew{
+	height: 30px;
+	background: #26a69a;
+	float: right;
+	position: relative;
+	color: #fff;
+	padding: 5px 8px;
+	margin: 8px 20px 0 0;
+	line-height: 20px;
+	font-size: 12px;
+	border-radius: 2px;
+}
+
+.didntmynew{
+	background: #F44336;
+}
+
+.cbcontent{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+.cbdiv{
+	height: 30px;
+	color: #333;
+	width: 240px;
+	float: left;
+	margin-left: 20px;
+}
+
+.mymodal{
+	width: 300px;
+}
+
+.myh4{
+	text-align: center;
+}
+
+.modalok{
+	margin-left: 150px;
+	position: absolute;
+	top: 190px;
+}
+
+.studydiv{
+	margin-left: 35px;
+	width: 80px;
+	height: 120px;
+	background: red;
+	margin-top: 20px;
+}
+
+.myp{
+	text-align: center;
+}
+
+.myinput{
+	position: absolute;
+	right:30px;
+	top: 100px;
+}
+
+#studyinput{
+	width: 100px;
+}
