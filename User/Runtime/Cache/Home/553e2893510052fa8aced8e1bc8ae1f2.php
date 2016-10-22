@@ -210,7 +210,8 @@
     <div class="modalbody">
         <div class="mdtitle">截图</div>
         <div class="imagebox">
-            <img class="z-depth-1 realimg" src="/Public/img/pic3.bmp">
+            <img draggable="false" class="z-depth-1 realimg" src="/Public/img/pic3.bmp">
+            <div class="cutborder"></div>
         </div>
         <div class="mdnav">
             <div class="step nowstep">截图</div>

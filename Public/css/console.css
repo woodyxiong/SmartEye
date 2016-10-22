@@ -451,6 +451,16 @@ body{
 	font-size: 100px;
 }
 
+.cutborder{
+	width: 0px;
+	height: 0px;
+	border:1px solid #000;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	display: none;
+}
+
 
 
 
