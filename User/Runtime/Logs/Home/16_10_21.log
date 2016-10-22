@@ -2465,3 +2465,27 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
 
+[ 2016-10-21T22:20:29+08:00 ] 127.0.0.1 /user.php/console/console/cameraid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cameraname` FROM `camera` WHERE ( cameraid='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cameraname`,`cameraid` FROM `camera` WHERE ( userid='clever' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+

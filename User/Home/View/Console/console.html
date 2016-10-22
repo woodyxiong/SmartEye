@@ -212,27 +212,52 @@
     <div class="modalbody">
         <div class="mdtitle">截图</div>
         <div class="imagebox">
-            <img class="z-depth-1" src="__PUBLIC__/img/pic3.bmp">
+            <img class="z-depth-1 realimg" src="__PUBLIC__/img/pic3.bmp">
         </div>
         <div class="mdnav">
             <div class="step nowstep">截图</div>
             <div class="step">灰度</div>
             <div class="step">二值</div>
             <div class="step">数据名称</div>
+            <div class="pre">
+                <div class="preloader-wrapper small mysmall active">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle">
+                            </div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="realset">
             <div class="stepbox">
-                <div class="step1"></div>
-                <div class="step3"></div>
+                <div class="step1">
+                    <div class="cutbox z-depth-1 waves-effect waves-light">
+                        <i class="material-icons">content_cut</i>
+                    </div>
+                    <div class="cutboxinfo bluez-depth-1">
+                        <br><br>
+                        点击上方截图按钮之后请在左侧截取需要解析的数字
+                    </div>
+                </div>
                 <div class="step2"></div>
+                <div class="step3"></div>
+                <div class="step4"></div>
             </div>
         </div>
 
         <div class="stepcarousel">
             <a class="waves-effect waves-light btn grey lighten-3 cancel">取消</a>
-            <a class="waves-effect waves-light btn blue lighten-2">上一步</a>
-            <a class="waves-effect waves-light btn blue darken-2">下一步</a>
+            <a class="disabled waves-effect waves-light btn blue lighten-2" id="last">上一步</a>
+            <a class="waves-effect waves-light btn blue darken-2" id="next">下一步</a>
         </div>
     </div>
 </div>

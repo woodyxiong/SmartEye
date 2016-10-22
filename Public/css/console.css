@@ -316,7 +316,6 @@ body{
 	margin-top: 55px;
 	text-align: center;
 	display: table-cell;
-
 }
 
 .imagebox img{
@@ -325,8 +324,7 @@ body{
 }
 
 .mdnav{
-	/*background: #ddd;*/
-	right: 40px;
+	right: 30px;
 	position: absolute;
 	cursor: default;
 }
@@ -358,10 +356,23 @@ body{
 	color: #555;
 }
 
+
+/*转转转的*/
+.pre{
+	margin-left: 10px;
+	margin-top: 13px;
+	float: left;
+	visibility: hidden;
+}
+
+.mysmall{
+	width: 20px!important;
+	height: 20px!important;
+}
+
 .realset{
 	width: 260px;
 	height: 350px;
-	background: red;
 	position: absolute;
 	top: 55px;
 	right: 25px;
@@ -370,14 +381,14 @@ body{
 
 .stepbox{
 	overflow: hidden;
-	width: 780px;
+	width: 1040px;
 	height: 350px;
 }
 
 .step1{
 	width: 260px;
 	height: 350px;
-	background: white;
+	/*background: white;*/
 	float: left;
 }
 
@@ -393,6 +404,51 @@ body{
 	height: 350px;
 	background: yellow;
 	float: left;
+}
+
+.step4{
+	width: 260px;
+	height: 350px;
+	background: black;
+	float: left;
+}
+
+.cutbox{
+	margin-top: 15px;
+	width: 80%;
+	height: 50px;
+	background: #2585F4;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	color: #fff;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: box-shadow .5s;
+}
+
+.cutbox:hover{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),
+	0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.cutbox i{
+	font-size: 30px!important;
+}
+
+.cutboxinfo{
+	text-align: center;
+	color: #CCC;
+	width: 80%;
+	margin-left: 20px;
+	padding-top: 25px;
+	height: 220px;
+	font-size: 17px;
+	margin-top: 40px;
+}
+
+.mypen{
+	font-size: 100px;
 }
 
 
