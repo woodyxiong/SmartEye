@@ -11,7 +11,14 @@ $(document).ready(function(){
 	$('ul.tabs').tabs();
 
 	// 打开页面的时候直接打开modal
+	// 调试阶段
 	$('#set').openModal({dismissible: false});
+	index=2;
+	$('.stepbox').css('margin-left', '-260px');
+	flashStep();
+
+	
+	// 调试阶段
 
 });
 
@@ -152,9 +159,9 @@ $('.imagebox').mousedown(function(event) {
 
 $('.imagebox').mousemove(function(event) {
 	if(down==false)return false;
+	$('.cutboxinfo').html('<br><i class="material-icons mypen">open_with</i>');
 	x2=event.offsetX;
 	y2=event.offsetY;
-	console.log(x2)
 	img['width']=x2-x1;
 	img['height']=y2-y1;
 
@@ -166,21 +173,22 @@ $('.imagebox').mousemove(function(event) {
 	}
 	var tempx=x1;
 	var tempy=y1;
-	tempx=Math.min(x1,x2);
-	tempy=Math.min(y1,y2);
-	console.log(x1,x2,y1,y2,tempx)
+	// tempx=Math.min(x1,x2);
+	// tempy=Math.min(y1,y2);
+	// console.log(x1,x2,y1,y2,tempx)
 	$('.cutborder').css({
 		width: img['width'],
 		height: img['height'],
-		left: tempx,
+		left: tempx+img['border'],
 		top:tempy
 	});
 });
 
 $('.imagebox').mouseup(function(event) {
 	if(down==false)return false;
-	// x2=event.offsetX-img['border'];
-	// y2=event.offsetY;
+	$('.cutboxinfo').html('<br><i class="material-icons mypen">done</i>');
+
+	console.log(x1,x2,y1,y2);
 	down=false;
 });
 

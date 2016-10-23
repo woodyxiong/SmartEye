@@ -10,10 +10,14 @@
     <link rel="stylesheet" type="text/css" href="/Public/css/all.css">
     <!-- index css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/console.css">
+    <link href="http://materializecss.com/extras/noUiSlider/nouislider.css" rel="stylesheet">
     
     <!-- import js -->
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
+
+    <script src="http://materializecss.com/extras/noUiSlider/nouislider.js"></script>
+
     <!-- import baidumap.js -->
     <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script> -->
 
@@ -247,7 +251,48 @@
                         点击上方截图按钮之后请在左侧截取需要解析的数字
                     </div>
                 </div>
-                <div class="step2"></div>
+                <div class="step2">
+                    <div class="step2box">
+                        <p>
+                            <input name="group1" type="radio" id="test1" />
+                            <label for="test1">平均值</label>
+                        </p>
+                        <p>
+                            <input name="group1" type="radio" id="test2" />
+                            <label for="test2">国际标准</label>
+                        </p>
+                        <p>
+                            <input name="group1" type="radio" id="test3" />
+                            <label for="test3">自定义</label>
+                        </p>
+                        <!-- 滑块 -->
+                        <p class="range-field" id="test5">
+                            
+                        </p>
+                        <script>
+                        var slider = document.getElementById('test5');
+                          noUiSlider.create(slider, {
+                           start: [20, 80],
+                           connect: true,
+                           step: 1,
+                           range: {
+                             'min': 0,
+                             'max': 100
+                           },
+                           format: wNumb({
+                             decimals: 0
+                           })
+                          });
+                        </script>
+                        <p class="range-field">
+                            <input type="range" id="test6" min="0" max="100" />
+                        </p>
+                        <p class="range-field">
+                            <input type="range" id="test7" min="0" max="100" />
+                        </p>
+
+                    </div>
+                </div>
                 <div class="step3"></div>
                 <div class="step4"></div>
             </div>
@@ -260,6 +305,7 @@
         </div>
     </div>
 </div>
+
 
 
 

@@ -395,7 +395,6 @@ body{
 .step2{
 	width: 260px;
 	height: 350px;
-	background: blue;
 	float: left;
 }
 
@@ -459,6 +458,13 @@ body{
 	top:0px;
 	left: 0px;
 	display: none;
+}
+
+/*step2*/
+.step2box{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 20px;
 }
 
 
