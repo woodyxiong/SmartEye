@@ -13,8 +13,8 @@ $(document).ready(function(){
 	// 打开页面的时候直接打开modal
 	// 调试阶段
 	$('#set').openModal({dismissible: false});
-	index=2;
-	$('.stepbox').css('margin-left', '-260px');
+	// index=1;
+	// $('.stepbox').css('margin-left', '-780px');
 	flashStep();
 
 	
@@ -55,7 +55,6 @@ $('.set').click(function() {
 });
 
 $('.cancel').click(function() {
-	console.log(event);
 	$('#set').closeModal();
 });
 
@@ -110,27 +109,47 @@ $('#last').click(function() {
 
 
 function flashStep() {
+	notcut();
 	if(index==1){
-		$('.mdtitle').text('截图');
+		$('.mdtitle').text('数据名称');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(0).addClass('nowstep');
 	}
 	else if(index==2){
-		$('.mdtitle').text('灰度');
+		$('.mdtitle').text('截图');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(1).addClass('nowstep');
 	}
 	else if(index==3){
-		$('.mdtitle').text('二值');
+		$('.mdtitle').text('灰度');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(2).addClass('nowstep');
 	}
 	else if(index==4){
-		$('.mdtitle').text('数据名称');
+		$('.mdtitle').text('二值');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(3).addClass('nowstep');
 	}
 }
+
+/**************设置数据名称**************/
+function flashNumimg(){
+	var typeface;
+	typeface=$("input[name='typeface']:checked").val();
+	if(typeface=='0'){
+		$('.numimgbox').html('<img class="normalimg" src="/Public/img/num/normalnumchecked.png"><img class="sevenimg" src="/Public/img/num/sevennum.png">');
+	}else{
+		$('.numimgbox').html('<img class="normalimg" src="/Public/img/num/normalnum.png"><img class="sevenimg" src="/Public/img/num/sevennumchecked.png">');
+	}
+}
+
+$("input[name='typeface']").change(function(event) {
+	flashNumimg();
+});
+
+
+/**************设置数据名称**************/
+
 
 /**************截图**************/
 
@@ -141,8 +160,6 @@ $('.cutbox').click(function(event) {
 		cut=true;
 	}
 });
-
-
 
 // 初始化image内的数据
 	var img=new Array();
@@ -187,31 +204,68 @@ $('.imagebox').mousemove(function(event) {
 $('.imagebox').mouseup(function(event) {
 	if(down==false)return false;
 	$('.cutboxinfo').html('<br><i class="material-icons mypen">done</i>');
-
 	console.log(x1,x2,y1,y2);
 	down=false;
 });
 
+function notcut(){
+	$('.imagebox').css('cursor', 'default');
+	$('.cutboxinfo').html('<br><br>点击上方截图按钮之后请在左侧截取需要解析的数字');
+	$('.cutborder').css('display', 'none');
+	cut=false;
+}
 
 /**************截图**************/
+/**************设置rgb**************/
+var rgbr = document.getElementById('rgbr');
+	noUiSlider.create(rgbr, {
+		start: .5,
+		range: {
+			'min': 0,
+			'max': 1
+		},
+		format: wNumb({
+			decimals: 0
+		})
+	});
+var rgbg = document.getElementById('rgbg');
+	noUiSlider.create(rgbg, {
+		start: .5,
+		range: {
+			'min': 0,
+			'max': 1
+		},
+		format: wNumb({
+			decimals: 0
+		})
+	});
+var rgbb = document.getElementById('rgbb');
+	noUiSlider.create(rgbb, {
+		start: .5,
+		range: {
+			'min': 0,
+			'max': 1
+		},
+		format: wNumb({
+			decimals: 0
+		})
+	});
 
 
+/**************设置rgb**************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**************设置二值**************/
+var totwoslider1 = document.getElementById('totwoslider1');
+	noUiSlider.create(totwoslider1, {
+		start: 175,
+		step:1,
+		range: {
+			'min': 0,
+			'max': 255
+		},
+		format: wNumb({
+			decimals: 0
+		})
+	});
+/**************设置二值**************/
 

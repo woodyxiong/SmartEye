@@ -401,17 +401,42 @@ body{
 .step3{
 	width: 260px;
 	height: 350px;
-	background: yellow;
 	float: left;
 }
 
-.step4{
+.step4{ 
 	width: 260px;
 	height: 350px;
-	background: black;
 	float: left;
 }
 
+/*step1*/
+.step1box{
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+.numberradio{
+	margin-left: 5px;
+}
+
+.numimgbox{
+	width: 100%;
+	height: 200px;
+	padding-top: 30px;
+}
+
+.normalimg{
+	margin-left: 10px;
+}
+
+.sevenimg{
+	margin-left: 40px;
+}
+
+
+
+/*step2*/
 .cutbox{
 	margin-top: 15px;
 	width: 80%;
@@ -460,15 +485,31 @@ body{
 	display: none;
 }
 
-/*step2*/
-.step2box{
+/*step3*/
+.step3box{
 	width: 80%;
 	margin-left: 10%;
 	padding-top: 20px;
 }
 
+.rgbradio{
+	margin-top: 10px;
+}
 
+.rgbbox{
+	margin-top: 25px;
+}
 
+/*step4*/
+.step4box{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 20px;
+}
+
+.totwobox{
+	margin-top: 50px;
+}
 
 
 

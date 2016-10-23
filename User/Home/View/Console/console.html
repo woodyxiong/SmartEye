@@ -16,7 +16,6 @@
     <script type="text/javascript" src="__PUBLIC__/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="__PUBLIC__/js/materialize.min.js"></script>
 
-    <script src="http://materializecss.com/extras/noUiSlider/nouislider.js"></script>
 
     <!-- import baidumap.js -->
     <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script> -->
@@ -220,10 +219,10 @@
             <div class="cutborder"></div>
         </div>
         <div class="mdnav">
-            <div class="step nowstep">截图</div>
+            <div class="step nowstep">数据名称</div>
+            <div class="step">截图</div>
             <div class="step">灰度</div>
             <div class="step">二值</div>
-            <div class="step">数据名称</div>
             <div class="pre">
                 <div class="preloader-wrapper small mysmall active">
                     <div class="spinner-layer spinner-green-only">
@@ -245,6 +244,27 @@
         <div class="realset">
             <div class="stepbox">
                 <div class="step1">
+                    <!-- 设置名称什么的 -->
+                    <div class="step1box">
+                        <div class="row">
+                            <div class="input-field col s10">
+                                <input id="last_name" type="text">
+                                <label for="last_name">数据名称</label>
+                            </div>
+                        </div>
+                        <div class="numberradio">
+                            <input name="typeface" type="radio" value="0" checked="checked" id="normalnum" />
+                            <label for="normalnum">普通数字</label>
+                            <input name="typeface" type="radio" value="1" id="sevennum" />
+                            <label for="sevennum">七段式数字</label>
+                        </div>
+                        <div class="numimgbox">
+                            <img class="normalimg" src="__PUBLIC__/img/num/normalnumchecked.png">
+                            <img class="sevenimg" src="__PUBLIC__/img/num/sevennum.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="step2">
                     <div class="cutbox z-depth-1 waves-effect waves-light">
                         <i class="material-icons">content_cut</i>
                     </div>
@@ -253,50 +273,58 @@
                         点击上方截图按钮之后请在左侧截取需要解析的数字
                     </div>
                 </div>
-                <div class="step2">
-                    <div class="step2box">
-                        <p>
-                            <input name="group1" type="radio" id="test1" />
-                            <label for="test1">平均值</label>
+                <div class="step3">
+                    <div class="step3box">
+                        <p class="rgbradio">
+                            <input name="rgb" type="radio" id="rgb1" checked="checked" />
+                            <label for="rgb1">平均值</label>
                         </p>
-                        <p>
-                            <input name="group1" type="radio" id="test2" />
-                            <label for="test2">国际标准</label>
+                        <p class="rgbradio">
+                            <input name="rgb" type="radio" id="rgb2" />
+                            <label for="rgb2">国际标准</label>
                         </p>
-                        <p>
-                            <input name="group1" type="radio" id="test3" />
-                            <label for="test3">自定义</label>
+                        <p class="rgbradio">
+                            <input name="rgb" type="radio" id="rgb3" />
+                            <label for="rgb3">自定义</label>
                         </p>
                         <!-- 滑块 -->
-                        <p class="range-field" id="test5">
-                            
-                        </p>
-                        <script>
-                        var slider = document.getElementById('test5');
-                          noUiSlider.create(slider, {
-                           start: [20, 80],
-                           connect: true,
-                           step: 1,
-                           range: {
-                             'min': 0,
-                             'max': 100
-                           },
-                           format: wNumb({
-                             decimals: 0
-                           })
-                          });
-                        </script>
-                        <p class="range-field">
-                            <input type="range" id="test6" min="0" max="100" />
-                        </p>
-                        <p class="range-field">
-                            <input type="range" id="test7" min="0" max="100" />
-                        </p>
-
+                        <div class="rgbbox">
+                            <label for="rgbr">红色比例</label>
+                            <p class="range-field myrgb" id="rgbr"></p>
+                        </div>
+                        <div class="rgbbox">
+                            <label for="rgbr">绿色比例</label>
+                            <p class="range-field myrgb" id="rgbg"></p>
+                        </div>
+                        <div class="rgbbox">
+                            <label for="rgbb">蓝色比例</label>
+                            <p class="range-field myrgb" id="rgbb"></p>
+                        </div>
                     </div>
                 </div>
-                <div class="step3"></div>
-                <div class="step4"></div>
+                <div class="step4">
+                    <div class="step4box">
+                        <p class="rgbradio">
+                            <input name="totwo" type="radio" id="totwo1" checked="checked" />
+                            <label for="totwo1">迭代</label>
+                        </p>
+                        <p class="rgbradio">
+                            <input name="totwo" type="radio" id="totwo2"/>
+                            <label for="totwo2">自定义(1参数)</label>
+                        </p>
+                        <p class="rgbradio">
+                            <input name="totwo" type="radio" id="totwo3" />
+                            <label for="totwo3">自定义(2参数)</label>
+                        </p>
+                        <!-- 滑块 -->
+                        <div class="totwobox">
+                            <label for="totwoslider1">自定义(1参数)</label>
+                            <p class="range-field myrgb" id="rgbb"></p>
+                            <p class="range-field" id="totwoslider1"></p>
+                        </div>
+                    </div>
+                        
+                </div>
             </div>
         </div>
 
@@ -315,6 +343,7 @@
 
 
 
+<script src="http://materializecss.com/extras/noUiSlider/nouislider.js"></script>
 <script type="text/javascript" src="__PUBLIC__/js/console.js"></script>
 </body>
 </html>
