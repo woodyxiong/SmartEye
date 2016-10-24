@@ -48,13 +48,22 @@ class ConsoleController extends Controller{
 	}
 	public function cut(){
 		// x1,x2,y1,y2
-		$x1=$_POST['x1'];
-		$x2=$_POST['x2'];
-		$y1=$_POST['y1'];
-		$y2=$_POST['y2'];
+		$x1=I('post.x1');
+		$x2=I('post.x2');
+		$y1=I('post.y1');
+		$y2=I('post.y2');
+		$pathname=I('post.y2');
 
-		passthru("ls /",$return);
-		dump($return);
+		$opendir="cd Public/camera1/exe/;";
+		$operate="./cut.out ../1477284760.bmp ".$x1." ".$y2." ".$x2." ".$y1;
+
+		$commond=$opendir.$operate;
+
+		// echo $commond;
+		passthru($commond);
+		// passthru("pwd",$return);
+		// echo $return;
+		// echo $commond;
 
 	}
 }

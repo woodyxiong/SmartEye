@@ -90,7 +90,7 @@
 <section class="form1">
     <div class="content">
         <div class="tittle">设置参数</div>
-        <div class="camera-tittle" cameraid="{$camera.cameraid}">{$camera.cameraname}</div>
+        <div class="camera-tittle" pathname="{$camera.filename}" cameraid="{$camera.cameraid}">{$camera.cameraname}</div>
         <div class="clear"></div>
         <form class="simpletext" action="{:U('console/data')}" method="post">
             <div class="row">
@@ -209,7 +209,7 @@
     <div class="modalbody">
         <div class="mdtitle">截图</div>
         <div class="imagebox">
-            <img draggable="false" class="z-depth-1 realimg" src="{$camera.filename}">
+            <img class="myimg" draggable="false" class="z-depth-1 realimg" src="/Public/camera1/{$camera.filename}.bmp">
             <div class="cutborder"></div>
         </div>
         <div class="mdnav">

@@ -88,7 +88,7 @@
 <section class="form1">
     <div class="content">
         <div class="tittle">设置参数</div>
-        <div class="camera-tittle" cameraid="<?php echo ($camera["cameraid"]); ?>"><?php echo ($camera["cameraname"]); ?></div>
+        <div class="camera-tittle" pathname="<?php echo ($camera["filename"]); ?>" cameraid="<?php echo ($camera["cameraid"]); ?>"><?php echo ($camera["cameraname"]); ?></div>
         <div class="clear"></div>
         <form class="simpletext" action="<?php echo U('console/data');?>" method="post">
             <div class="row">
@@ -203,7 +203,7 @@
     <div class="modalbody">
         <div class="mdtitle">截图</div>
         <div class="imagebox">
-            <img draggable="false" class="z-depth-1 realimg" src="<?php echo ($camera["filename"]); ?>">
+            <img class="myimg" draggable="false" class="z-depth-1 realimg" src="/Public/camera1/<?php echo ($camera["filename"]); ?>.bmp">
             <div class="cutborder"></div>
         </div>
         <div class="mdnav">

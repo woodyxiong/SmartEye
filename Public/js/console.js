@@ -2,6 +2,7 @@ var instrumentid;
 var cameraid=$('.camera-tittle').attr('cameraid');
 var index=1;
 var cut=false;
+var pathname=$('.camera-tittle').attr('pathname');
 $(document).ready(function(){
 	$('.preloader').fadeOut(800);
 	$('select').material_select();
@@ -10,8 +11,6 @@ $(document).ready(function(){
 	$('.tab').children('a').removeClass('active');
 	$('.'+classCi).children('a').addClass('active');
 	$('ul.tabs').tabs();
-
-
 
 });
 
@@ -82,13 +81,22 @@ $('#next').click(function() {
 				x1: x1,
 				x2: x2,
 				y1: y1,
-				y2: y2
+				y2: y2,
+				pathname: pathname
 			},
-			function(data, textStatus, xhr) {
-				if(data=="suucess"){
+			function(data,textStatus, xhr) {
+				console.log(data);
+				if(data="success"){
+					console.log(data);
 					$('.stepbox').animate({'margin-left':'-520px'});
 					index++;
-					flashStep();
+					$('.pre').css({visibility: 'hidden'});
+					setTimeout("flashStep()",1000);
+
+				}else{
+					// 刷新
+					alert(data);
+					history.go(0);
 				}
 			});
 	}
@@ -139,11 +147,14 @@ function flashStep() {
 		$('.mdtitle').text('截图');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(1).addClass('nowstep');
+		$('.myimg').attr({src: '/Public/camera1/'+pathname+'.bmp'});
+
 	}
 	else if(index==3){
 		$('.mdtitle').text('灰度');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(2).addClass('nowstep');
+		$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1.bmp'});
 	}
 	else if(index==4){
 		$('.mdtitle').text('二值');
@@ -188,7 +199,8 @@ $('.cutbox').click(function(event) {
 $('.imagebox').mousedown(function(event) {
 	if(cut==false)return false;
 	down=true;
-	img['border']=($('.imagebox').width()-$('.realimg').width())/2;
+	img['border']=($('.imagebox').width()-$('.myimg').width())/2;
+	console.log(img['border'])
 	x1=event.offsetX;
 	y1=event.offsetY;
 	$('.cutborder').show();
@@ -213,6 +225,7 @@ $('.imagebox').mousemove(function(event) {
 	// tempx=Math.min(x1,x2);
 	// tempy=Math.min(y1,y2);
 	// console.log(x1,x2,y1,y2,tempx)
+	console.log(tempx);
 	$('.cutborder').css({
 		width: img['width'],
 		height: img['height'],
