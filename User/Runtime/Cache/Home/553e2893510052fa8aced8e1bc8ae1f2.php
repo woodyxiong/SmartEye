@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="/Public/css/all.css">
     <!-- index css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/console.css">
-    <link href="http://materializecss.com/extras/noUiSlider/nouislider.css" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="/Public/css/nouislider.css">
+
     <!-- import js -->
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
@@ -88,7 +88,7 @@
 <section class="form1">
     <div class="content">
         <div class="tittle">设置参数</div>
-        <div class="camera-tittle" cameraid=<?php echo ($camera["cameraid"]); ?>><?php echo ($camera["cameraname"]); ?></div>
+        <div class="camera-tittle" cameraid="<?php echo ($camera["cameraid"]); ?>"><?php echo ($camera["cameraname"]); ?></div>
         <div class="clear"></div>
         <form class="simpletext" action="<?php echo U('console/data');?>" method="post">
             <div class="row">
@@ -141,47 +141,37 @@
     <div class="content2">
         <div class="showcamera">
             <div class="form2tittle">设置需要分析的数据</div>
-            <div class="cameradata c1">
-                <div class="cdtittle">甲醛含量</div>
-                <div class="cdinfo">
-                    位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
+            <?php if(is_array($instruments)): $i = 0; $__LIST__ = $instruments;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ins): $mod = ($i % 3 );++$i; if(($mod) == "0"): ?><div class="cameradata c1">
+                    <div class="cdtittle"><?php echo ($ins["instrumentinfo0"]); ?></div>
+                    <div class="cdinfo">
+                        <?php echo ($ins["instrumentlonginfo0"]); ?>
+                    </div>
+                    <div class="operate">
+                        <div class="set" instrumentid="<?php echo ($ins["instrumentid0"]); ?>"><i class="material-icons hovericon">settings</i></div>
+                        <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                    </div>
                 </div>
-                <div class="operate">
-                    <div class="set"><i class="material-icons hovericon">settings</i></div>
-                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                <div class="cameradata c2">
+                    <div class="cdtittle"><?php echo ($ins["instrumentinfo1"]); ?></div>
+                    <div class="cdinfo">
+                        <?php echo ($ins["instrumentlonginfo1"]); ?>
+                    </div>
+                    <div class="operate">
+                        <div class="set" instrumentid="<?php echo ($ins["instrumentid1"]); ?>"><i class="material-icons hovericon">settings</i></div>
+                        <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                    </div>
                 </div>
-            </div>
-            <div class="cameradata c2">
-                <div class="cdtittle">二氧化氮含量</div>
-                <div class="cdinfo">
-                    位于厦门大学嘉庚学院北区测试甲醇的含量阿斯蒂芬
-                </div>
-                <div class="operate">
-                    <div class="set"><i class="material-icons hovericon">settings</i></div>
-                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
-                </div>
-            </div>
-            <div class="cameradata c3">
-                <div class="cdtittle">二氧化碳含量</div>
-                <div class="cdinfo">
-                    位于厦门大学嘉庚学院北区测试甲醇的含量爱上
-                </div>
-                <div class="operate">
-                    <div class="set"><i class="material-icons hovericon">settings</i></div>
-                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="cameradata c1">
-                <div class="cdtittle">二氧化硫含量</div>
-                <div class="cdinfo">
-                    位于厦门大学嘉庚学院北区测试甲醇的含量算法
-                </div>
-                <div class="operate">
-                    <div class="set"><i class="material-icons hovericon">settings</i></div>
-                    <div class="delete"><i class="material-icons hovericon">delete</i></div>
-                </div>
-            </div>
+                <div class="cameradata c3">
+                    <div class="cdtittle"><?php echo ($ins["instrumentinfo2"]); ?></div>
+                    <div class="cdinfo">
+                        <?php echo ($ins["instrumentlonginfo2"]); ?>
+                    </div>
+                    <div class="operate">
+                        <div class="set" instrumentid="<?php echo ($ins["instrumentid2"]); ?>"><i class="material-icons hovericon">settings</i></div>
+                        <div class="delete"><i class="material-icons hovericon">delete</i></div>
+                    </div>
+                </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+            <!-- <div class="line"$></div> -->
             <div class="addcd c2">
                 <i class="material-icons addicon" >add_circle_outline</i>
             </div>
@@ -213,7 +203,7 @@
     <div class="modalbody">
         <div class="mdtitle">截图</div>
         <div class="imagebox">
-            <img draggable="false" class="z-depth-1 realimg" src="/Public/img/pic3.bmp">
+            <img draggable="false" class="z-depth-1 realimg" src="<?php echo ($camera["filename"]); ?>">
             <div class="cutborder"></div>
         </div>
         <div class="mdnav">
@@ -321,7 +311,7 @@
                             <p class="range-field" id="totwoslider1"></p>
                         </div>
                     </div>
-                        
+
                 </div>
             </div>
         </div>
@@ -341,7 +331,7 @@
 
 
 
-<script src="http://materializecss.com/extras/noUiSlider/nouislider.js"></script>
+<script src="/Public/js/nouislider.js"></script>
 <script type="text/javascript" src="/Public/js/console.js"></script>
 </body>
 </html>

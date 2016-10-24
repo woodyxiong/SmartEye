@@ -1,8 +1,9 @@
+var instrumentid;
 var cameraid=$('.camera-tittle').attr('cameraid');
 var index=1;
 var cut=false;
 $(document).ready(function(){
-	$('.preloader').fadeOut(800);	
+	$('.preloader').fadeOut(800);
 	$('select').material_select();
 
 	var classCi='ci'+cameraid;
@@ -10,15 +11,7 @@ $(document).ready(function(){
 	$('.'+classCi).children('a').addClass('active');
 	$('ul.tabs').tabs();
 
-	// 打开页面的时候直接打开modal
-	// 调试阶段
-	$('#set').openModal({dismissible: false});
-	// index=1;
-	// $('.stepbox').css('margin-left', '-780px');
-	flashStep();
 
-	
-	// 调试阶段
 
 });
 
@@ -49,14 +42,25 @@ $('.cameratab').click(function(event) {
 // instument的可视化界面 //
 ///////////////////////////
 $('.set').click(function() {
+	instrumentid=$(this).attr('instrumentid');
 	$('#set').openModal({
 		dismissible: false
 	});
+	$('.stepbox').animate({'margin-left':'0px'});
 });
 
 $('.cancel').click(function() {
 	$('#set').closeModal();
+	myCloseModal();
 });
+
+function myCloseModal(){
+	x1=null;
+	x2=null;
+	y1=null;
+	y2=null;
+	index=1;
+}
 
 // 下一页
 $('#next').click(function() {
@@ -68,9 +72,25 @@ $('#next').click(function() {
 		$('#last').removeClass('disabled');
 	}
 	else if (index==2) {
-		$('.stepbox').animate({'margin-left':'-520px'});
-		index++;
-		flashStep();
+		if(x1==null||x2==null||y1==null||y2==null){
+			return false;
+		}
+		// 当按下截图的下一步之后
+		$('.pre').css({visibility: 'visible'});
+		$.post('/user.php/console/cut',
+			{
+				x1: x1,
+				x2: x2,
+				y1: y1,
+				y2: y2
+			},
+			function(data, textStatus, xhr) {
+				if(data=="suucess"){
+					$('.stepbox').animate({'margin-left':'-520px'});
+					index++;
+					flashStep();
+				}
+			});
 	}
 	else if(index==3){
 		$('.stepbox').animate({'margin-left':'-780px'});
@@ -268,4 +288,3 @@ var totwoslider1 = document.getElementById('totwoslider1');
 		})
 	});
 /**************设置二值**************/
-

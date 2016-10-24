@@ -1,2 +1,3 @@
 <?php
-echo time();
+passthru("ls",$return);
+dump($return);
