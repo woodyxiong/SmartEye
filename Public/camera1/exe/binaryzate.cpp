@@ -1206,10 +1206,9 @@ public:
 
 		//cout << cnt_height << '\t' << ratio_up_right << '\t' << ratio_down_right << '\t' << ratio_up_left << '\t' << ratio_down_left << endl;
 		//ÒÔÏÂµÄÅÐ¶ÏÌõ¼þÍ¨¹ýÊý¾ÝµÄ·ÖÎöµÃ³ö
-		if (cnt_height == 4 && cnt_width == 2)
+		if (cnt_height == 4 && cnt_width == 2&&ratio_up_left<0.5)
 			return "7";
-		else if ((cnt_height == 4 ||cnt_height==6) && (cnt_width == 4 ||cnt_width==6) && ratio_up_left > 0.7&&ratio_down_left > 0.7&&ratio_up_right > 0.7&&ratio_down_right > 0.7)
-			return "0";
+
 		else if ((double)cnt_point / (double)((newwidth - 2)*(newheight - 2)) >= 0.7)
 		{
 			return ".";
@@ -1218,7 +1217,7 @@ public:
 		{
 			return "1";
 		}
-		else if (cnt_height == 6 && ratio_down_right < 0.7&&ratio_up_left<0.5)
+		else if (cnt_height == 6 && ratio_down_right < 0.7&&ratio_up_left<0.65)
 			return "2";
 		else if (cnt_height == 6 && ratio_up_right > 0.7 && ratio_down_right > 0.7 && ratio_up_left < 0.7 && ratio_down_left < 0.7)
 			return "3";
@@ -1231,22 +1230,26 @@ public:
 		else if (cnt_height == 6 && ratio_up_left > 0.7&&ratio_down_left > 0.7&&ratio_up_right<0.7&&ratio_down_right>0.7)
 			return "6";
 
-		else if (cnt_height == 6 && cnt_width == 2 && ratio_up_left > 0.7&&ratio_down_left > 0.7&&ratio_up_right > 0.7&&ratio_down_right > 0.7)
+		else if (cnt_height == 6 && (cnt_width == 2||cnt_width==4) && ratio_up_left > 0.7&&ratio_down_left > 0.7&&ratio_up_right > 0.7&&ratio_down_right > 0.7)
 		{
 
 			return "8";
 		}
+		else if ((cnt_height == 4 || cnt_height == 6) && (cnt_width == 4 || cnt_width == 6) && ratio_up_left >= 0.8&&ratio_down_left >= 0.8&&ratio_up_right >= 0.8&&ratio_down_right >= 0.8)
+			return "0";
 		else if (cnt_height == 6 && ratio_up_left > 0.7&&ratio_down_left < 0.7&&ratio_up_right>0.7&&ratio_down_right > 0.7)
 			return "9";
 
 		else
+		{
 			toarray(a[num1], a[num2], max_min[num1], max_min[num2]);
 			initfont();
-			buildfont(a[num1],a[num2],max_min[num1],max_min[num2]);
+			buildfont(a[num1], a[num2], max_min[num1], max_min[num2]);
 			/*
-			Ð´½øÊý¾Ý¿â
+			写进数据库
 			*/
 			return "null";
+		}
 	}
 
 	string recognise_sev(int num1, int num2)
