@@ -9,7 +9,7 @@ class LoginController extends Controller {
     	$username=$_POST['username'];
     	$password=$_POST['password'];
     	$setcookie=$_POST['setcookie'];
-        
+
         //过滤字符串
         $reg='/[\da-zA-Z]{0,}/';
         preg_match($reg,$username,$temp);
@@ -25,7 +25,7 @@ class LoginController extends Controller {
     		}
             session('userid',$user['userid']);
     		session('username',$username);
-    		redirect(U('user/user'));
+    		redirect(U('userindex/userindex'));
     	}else{
     		$this->error('密码输入错误','login/login',2);
     	}

@@ -4,10 +4,18 @@ use Think\Controller;
 class DataController extends Controller{
 	public function data(){
 		needNotlogin();
-		
+
 		// 判断instrumentid
 		$instrumentid=I('get.instrumentid/d');
 		// $instrumentid=checkInstrument($instrumentid);
+
+		// 如果没有get到instrumentid
+		if($instrumentid==null){
+			$camera=M('camera')->where("userid='".session('userid')."'")->field('cameraname,cameraid')->select();
+			$cameraid=$camera[0]["cameraid"];
+			$instrument=M('instrument')->where("cameraid='".$cameraid."'")->field('instrumentid')->select();
+			$instrumentid=$instrument[0]["instrumentid"];
+		}
 
 		// 加载data
 		$data=M('data')->where("instrumentid='".$instrumentid."'")->field('datatime,data')->limit(30)->select();
@@ -17,6 +25,9 @@ class DataController extends Controller{
 		$camera=M('camera')->where("cameraid='".$instrument['cameraid']."'")->field('cameraname')->find();
 		$instrument['camera']=$camera['cameraname'];
 		$camera=M('camera')->where("userid='".session('userid')."'")->field('cameraname,cameraid')->select();
+
+		$username=session('username');
+		$this->assign('username',$username);
 
 		$this->assign('camera',$camera);
 		$this->assign('instrument',$instrument);
@@ -102,7 +113,7 @@ class DataController extends Controller{
 				}
 				array_push($excel, $temp);
 			}
-		 
+
 		    // 设置
 		    $Excel
 		        ->getProperties()
@@ -113,24 +124,24 @@ class DataController extends Controller{
 		        ->setDescription("慧眼识别-EXCEL导出")
 		        ->setKeywords("excel")
 		        ->setCategory("2014sist");
-		 
+
 		    foreach($excel as $key => $val) { // 注意 key 是从 0 还是 1 开始，此处是 0
 		        // $num = $key + 1;
 		        $Excel ->setActiveSheetIndex(0)
 		             //Excel的第A列，uid是你查出数组的键值，下面以此类推
-		              ->setCellValue('A'.$key, $val['A'])    
+		              ->setCellValue('A'.$key, $val['A'])
 		              ->setCellValue('B'.$key, $val['B'])
 		              ->setCellValue('C'.$key, $val['C']);
 		    }
-		 
+
 		    $Excel->getActiveSheet()->setTitle('export');
 		    $Excel->setActiveSheetIndex(0);
 		    $name='慧眼识别-EXCEL导出.xlsx';
-		 
+
 		    header('Content-Type: application/vnd.ms-excel');
 		    header('Content-Disposition: attachment; filename='.$name);
 		    header('Cache-Control: max-age=0');
-		 
+
 		    $ExcelWriter = \PHPExcel_IOFactory::createWriter($Excel, 'Excel2007');
 		    $ExcelWriter->save('php://output');
 		    exit;

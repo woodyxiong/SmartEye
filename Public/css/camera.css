@@ -1,7 +1,13 @@
 body{
 	/*overflow-y: hidden;*/
 }
+
+.preloader{
+	margin-top: -50px;
+}
+
 #camerabar{
+	margin-top: 50px;
 	width: 100%;
 	height: auto;
 	background: #fff;
@@ -37,12 +43,12 @@ body{
 	padding: 0 20px;
 	text-align: left;
 	cursor: default;
-} 
+}
 
 .status{
 	background: #5c6bc0;
 	cursor: pointer;
-} 
+}
 .status:hover{
 	background: #8190E6;
 }

@@ -5,6 +5,8 @@ class UserindexController extends Controller{
 	public function userindex(){
 		needNotlogin();
 		$userid=session('userid');
+		$username=session('username');
+
 		// 导出数据
 		$camera=M('camera')->field('cameraid,cameraname,longitude,latitude')->where("userid='".$userid."'")->select();
 		foreach ($camera as $a => $b) {
@@ -25,6 +27,7 @@ class UserindexController extends Controller{
 
 		// 渲染camera
 		$this->assign('camera',$camera);
+		$this->assign('username',$username);
 
 		$this->display();
 	}

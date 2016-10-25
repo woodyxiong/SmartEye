@@ -39,6 +39,9 @@ class ConsoleController extends Controller{
 		}
 		// dump($instruments);
 
+		$username=session('username');
+		$this->assign('username',$username);
+
 		// dump($camera);
 		$this->assign('camera',$camera);
 		$this->assign('cameras',$cameras);
@@ -84,6 +87,37 @@ class ConsoleController extends Controller{
 		// echo $commond;
 		passthru($commond);
 
+	}
+	/**
+	 * 二值化
+	 */
+	public function totwo(){
+		$typeface =I('post.typeface');
+		$totwo=I('post.totwo');
+		$totwo1=I('post.totwo1');
+		$totwo21=I('post.totwo21');
+		$totwo22=I('post.totwo22');
+		$pathname=I('post.pathname');
+
+		if($totwo=="0"){
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$typeface;
+			// echo $operate;
+		}
+		elseif($totwo=="1"){
+			echo "1";
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$rgb." ".$rgbr." ".$rgbg." ".$rgbb;
+		}
+		elseif($totwo=="2"){
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$totwo21." ".$totwo22." ".$typeface;
+		}
+
+		$opendir="cd Public/camera1/exe/;";
+
+		$commond=$opendir.$operate;
+
+		// echo $commond;
+		passthru($commond);
 
 	}
+
 }

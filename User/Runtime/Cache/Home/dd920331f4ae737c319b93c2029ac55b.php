@@ -8,14 +8,14 @@
     <link type="text/css" rel="stylesheet" href="/Public/css/materialize.min.css"  media="screen,projection"/>
     <!-- 全局css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/all.css">
-    <!-- index css文件 -->
+    <!-- index.css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/user.css">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- import js -->
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
-    <!-- 引入 all.js -->
+    <!-- 引入 user.js -->
     <script type="text/javascript" src="/Public/js/user.js"></script>
 </head>
 <body>
@@ -29,9 +29,9 @@
         SmartEye
     </div>
     <div id="topbar">
-        <a href="<?php echo U('userindex/userindex');?>" target="iframe" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>
-        <a href="<?php echo U('console/console');?>" target="iframe" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
-        <a href="<?php echo U('study/study');?>" target="iframe" class="waves-effect baricon"><i class="material-icons" id="topbarmail">mail_outline</i></a>
+        <a href="<?php echo U('userindex/userindex');?>" targe="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>
+        <a href="<?php echo U('console/console');?>" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
+        <a href="<?php echo U('study/study');?>" class="waves-effect baricon"><i class="material-icons" id="topbarmail">mail_outline</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">notifications</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">fullscreen</i></a>
         <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">more_vert</i></a>
@@ -48,16 +48,16 @@
             </div>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('userindex/userindex');?>" class="waves-effect slideb"><i class="material-icons">account_circle</i>管理中心</a>
+            <a href="<?php echo U('userindex/userindex');?>" class="waves-effect slideb"><i class="material-icons">account_circle</i>管理中心</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('data/data');?>" class="waves-effect slideb"><i class="material-icons">apps</i>我的数据</a>
+            <a href="<?php echo U('data/data');?>" class="waves-effect slideb"><i class="material-icons">apps</i>我的数据</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('console/console');?>" class="waves-effect slideb"><i class="material-icons">build</i>设置参数</a>
+            <a href="<?php echo U('console/console');?>" class="waves-effect slideb"><i class="material-icons">build</i>设置参数</a>
         </li>
         <li>
-            <a target="iframe" href="<?php echo U('camera/camera');?>" class="waves-effect slideb"><i class="material-icons">camera_alt</i>查看摄像头</a>
+            <a href="<?php echo U('camera/camera');?>" class="waves-effect slideb"><i class="material-icons">camera_alt</i>查看摄像头</a>
         </li>
         <li>
             <div class="divider"></div>

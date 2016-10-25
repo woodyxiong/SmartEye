@@ -38,6 +38,9 @@ class CameraController extends Controller{
 			}
 		}
 
+		$username=session('username');
+		$this->assign('username',$username);
+
 		$this->assign('cameras',$cameras);
 		$this->assign('user',$user);
 		$this->assign('instrument',$instrument);
@@ -59,7 +62,7 @@ class CameraController extends Controller{
 		if(!$newcameraid==$cameraid)
 			exit(0);
 		$camera=M('camera')->where("cameraid='".$cameraid."'")->find();
-		
+
 
 		// 查看状态
 		$data['time']=date("Y-m-d H:i:s");

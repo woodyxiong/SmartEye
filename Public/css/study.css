@@ -1,5 +1,6 @@
 .mainbody{
-	margin-top: 40px;
+	margin-top: -40px;
+	padding-top: -80px;
 	width: 100%;
 	height: 1000px;
 }
@@ -11,6 +12,7 @@
 }
 
 .tittle{
+	margin-top: 40px;
 	margin-left: 45px;
 	font-size: 23px;
 	border-left: 3px solid #f00;
@@ -122,4 +124,8 @@
 
 #studyinput{
 	width: 100px;
+}
+
+#topbar{
+	/*padding-left:50px;*/
 }

@@ -4,6 +4,8 @@
  *  @param index 				设置页面显示的页数
  *  @param pathname				图片路径的名称
  *
+ *  @param typeface				字体样式
+ *
  *  @param x1 					坐标
  *  @param x2					坐标
  *  @param y1					坐标
@@ -24,6 +26,9 @@
 var instrumentid;
 var cameraid=$('.camera-tittle').attr('cameraid');
 var index=1;
+
+var typeface=$("input[name='typeface']:checked").val();
+
 var cut=false;
 var pathname=$('.camera-tittle').attr('pathname');
 var rgb= $("input[name='rgb']:checked").val();
@@ -185,12 +190,12 @@ function flashStep() {
 		$('.mdtitle').text('二值');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(3).addClass('nowstep');
+		$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1_1_1.bmp'+'?a='+Math.random()});
 	}
 }
 
 /**************设置数据名称**************/
 function flashNumimg(){
-	var typeface;
 	typeface=$("input[name='typeface']:checked").val();
 	if(typeface=='0'){
 		$('.numimgbox').html('<img class="normalimg" src="/Public/img/num/normalnumchecked.png"><img class="sevenimg" src="/Public/img/num/sevennum.png">');
@@ -319,6 +324,7 @@ var rgbbnum=rgbb.noUiSlider.get();
 
 // 只要数值变化则发送数据至服务器
 function postRgb(){
+	$('.pre').css({visibility: 'visible'});
 	$.post('/user.php/console/gray',
 		{
 			 rgb:rgb,
@@ -331,6 +337,7 @@ function postRgb(){
 			if(data!=null){
 				console.log(data);
 				$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1_1.bmp'+'?a='+Math.random()});
+				$('.pre').css({visibility: 'hidden'});
 			}
 		});
 }
@@ -406,17 +413,21 @@ var totwoslider2 = document.getElementById('totwoslider2');
 	totwo22=totwo2[1];
 
 function postTotwo(){
-	$.post('/user.php/console/gray',
+	$('.pre').css({visibility: 'visible'});
+	$.post('/user.php/console/totwo',
 	{
-		 totwo:totwo,
-		 totwo1:totwo1,
-		 totwo21:totwo21,
-		 totwo22:totwo22,
-		 pathname: pathname
+		typeface	:	typeface,
+		totwo		:	totwo,
+		totwo1		:	totwo1,
+		totwo21		:	totwo21,
+		totwo22		:	totwo22,
+		pathname	: 	pathname
 	},
 	function(data, textStatus, xhr) {
 		if(data!=null){
-			console.log("posttotwo");
+			$('.result').text(data);
+			$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1_1_1.bmp'+'?a='+Math.random()});
+			$('.pre').css({visibility: 'hidden'});
 		}
 	});
 }

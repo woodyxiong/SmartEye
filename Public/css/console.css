@@ -1,7 +1,17 @@
 body{
 	/*overflow-y: hidden;*/
 }
+
+.preloader{
+	margin-top: -50px;
+}
+
+.preloaderbox{
+	margin-top: 100px;
+}
+
 #camerabar{
+	padding-top: 50px;
 	width: 100%;
 	height: auto;
 	background: #fff;

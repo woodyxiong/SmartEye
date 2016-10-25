@@ -3,18 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>camera</title>
+	<title>摄像头详情页面</title>
     <!-- import css -->
     <link type="text/css" rel="stylesheet" href="/Public/css/materialize.min.css"  media="screen,projection"/>
     <!-- 全局css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/all.css">
-    <!-- index css文件 -->
+    <!-- user.css -->
+    <link rel="stylesheet" type="text/css" href="/Public/css/user.css">
+    <!-- camera.css文件 -->
     <link rel="stylesheet" type="text/css" href="/Public/css/camera.css">
-    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <!-- import js -->
     <script type="text/javascript" src="/Public/js/jquery.3.1.0.min.js"></script>
     <script type="text/javascript" src="/Public/js/materialize.min.js"></script>
 
+    <script type="text/javascript" src="/Public/js/user.js"></script>
     <!-- inport echarts.js -->
     <script type="text/javascript" src="/Public/js/charts/echarts.min.js"></script>
     <script src="/Public/js/charts/macarons.js"></script>
@@ -75,7 +80,59 @@
         </div>
     </div>
 </section>
-                                 
+
+<!-- topbar begin -->
+<nav class="bar">
+    <span id="bartoggle">
+        <i class="material-icons" id="barmenu" data-activates="slide-out">menu</i>
+        <a id="none" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </span>
+    <div id="barinfo">
+        SmartEye
+    </div>
+    <div id="topbar">
+        <a href="<?php echo U('userindex/userindex');?>" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>
+        <a href="<?php echo U('console/console');?>" class="waves-effect baricon"><i class="material-icons" id="topbarbuild">build</i></a>
+        <a href="<?php echo U('study/study');?>" class="waves-effect baricon"><i class="material-icons" id="topbarmail">mail_outline</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">notifications</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">fullscreen</i></a>
+        <a href="#" class="waves-effect baricon"><i class="material-icons" id="topbarmail">more_vert</i></a>
+    </div>
+</nav>
+<!-- topbar over -->
+<!-- sledebar begin -->
+<nav class="slidebar">
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="userView">
+                <a href="#!user"><img class="circle" src="/Public/img/manstudent.png" alt=""></a>
+                <a href="#!name"><span class="white-text name"><?php echo ($username); ?>同学</span></a>
+            </div>
+        </li>
+        <li>
+            <a href="<?php echo U('userindex/userindex');?>" class="waves-effect slideb"><i class="material-icons">account_circle</i>管理中心</a>
+        </li>
+        <li>
+            <a href="<?php echo U('data/data');?>" class="waves-effect slideb"><i class="material-icons">apps</i>我的数据</a>
+        </li>
+        <li>
+            <a href="<?php echo U('console/console');?>" class="waves-effect slideb"><i class="material-icons">build</i>设置参数</a>
+        </li>
+        <li>
+            <a href="<?php echo U('camera/camera');?>" class="waves-effect slideb"><i class="material-icons">camera_alt</i>查看摄像头</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="subheader">用户操作</a>
+        </li>
+        <li>
+            <a class="waves-effect" href="<?php echo U('user/quit');?>"><i class="material-icons">exit_to_app</i>退出</a>
+        </li>
+      </ul>
+</nav>
+
 <section id="camerabar">
     <div id="camerabarcontainer">
         <div class="row">
@@ -252,6 +309,16 @@ myChart.setOption(option);
 </script>
 <!-- chart2 over --><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 
+<section class="footer">
+    <div class="footerbox">
+        <div class="footer-left">Copyright © 2016 <a href="/index.php" target="_blank"> 慧眼 </a><span> All rights reserved</span></div>
+        <div class="footer-right">
+            <a href="/index.php" target="_blank">网站主页</a>
+            <a href="mailto:a810354504@qq.com">联系我们</a>
+            <a href="mailto:a810354504@qq.com">技术支持</a>
+        </div>
+    </div>
+</section>
 
 <script type="text/javascript" src="/Public/js/camera.js"></script>
 </body>
