@@ -444,7 +444,7 @@ public:
 			}
 		}
 	}
-	string get_dis(int category)
+	void get_dis(int category)
 	{
 		int NOR = 0;
 		int SEV = 1;
@@ -600,7 +600,7 @@ public:
 		max_min.clear();
 		a.clear();
 		cout << s << endl;
-		return  s;
+
 	}
 
 
@@ -1472,35 +1472,34 @@ public:
 int main(int argc,char *a[])
 {
 	string path = a[1];
+	int z=0;
 	path=path.insert(path.length() - 4, "_1");
 	// cout << path << endl;
 	char*p;
 	p = (char*)path.data();
-
 	Bmp bmp;
 	bmp.BmpRead_24(a[1]);
 	if (atof(a[2]) == 0)
 	{
-        int z=atof(a[3]);
+        z=atof(a[3]);
 		bmp.modify_xy();
-        bmp.get_dis(z);
+
 	}
     else if(atof(a[2]) == 1){
-        int z=atof(a[4]);
+        z=atof(a[4]);
         bmp.totwo(4,atoi(a[3]));
-        bmp.get_dis(z);
     }
 	else
 	{
-        int z=atof(a[5]);
+        z = atof(a[5]);
 		int x = atoi(a[3]);
 		int y = atoi(a[4]);
 		bmp.totwo(5, x, y);
-        bmp.get_dis(z);
 	}
 	//bmp.togray();
+	bmp.get_dis(z);
 	bmp.BmpWrite_24(p);
-	cout<<"success"<<endl;
+	//cout<<"success"<<endl;
 
 
 	return 0;

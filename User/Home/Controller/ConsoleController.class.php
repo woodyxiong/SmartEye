@@ -46,24 +46,44 @@ class ConsoleController extends Controller{
 
 		$this->display();
 	}
+	/**
+	 * 截图函数
+	 */
 	public function cut(){
-		// x1,x2,y1,y2
+		needNotlogin();
 		$x1=I('post.x1');
 		$x2=I('post.x2');
 		$y1=I('post.y1');
 		$y2=I('post.y2');
-		$pathname=I('post.y2');
+		$pathname=I('post.pathname');
+
+
+		$opendir="cd Public/camera1/exe;";
+		$operate="./cut.out ../".$pathname.".bmp ".$x1." ".$y2." ".$x2." ".$y1;
+
+		$commond=$opendir.$operate;
+
+		passthru($commond);
+	}
+	/**
+	 * 灰度函数
+	 */
+	public function gray(){
+		needNotlogin();
+		$rgb =I('post.rgb');
+		$rgbr=I('post.rgbr');
+		$rgbg=I('post.rgbg');
+		$rgbb=I('post.rgbb');
+		$pathname=I('post.pathname');
 
 		$opendir="cd Public/camera1/exe/;";
-		$operate="./cut.out ../1477284760.bmp ".$x1." ".$y2." ".$x2." ".$y1;
+		$operate="./gray.out ../".$pathname."_1.bmp ".$rgb." ".$rgbr." ".$rgbg." ".$rgbb;
 
 		$commond=$opendir.$operate;
 
 		// echo $commond;
 		passthru($commond);
-		// passthru("pwd",$return);
-		// echo $return;
-		// echo $commond;
+
 
 	}
 }

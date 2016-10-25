@@ -270,15 +270,15 @@
                 <div class="step3">
                     <div class="step3box">
                         <p class="rgbradio">
-                            <input name="rgb" type="radio" id="rgb1" checked="checked" />
+                            <input name="rgb" value="0" type="radio" id="rgb1" checked="checked" />
                             <label for="rgb1">平均值</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="rgb" type="radio" id="rgb2" />
+                            <input name="rgb" value="1" type="radio" id="rgb2" />
                             <label for="rgb2">国际标准</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="rgb" type="radio" id="rgb3" />
+                            <input name="rgb" value="2" type="radio" id="rgb3" />
                             <label for="rgb3">自定义</label>
                         </p>
                         <!-- 滑块 -->
@@ -299,22 +299,32 @@
                 <div class="step4">
                     <div class="step4box">
                         <p class="rgbradio">
-                            <input name="totwo" type="radio" id="totwo1" checked="checked" />
+                            <input name="totwo" type="radio" value="0" id="totwo1" checked="checked" />
                             <label for="totwo1">迭代</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="totwo" type="radio" id="totwo2"/>
+                            <input name="totwo" type="radio" value="1" id="totwo2"/>
                             <label for="totwo2">自定义(1参数)</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="totwo" type="radio" id="totwo3" />
+                            <input name="totwo" type="radio" value="2" id="totwo3" />
                             <label for="totwo3">自定义(2参数)</label>
                         </p>
-                        <!-- 滑块 -->
-                        <div class="totwobox">
+                        <!-- 滑块1 -->
+                        <div class="totwobox totwobox1">
                             <label for="totwoslider1">自定义(1参数)</label>
-                            <p class="range-field myrgb" id="rgbb"></p>
+                            <p class="range-field myrgb"></p>
                             <p class="range-field" id="totwoslider1"></p>
+                        </div>
+                        <!-- 滑块2 -->
+                        <div class="totwobox totwobox2">
+                            <label for="totwoslider2">自定义(2参数)</label>
+                            <p class="range-field myrgb"></p>
+                            <p class="range-field" id="totwoslider2"></p>
+                        </div>
+                        <div class="realresult">
+                            <span>识别结果为&nbsp;&nbsp;</span>
+                            <span class="result"></span>
                         </div>
                     </div>
 

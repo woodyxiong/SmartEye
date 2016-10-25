@@ -1,8 +1,35 @@
+/**
+ *  @param instrumentid 		数据id
+ *  @param cameraid				摄像头id
+ *  @param index 				设置页面显示的页数
+ *  @param pathname				图片路径的名称
+ *
+ *  @param x1 					坐标
+ *  @param x2					坐标
+ *  @param y1					坐标
+ *  @param y2					坐标
+ *  @param cut					是否正在截图状态
+ *
+ *  @param rgb					灰度的方法
+ *  @param rgbrnum				红色比例
+ *  @param rgbgnum				绿色比例
+ *  @param rgbbnum				蓝色比例
+ *
+ *  @param totwo				二值化参数
+ *  @param totwo1				阈值
+ *  @param totwo2	array		两个阈值为数组
+ *  @param totwo21				阈值1
+ *  @param totwo22				阈值2
+ */
 var instrumentid;
 var cameraid=$('.camera-tittle').attr('cameraid');
 var index=1;
 var cut=false;
 var pathname=$('.camera-tittle').attr('pathname');
+var rgb= $("input[name='rgb']:checked").val();
+
+var totwo,totwo1,totwo2,totwo21,totwo22;
+
 $(document).ready(function(){
 	$('.preloader').fadeOut(800);
 	$('select').material_select();
@@ -85,13 +112,11 @@ $('#next').click(function() {
 				pathname: pathname
 			},
 			function(data,textStatus, xhr) {
-				console.log(data);
-				if(data="success"){
-					console.log(data);
+				if(data!=null){
 					$('.stepbox').animate({'margin-left':'-520px'});
 					index++;
 					$('.pre').css({visibility: 'hidden'});
-					setTimeout("flashStep()",1000);
+					flashStep();
 
 				}else{
 					// 刷新
@@ -147,14 +172,14 @@ function flashStep() {
 		$('.mdtitle').text('截图');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(1).addClass('nowstep');
-		$('.myimg').attr({src: '/Public/camera1/'+pathname+'.bmp'});
+		$('.myimg').attr({src: '/Public/camera1/'+pathname+'.bmp'+'?a='+Math.random()});
 
 	}
 	else if(index==3){
 		$('.mdtitle').text('灰度');
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(2).addClass('nowstep');
-		$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1.bmp'});
+		$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1.bmp'+'?a='+Math.random()});
 	}
 	else if(index==4){
 		$('.mdtitle').text('二值');
@@ -261,6 +286,9 @@ var rgbr = document.getElementById('rgbr');
 			decimals: 0
 		})
 	});
+	rgbr.setAttribute('disabled', true);
+var rgbrnum=rgbr.noUiSlider.get();
+
 var rgbg = document.getElementById('rgbg');
 	noUiSlider.create(rgbg, {
 		start: .5,
@@ -272,6 +300,9 @@ var rgbg = document.getElementById('rgbg');
 			decimals: 0
 		})
 	});
+	rgbg.setAttribute('disabled', true);
+var rgbgnum=rgbg.noUiSlider.get();
+
 var rgbb = document.getElementById('rgbb');
 	noUiSlider.create(rgbb, {
 		start: .5,
@@ -283,6 +314,59 @@ var rgbb = document.getElementById('rgbb');
 			decimals: 0
 		})
 	});
+	rgbb.setAttribute('disabled', true);
+var rgbbnum=rgbb.noUiSlider.get();
+
+// 只要数值变化则发送数据至服务器
+function postRgb(){
+	$.post('/user.php/console/gray',
+		{
+			 rgb:rgb,
+			 rgbr:rgbrnum,
+			 rgbg:rgbgnum,
+			 rgbb:rgbbnum,
+			 pathname: pathname
+		},
+		function(data, textStatus, xhr) {
+			if(data!=null){
+				console.log(data);
+				$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1_1.bmp'+'?a='+Math.random()});
+			}
+		});
+}
+// 监听数值变化
+// 监听radio
+$("input[name='rgb']").change(function(event) {
+	rgb=$(this).val();
+	if(rgb=='2'){
+		rgbr.removeAttribute('disabled');
+		rgbg.removeAttribute('disabled');
+		rgbb.removeAttribute('disabled');
+	}
+	else{
+		rgbr.setAttribute('disabled', true);
+		rgbg.setAttribute('disabled', true);
+		rgbb.setAttribute('disabled', true);
+	}
+	postRgb();
+});
+
+// 监听滑块
+rgbr.noUiSlider.on('change', function( values, handle ){
+	rgbrnum=values[handle];
+	postRgb();
+});
+
+rgbg.noUiSlider.on('change', function( values, handle ){
+	rgbgnum=values[handle];
+	postRgb();
+});
+
+rgbb.noUiSlider.on('change', function( values, handle ){
+	rgbbnum=values[handle];
+	postRgb();
+});
+
 
 
 /**************设置rgb**************/
@@ -300,4 +384,79 @@ var totwoslider1 = document.getElementById('totwoslider1');
 			decimals: 0
 		})
 	});
+	totwoslider1.setAttribute('disabled', true);
+	totwo1=totwoslider1.noUiSlider.get();
+
+var totwoslider2 = document.getElementById('totwoslider2');
+	noUiSlider.create(totwoslider2, {
+		start: [20, 80],
+   		connect: true,
+		step: 1,
+		range: {
+			'min': 0,
+			'max': 255
+		},
+		format: wNumb({
+			decimals: 1
+   		})
+  	});
+	totwoslider2.setAttribute('disabled', true);
+	totwo2=totwoslider2.noUiSlider.get();
+	totwo21=totwo2[0];
+	totwo22=totwo2[1];
+
+function postTotwo(){
+	$.post('/user.php/console/gray',
+	{
+		 totwo:totwo,
+		 totwo1:totwo1,
+		 totwo21:totwo21,
+		 totwo22:totwo22,
+		 pathname: pathname
+	},
+	function(data, textStatus, xhr) {
+		if(data!=null){
+			console.log("posttotwo");
+		}
+	});
+}
+
+totwo=$("input[name='totwo']").val();
+$("input[name='totwo']").change(function(event) {
+	totwo=$(this).val();
+	postTotwo();
+	console.log("changed")
+	if(totwo=="0"){
+		$('.totwobox2').hide();
+		$('.totwobox1').hide();
+	}
+	else if (totwo=="1") {
+		totwoslider2.setAttribute('disabled', true);
+		totwoslider1.removeAttribute('disabled');
+		$('.totwobox2').hide();
+		$('.totwobox1').show();
+	}
+	else if (totwo=="2") {
+		totwoslider1.setAttribute('disabled', true);
+		totwoslider2.removeAttribute('disabled');
+		$('.totwobox1').hide();
+		$('.totwobox2').show();
+	}
+});
+
+// 若滑块移动
+totwoslider1.noUiSlider.on('change', function( values, handle ){
+	totwo1=values[handle];
+	postTotwo();
+});
+
+totwoslider2.noUiSlider.on('change', function( values, handle ){
+	totwo21=values[0]
+	totwo22=values[1]
+	postTotwo();
+});
+
+
+
+
 /**************设置二值**************/
