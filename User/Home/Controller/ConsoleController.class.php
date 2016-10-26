@@ -11,7 +11,7 @@ class ConsoleController extends Controller{
 		// 检察权限
 		$cameraid=checkCamera($cameraid);
 		// $camera=M('camera')->field('cameraname,gps')->where("cameraid='".$cameraid."'")->find();
-		$camera=M('camera')->field('cameraname,filename')->where("cameraid='".$cameraid."'")->find();
+		$camera=M('camera')->where("cameraid='".$cameraid."'")->find();
 		$camera['cameraid']=$cameraid;
 
 		// 输出所有摄像头

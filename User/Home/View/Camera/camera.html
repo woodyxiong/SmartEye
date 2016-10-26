@@ -177,7 +177,7 @@
             <div class="info">{$user.cameraname}</div>
         </div>
         <!-- 图表结构 -->
-        <volist name="instrument" id="ins" mod="2">
+        <volist name="instrument" id="ins" mod="1">
         <eq name="mod" value="0">
             <div class="chartbox">
                 <div class="charttittle"><a href="{:U('data/data',array('instrumentid'=>$ins['instrumentid0']))}">{$ins.instrumentinfo0}</a></div>
@@ -191,9 +191,6 @@
         </volist>
         <!-- 图表结构 -->
     </div>
-    <div id="camera2"></div>
-    <div id="camera3"></div>
-    <div id="camera4"></div>
 </section>
 
 <!-- 打开关闭对话框 -->
@@ -210,8 +207,7 @@
 </div>
 
 
-
-<volist name="instrument" id="inst" mod="2">
+<volist name="instrument" id="inst" mod="1">
 <eq name="mod" val="0">
 <script type="text/javascript">
 // 基于准备好的dom，初始化echarts实例
@@ -324,6 +320,7 @@ option = {
 myChart.setOption(option);
 </script>
 <!-- chart2 over -->
+
 </eq>
 </volist>
 

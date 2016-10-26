@@ -270,6 +270,12 @@
     geolocation.getCurrentPosition(function(r)
     {
         if(this.getStatus() == BMAP_STATUS_SUCCESS){
+            // 经纬度
+            r.latitude=26.031579;
+            r.longitude=119.221618;
+            r.point.lat=26.031579;
+            r.point.lng=119.221618;
+
             var mk = new BMap.Marker(r.point);
             map.addOverlay(mk);
             map.panTo(r.point);
@@ -284,16 +290,23 @@
         var index = 0;
         var myGeo = new BMap.Geocoder();
         var adds = [
-            new BMap.Point(118.053054,24.382278),
-            new BMap.Point(118.052964,24.366314),
-            new BMap.Point(118.053872,24.372769),
-            new BMap.Point(118.048922,24.382311),
-            new BMap.Point(118.048922,24.381208)
+                new BMap.Point(<?php echo ($camera[0]["latitude0"]); ?>,<?php echo ($camera[0]["longitude0"]); ?>),
+                new BMap.Point(<?php echo ($camera[0]["latitude1"]); ?>,<?php echo ($camera[0]["longitude1"]); ?>),
+                new BMap.Point(<?php echo ($camera[0]["latitude2"]); ?>,<?php echo ($camera[0]["longitude2"]); ?>),
+                new BMap.Point(<?php echo ($camera[0]["latitude3"]); ?>,<?php echo ($camera[0]["longitude3"]); ?>),
         ];
+
+        var cameranames=[
+            "<?php echo ($camera[0]["cameraname0"]); ?>",
+            "<?php echo ($camera[0]["cameraname1"]); ?>",
+            "<?php echo ($camera[0]["cameraname2"]); ?>",
+            "<?php echo ($camera[0]["cameraname3"]); ?>",
+        ];
+
         for(var i = 0; i<adds.length; i++){
             var marker = new BMap.Marker(adds[i]);
             map.addOverlay(marker);
-            marker.setLabel(new BMap.Label("我是商圈:"+(i+1),{offset:new BMap.Size(20,-10)}));
+            marker.setLabel(new BMap.Label(cameranames[i],{offset:new BMap.Size(20,-10)}));
         }
 </script>
 

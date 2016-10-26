@@ -77,12 +77,16 @@ $('.set').click(function() {
 	$('#set').openModal({
 		dismissible: false
 	});
+	flashStep();
+	$('.myimg').attr({src: '/Public/camera1/'+pathname+'.bmp'+'?a='+Math.random()});
 	$('.stepbox').animate({'margin-left':'0px'});
 });
 
 $('.cancel').click(function() {
 	$('#set').closeModal();
 	myCloseModal();
+	index=1;
+	typeface="0";
 });
 
 function myCloseModal(){
@@ -178,7 +182,6 @@ function flashStep() {
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(1).addClass('nowstep');
 		$('.myimg').attr({src: '/Public/camera1/'+pathname+'.bmp'+'?a='+Math.random()});
-
 	}
 	else if(index==3){
 		$('.mdtitle').text('灰度');

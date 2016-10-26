@@ -35,6 +35,8 @@ class CameraController extends Controller{
 				$instrument[$a-1]['data1']=M('data')->where("instrumentid='".$instrument[$a]['instrumentid']."'")->field('data,datatime')->order('datatime desc')->limit(15)->select();
 				// 倒序输出
 				$instrument[$a-1]['data1']=array_reverse($instrument[$a-1]['data1']);
+				// 销毁
+				unset($instrument[$a]);
 			}
 		}
 

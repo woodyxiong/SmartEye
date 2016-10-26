@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 	/*添加instrument的按钮*/
 	addInstrument();
-	
+
 /*各项配置初始化*/
 });
 
@@ -48,7 +48,7 @@ $(document).ready(function(){
 		var instrumentid=$('.data-tittle').attr('instrumentid');
 		$('#picksubmit').html("查询中");
 		$.post(
-			"/user.php/data/date", 
+			"/user.php/data/date",
 			{
 				checkday:checkday,
 				date1:date1,
@@ -59,7 +59,7 @@ $(document).ready(function(){
 			 * 服务器接收并返回json
 			 * @param  data    服务器返回的json格式
 			 * @param  receive 解析完成的数组
-			 * @return  
+			 * @return
 			 */
 			function(data, textStatus, xhr) {
 				if(!data==''){
@@ -73,6 +73,7 @@ $(document).ready(function(){
 					option.xAxis[0].data=datax;
 					option.series[0].data=datay;
 					myChart.setOption(option);
+					$('#picksubmit').html("查询");
 				}
 			});
 	});
@@ -121,10 +122,10 @@ function showinstrument(){
 		var data;
 		var instrumentselect;
 		cameraid=$("[name=selectcamera]").val();
-		$.post("/user.php/data/showinstrument", 
+		$.post("/user.php/data/showinstrument",
 			{
 				cameraid: cameraid
-			}, 
+			},
 			function(data, textStatus, xhr) {
 			if(!data==''){
 				data = eval ("(" + data + ")");
@@ -146,10 +147,10 @@ var receivedata;
 function addInstrument(){
 	$('#instrumentok').click(function(event) {
 		addInstrumentid=$("[name='selectinstrument']").val();
-		$.post("/user.php/data/adddata", 
+		$.post("/user.php/data/adddata",
 			{
 				instrumentid:addInstrumentid
-			}, 
+			},
 			function(data, textStatus, xhr) {
 			if(!data==''){
 				receivedata=data;
@@ -172,7 +173,7 @@ function addInstrument(){
 				myChart.setOption(option);
 			}
 		});
-		
+
 	})
 }
 /*添加instrument的按钮*/

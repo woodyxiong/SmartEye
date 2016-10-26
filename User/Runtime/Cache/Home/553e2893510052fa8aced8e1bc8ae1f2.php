@@ -24,7 +24,7 @@
     <script type="text/javascript" src="/Public/js/user.js"></script>
 
     <!-- import baidumap.js -->
-    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script> -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4BGoLtyp0GjSeSLuCuMIHiLb8uusudm7"></script>
 
 </head>
 <body>
@@ -167,20 +167,20 @@
                 <div class="inputbox">
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">person</i>
-                        <input name="cameraname" id="cameraname" type="text" value="摄像机1" class="simpleinput validate active">
+                        <input name="cameraname" id="cameraname" type="text" value="<?php echo ($camera["cameraname"]); ?>" class="simpleinput validate active">
                         <label for="cameraname">摄像机名字</label>
                     </div>
                     <div class="clear"></div>
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">info</i>
-                        <input name="camerainfo" id="camerainfo" class="simpleinput" type="text" class="validate active">
+                        <input name="camerainfo" id="camerainfo" value="<?php echo ($camera["camerainfo"]); ?>" class="simpleinput" type="text" class="validate active">
                         <label for="camerainfo">摄像头描述信息</label>
                     </div>
                     <div class="clear"></div>
 
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">alarm</i>
-                        <input name="freq" id="freq" type="text" class="simpleinput freqinput" class="validate active">
+                        <input name="freq" id="freq" type="text" value="<?php echo ($camera["flashtime"]); ?>" class="simpleinput freqinput" class="validate active">
                         <label for="freq">一次运行等待时长</label>
                         <div class="selectbox">
                             <select>
@@ -194,9 +194,9 @@
                     <div class="clear"></div>
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">location_on</i>
-                        <input value="请在右侧地图选择地点" disabled id="location" type="text" class="simpleinput" class="validate active">
+                        <input disabled id="location" type="text" class="simpleinput" class="validate active">
                         <label for="icon_telephone">GPS位置</label>
-                        <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="设置摄像机GPS位置">help</i>
+                        <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="显示摄像机GPS位置">help</i>
                     </div>
                 </div>
                 <div id="baidumap"></div>
@@ -418,7 +418,19 @@
     </div>
 </section>
 
+</html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("baidumap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(<?php echo ($camera["latitude"]); ?>,<?php echo ($camera["longitude"]); ?>), 11);  // 初始化地图,设置中心点坐标和地图级别
+	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 
+    // 加入中心点
+    var point = new BMap.Point(<?php echo ($camera["latitude"]); ?>,<?php echo ($camera["longitude"]); ?>);
+    var marker = new BMap.Marker(point);
+	 map.addOverlay(marker);
+</script>
 
 
 <script src="/Public/js/nouislider.js"></script>
