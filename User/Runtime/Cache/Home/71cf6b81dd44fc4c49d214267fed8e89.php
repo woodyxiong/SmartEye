@@ -161,25 +161,25 @@
         </div>
     </div>
     <div class="camerabox">
-        <?php if(is_array($camera)): $i = 0; $__LIST__ = $camera;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cameralist): $mod = ($i % 4 );++$i; if(($mod) == "0"): ?><div class="camera dashboard1 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid0']));?>'"><?php echo ($cameralist["cameraname0"]); ?></div>
+        <?php if(is_array($camera)): $i = 0; $__LIST__ = $camera;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cameralist): $mod = ($i % 4 );++$i; if(($mod) == "0"): ?><div class="camera dashboard1 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid0']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname0"]); ?></div>
                     <div class="dashboard" id="camera1"></div>
-                    <div class="cameratime" time="2014-07-10 10:21:12"></div>
+                    <div class="cameratime" time="<?php echo ($cameralist["time0"]); ?>"></div>
                 </div>
-                <div class="camera dashboard2 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid1']));?>'"><?php echo ($cameralist["cameraname1"]); ?></div>
+                <div class="camera dashboard2 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid1']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname1"]); ?></div>
                     <div class="dashboard" id="camera2"></div>
-                    <div class="cameratime" time="2014-07-13 10:21:12"></div>
+                    <div class="cameratime" time="<?php echo ($cameralist["time1"]); ?>"></div>
                 </div>
-                <div class="camera dashboard3 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid2']));?>'"><?php echo ($cameralist["cameraname2"]); ?></div>
+                <div class="camera dashboard3 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid2']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname2"]); ?></div>
                     <div class="dashboard" id="camera3"></div>
-                    <div class="cameratime" time="2014-07-18 10:21:12"></div>
+                    <div class="cameratime" time="<?php echo ($cameralist["time2"]); ?>"></div>
                 </div>
-                <div class="camera dashboard4 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid3']));?>'"><?php echo ($cameralist["cameraname3"]); ?></div>
+                <div class="camera dashboard4 waves-effect waves-light" onclick="window.location='<?php echo U('camera/camera',array('cameraid'=>$cameralist['cameraid3']));?>'">
+                    <div class="cameratittle"><?php echo ($cameralist["cameraname3"]); ?></div>
                     <div class="dashboard" id="camera4"></div>
-                    <div class="cameratime" time="2014-07-19 10:21:12"></div>
+                    <div class="cameratime" time="<?php echo ($cameralist["time3"]); ?>"></div>
                 </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
     </div>
     <div class="mapbox" id="mapbox"></div>
@@ -409,9 +409,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#e3f2fe'],
+                        [1, '#bbdefb']
                     ],
                     width: 20
                 }
@@ -450,9 +450,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#d8f3f1'],
+                        [1, '#91e1da']
                     ],
                     width: 20
                 }
@@ -491,9 +491,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#f9c7d9'],
+                        [1, '#f984ac']
                     ],
                     width: 20
                 }
@@ -532,9 +532,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#ffe0b2'],
+                        [1, '#f99d3e']
                     ],
                     width: 20
                 }

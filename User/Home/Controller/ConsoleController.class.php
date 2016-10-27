@@ -134,8 +134,11 @@ class ConsoleController extends Controller{
 		passthru($commond);
 	}
 
-	public function updatainstrument(){
-		
+	/**
+	 * 提交instrument表单
+	 */
+	public function updateinstrument(){
+		echo "提交成功";
 	}
 
 }

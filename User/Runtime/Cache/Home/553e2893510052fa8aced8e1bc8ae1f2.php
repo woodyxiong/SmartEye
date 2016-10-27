@@ -245,7 +245,7 @@
                     </div>
                 </div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
             <!-- <div class="line"$></div> -->
-            <div class="addcd c2">
+            <div class="addcd c1">
                 <i class="material-icons addicon" >add_circle_outline</i>
             </div>
         </div>

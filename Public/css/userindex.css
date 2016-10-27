@@ -94,20 +94,21 @@ body{
 }
 
 .dashboard1{
+	cursor: pointer!important;
 	margin-left: 3%;
-	background: #00D4D4;
+	background: #2196f3;
 }
 
 .dashboard2{
-	background: #9DE44B;
+	background: #009688;
 }
 
 .dashboard3{
-	background: #E8D023;
+	background: #e91e63;
 }
 
 .dashboard4{
-	background: #A9E4EA;
+	background: #ffc107;
 }
 
 .cameratime{
@@ -117,7 +118,7 @@ body{
 	color: #fff;
 	padding-top: 8px;
 	font-size: 20px;
-	padding-left: 20px;	
+	padding-left: 20px;
 	white-space:pre;
 }
 
@@ -281,18 +282,4 @@ body{
 	.pagination{
 		width: 310px;
 	}
-}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

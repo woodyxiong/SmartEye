@@ -163,25 +163,25 @@
     <div class="camerabox">
         <volist name="camera" id="cameralist" mod="4">
             <eq name="mod" value="0">
-                <div class="camera dashboard1 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid0']))}'">{$cameralist.cameraname0}</div>
+                <div class="camera dashboard1 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid0']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname0}</div>
                     <div class="dashboard" id="camera1"></div>
-                    <div class="cameratime" time="2014-07-10 10:21:12"></div>
+                    <div class="cameratime" time="{$cameralist.time0}"></div>
                 </div>
-                <div class="camera dashboard2 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid1']))}'">{$cameralist.cameraname1}</div>
+                <div class="camera dashboard2 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid1']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname1}</div>
                     <div class="dashboard" id="camera2"></div>
-                    <div class="cameratime" time="2014-07-13 10:21:12"></div>
+                    <div class="cameratime" time="{$cameralist.time1}"></div>
                 </div>
-                <div class="camera dashboard3 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid2']))}'">{$cameralist.cameraname2}</div>
+                <div class="camera dashboard3 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid2']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname2}</div>
                     <div class="dashboard" id="camera3"></div>
-                    <div class="cameratime" time="2014-07-18 10:21:12"></div>
+                    <div class="cameratime" time="{$cameralist.time2}"></div>
                 </div>
-                <div class="camera dashboard4 waves-effect waves-light">
-                    <div class="cameratittle" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid3']))}'">{$cameralist.cameraname3}</div>
+                <div class="camera dashboard4 waves-effect waves-light" onclick="window.location='{:U('camera/camera',array('cameraid'=>$cameralist['cameraid3']))}'">
+                    <div class="cameratittle">{$cameralist.cameraname3}</div>
                     <div class="dashboard" id="camera4"></div>
-                    <div class="cameratime" time="2014-07-19 10:21:12"></div>
+                    <div class="cameratime" time="{$cameralist.time3}"></div>
                 </div>
             </eq>
         </volist>
@@ -413,9 +413,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#e3f2fe'],
+                        [1, '#bbdefb']
                     ],
                     width: 20
                 }
@@ -454,9 +454,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#d8f3f1'],
+                        [1, '#91e1da']
                     ],
                     width: 20
                 }
@@ -495,9 +495,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#f9c7d9'],
+                        [1, '#f984ac']
                     ],
                     width: 20
                 }
@@ -536,9 +536,9 @@ option = {
             axisLine:{
                 lineStyle: {
                         color: [
-                        [0.5, '#FF2F00'],
-                        [0.8, '#F55A5F'],
-                        [1, '#48b']
+                        [0.5, '#fff'],
+                        [0.8, '#ffe0b2'],
+                        [1, '#f99d3e']
                     ],
                     width: 20
                 }

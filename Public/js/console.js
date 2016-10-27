@@ -85,10 +85,7 @@ $('.set').click(function() {
 });
 
 $('.cancel').click(function() {
-	$('#set').closeModal();
 	myCloseModal();
-	index=1;
-	typeface="0";
 });
 
 function myCloseModal(){
@@ -97,9 +94,12 @@ function myCloseModal(){
 	y1=null;
 	y2=null;
 	index=1;
+	typeface="0";
 	// radio全部不选中
 	$("input[name='rgb']").attr("checked",true);
-	instrument=null;																																																																																																																																																																																				$('input:radio[name="rgb"]').attr("checked",false);
+	instrument=null;
+	$('#next').text("完成");
+	$('#set').closeModal();																																																																																																																																																																																		$('input:radio[name="rgb"]').attr("checked",false);
 }
 
 // 下一页
@@ -148,8 +148,29 @@ $('#next').click(function() {
 	}
 	else if(index==4){
 		// 提交数据库
-		flashStep();
-		// index=1;
+		$.post('/user.php/console/updateinstrument',
+			{
+				cameraid	:	cameraid,
+				instrumentid:	instrumentid,
+				typeface	:	typeface,
+				x1			:	x1,
+				x2			:	x2,
+				y1			:	y1,
+				y2			:	y2,
+				rgb			:	rgb,
+				rgbrnum		:	rgbrnum,
+				rgbgnum		:	rgbgnum,
+				rgbbnum		:	rgbbnum,
+				denoising	:	denoising,
+				totwo		:	totwo,
+				totwo1		:	totwo1,
+				totwo21		:	totwo21,
+				totwo22		:	totwo22
+			},
+			function(data, textStatus, xhr) {
+				myCloseModal();
+				console.log("提交成功");
+		});
 	}
 });
 
@@ -179,6 +200,7 @@ $('#last').click(function() {
 
 function flashStep() {
 	notcut();
+	$('#next').text("下一步");
 	if(index==1){
 		$('.mdtitle').text('数据名称');
 		$('.mdnav').children().removeClass('nowstep');
@@ -201,6 +223,7 @@ function flashStep() {
 		$('.mdnav').children().removeClass('nowstep');
 		$('.step').eq(3).addClass('nowstep');
 		$('.myimg').attr({src: '/Public/camera1/'+pathname+'_1_1_1.bmp'+'?a='+Math.random()});
+		$('#next').text("完成");
 	}
 }
 
@@ -498,8 +521,5 @@ totwoslider2.noUiSlider.on('change', function( values, handle ){
 	totwo22=values[1]
 	postTotwo();
 });
-
-
-
 
 /**************设置二值**************/
