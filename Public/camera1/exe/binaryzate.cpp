@@ -772,6 +772,8 @@ public:
 		if (totwocanshu == 5) {
 			this->yuzhi1 = yuzhi1;
 			this->yuzhi2 = yuzhi2;
+			int whiteNum;
+			int blackNum;
 			if (yuzhi1 > yuzhi2) {
 				int temp = yuzhi1;
 				yuzhi1 = yuzhi2;
@@ -780,18 +782,26 @@ public:
 			for (int i = 0; i < biHeight; i++) {
 				for (int j = 0; j<biWidth; j++) {
 					if (image[i][j].R>yuzhi1&&image[i][j].R < yuzhi2) {
+						whiteNum++;
 						image[i][j].R = 255;
 						image[i][j].G = 255;
 						image[i][j].B = 255;
 					}
 					else {
+						blackNum++;
 						image[i][j].R = 0;
 						image[i][j].G = 0;
 						image[i][j].B = 0;
 					}
 				}
 			}
+			if (whiteNum > blackNum)
+			{
+				inverse();
+			}
+
 		}
+
 		else {
 			cerr << "µ÷ÓÃ²ÎÊý´íÎó" << endl;
 			// exit(1);
@@ -1394,6 +1404,25 @@ public:
 		}
 
 	}
+	void fillup()
+	{
+		for (int i = 0; i < biHeight; i++)
+		{
+			for (int j = 0; j < biWidth; j++)
+			{
+				if (i > 0 && j > 0 && i < biHeight - 1 && j < biWidth - 1)
+				{
+					if (image[i + 1][j].B + image[i + 1][j - 1].B + image[i - 1][j - 1].B +
+						image[i - 1][j + 1].B + image[i][j + 1].B + image[i + 1][1 + j].B + image[i - 1][j].B + image[i][j - 1].B >= 1530)
+					{
+						image[i][j].B = 255;
+						image[i][j].R = 255;
+						image[i][j].G = 255;
+					}
+				}
+			}
+		}
+	}
 
 	string match(char**a,char*b)
 	{
@@ -1486,11 +1515,18 @@ int main(int argc,char *a[])
 	{
         z=atof(a[3]);
 		bmp.modify_xy();
-
+		for(int i=0;i<atof(a[4]);i++)
+		{
+			bmp.GetOutPoint();
+		}
 	}
     else if(atof(a[2]) == 1){
         z=atof(a[4]);
         bmp.totwo(4,atoi(a[3]));
+		for(int i=0;i<atof(a[5]);i++)
+		{
+			bmp.GetOutPoint();
+		}
     }
 	else
 	{
@@ -1498,8 +1534,13 @@ int main(int argc,char *a[])
 		int x = atoi(a[3]);
 		int y = atoi(a[4]);
 		bmp.totwo(5, x, y);
+		for(int i=0;i<atof(a[6]);i++)
+		{
+			bmp.GetOutPoint();
+		}
 	}
 	//bmp.togray();
+	bmp.fillup();
 	bmp.get_dis(z);
 	bmp.BmpWrite_24(p);
 	//cout<<"success"<<endl;

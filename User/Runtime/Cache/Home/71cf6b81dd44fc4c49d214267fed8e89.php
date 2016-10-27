@@ -394,10 +394,10 @@ option = {
     },
     series : [
         {
-            name:'识别比例',
+            name:'剩余电量',
             type:'gauge',
             detail : {formatter:'{value}%'},
-            data:[{value: 96, name: ''}],
+            data:[{value: 23, name: ''}],
             axisTick:{show:false},
             axisLabel:{show:false},
             splitLine:{show:false},
@@ -435,10 +435,10 @@ option = {
     },
     series : [
         {
-            name:'识别比例',
+            name:'剩余电量',
             type:'gauge',
             detail : {formatter:'{value}%'},
-            data:[{value: 96, name: ''}],
+            data:[{value: 54, name: ''}],
             axisTick:{show:false},
             axisLabel:{show:false},
             splitLine:{show:false},
@@ -476,10 +476,10 @@ option = {
     },
     series : [
         {
-            name:'识别比例',
+            name:'剩余电量',
             type:'gauge',
             detail : {formatter:'{value}%'},
-            data:[{value: 96, name: ''}],
+            data:[{value: 45, name: ''}],
             axisTick:{show:false},
             axisLabel:{show:false},
             splitLine:{show:false},
@@ -517,10 +517,10 @@ option = {
     },
     series : [
         {
-            name:'识别比例',
+            name:'剩余电量',
             type:'gauge',
             detail : {formatter:'{value}%'},
-            data:[{value: 96, name: ''}],
+            data:[{value: 58, name: ''}],
             axisTick:{show:false},
             axisLabel:{show:false},
             splitLine:{show:false},

@@ -163,7 +163,7 @@
         <div class="tittle">设置参数</div>
         <div class="camera-tittle" pathname="{$camera.filename}" cameraid="{$camera.cameraid}">{$camera.cameraname}</div>
         <div class="clear"></div>
-        <form class="simpletext" action="{:U('console/data')}" method="post">
+        <form class="simpletext" action="{:U('console/cameraform')}" method="post">
             <div class="row">
             <div class="formtittle">摄像机简单信息描述</div>
                 <div class="inputbox">
@@ -182,7 +182,7 @@
 
                     <div class="input-field col">
                         <i class="material-icons prefix inputicon">alarm</i>
-                        <input name="freq" id="freq" type="text" value="{$camera.flashtime}" class="simpleinput freqinput" class="validate active">
+                        <input name="freq" id="freq" type="text" value="{$camera.freq}" class="simpleinput freqinput" class="validate active">
                         <label for="freq">一次运行等待时长</label>
                         <div class="selectbox">
                             <select>
@@ -200,11 +200,13 @@
                         <label for="icon_telephone">GPS位置</label>
                         <i class="tooltipped material-icons helpicon prefix" data-position="right" data-delay="50" data-tooltip="显示摄像机GPS位置">help</i>
                     </div>
+                    <!-- 隐藏的cameraid -->
+                    <input style="display:none" type="text" name="cameraid" value="{$camera.cameraid}">
                 </div>
                 <div id="baidumap"></div>
             </div>
             <div class="buttonbox">
-                <button id="form1submit" class="btn waves-effect waves-light blue lighten-2 submit" type="submit" name="action">提交</button>
+                <button id="form1submit" class="btn waves-effect waves-light blue lighten-2 submit" type="submit">提交</button>
                 <button id="form1reset" class="btn waves-effect waves-teal" type="reset" name="action">重置</button>
             </div>
         </form>
@@ -341,15 +343,15 @@
                 <div class="step3">
                     <div class="step3box">
                         <p class="rgbradio">
-                            <input name="rgb" value="0" type="radio" id="rgb1" checked="checked" />
+                            <input name="rgb" class="rgb" value="0" type="radio" id="rgb1" />
                             <label for="rgb1">平均值</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="rgb" value="1" type="radio" id="rgb2" />
+                            <input name="rgb" class="rgb" value="1" type="radio" id="rgb2" />
                             <label for="rgb2">国际标准</label>
                         </p>
                         <p class="rgbradio">
-                            <input name="rgb" value="2" type="radio" id="rgb3" />
+                            <input name="rgb" class="rgb" value="2" type="radio" id="rgb3" />
                             <label for="rgb3">自定义</label>
                         </p>
                         <!-- 滑块 -->
@@ -373,14 +375,20 @@
                             <input name="totwo" type="radio" value="0" id="totwo1" checked="checked" />
                             <label for="totwo1">迭代</label>
                         </p>
-                        <p class="rgbradio">
+                        <p class="rgbradio oneparam">
                             <input name="totwo" type="radio" value="1" id="totwo2"/>
                             <label for="totwo2">自定义(1参数)</label>
                         </p>
                         <p class="rgbradio">
                             <input name="totwo" type="radio" value="2" id="totwo3" />
-                            <label for="totwo3">自定义(2参数)</label>
+                            <label for="totwo3">自定义</label>
                         </p>
+                        <!-- 去噪滑块 -->
+                        <div class="denoisingbox">
+                            <label for="denoising">去噪程度</label>
+                            <p class="range-field myrgb"></p>
+                            <p class="range-field" id="denoisingslider"></p>
+                        </div>
                         <!-- 滑块1 -->
                         <div class="totwobox totwobox1">
                             <label for="totwoslider1">自定义(1参数)</label>

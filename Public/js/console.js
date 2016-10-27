@@ -22,6 +22,8 @@
  *  @param totwo2	array		两个阈值为数组
  *  @param totwo21				阈值1
  *  @param totwo22				阈值2
+ *  @param denoising			去噪程度
+ *
  */
 var instrumentid;
 var cameraid=$('.camera-tittle').attr('cameraid');
@@ -95,6 +97,9 @@ function myCloseModal(){
 	y1=null;
 	y2=null;
 	index=1;
+	// radio全部不选中
+	$("input[name='rgb']").attr("checked",true);
+	instrument=null;																																																																																																																																																																																				$('input:radio[name="rgb"]').attr("checked",false);
 }
 
 // 下一页
@@ -138,6 +143,8 @@ $('#next').click(function() {
 		$('.stepbox').animate({'margin-left':'-780px'});
 		index++;
 		flashStep();
+		postTotwo();
+		// console.log("now")
 	}
 	else if(index==4){
 		// 提交数据库
@@ -382,6 +389,22 @@ rgbb.noUiSlider.on('change', function( values, handle ){
 /**************设置rgb**************/
 
 /**************设置二值**************/
+// 去噪
+var denoisingslider= document.getElementById('denoisingslider');
+	noUiSlider.create(denoisingslider, {
+		start: 1,
+		step:1,
+		range: {
+			'min': 1,
+			'max': 5
+		},
+		format: wNumb({
+			decimals: 0
+		})
+	});
+	denoising=denoisingslider.noUiSlider.get();
+
+// 1个参数
 var totwoslider1 = document.getElementById('totwoslider1');
 	noUiSlider.create(totwoslider1, {
 		start: 175,
@@ -396,7 +419,7 @@ var totwoslider1 = document.getElementById('totwoslider1');
 	});
 	totwoslider1.setAttribute('disabled', true);
 	totwo1=totwoslider1.noUiSlider.get();
-
+// 2个参数
 var totwoslider2 = document.getElementById('totwoslider2');
 	noUiSlider.create(totwoslider2, {
 		start: [20, 80],
@@ -424,6 +447,7 @@ function postTotwo(){
 		totwo1		:	totwo1,
 		totwo21		:	totwo21,
 		totwo22		:	totwo22,
+		denoising	:	denoising,
 		pathname	: 	pathname
 	},
 	function(data, textStatus, xhr) {
@@ -459,6 +483,11 @@ $("input[name='totwo']").change(function(event) {
 });
 
 // 若滑块移动
+denoisingslider.noUiSlider.on('change', function( values, handle ){
+	denoising=values[handle];
+	postTotwo();
+});
+
 totwoslider1.noUiSlider.on('change', function( values, handle ){
 	totwo1=values[handle];
 	postTotwo();

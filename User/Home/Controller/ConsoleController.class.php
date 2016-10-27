@@ -49,6 +49,20 @@ class ConsoleController extends Controller{
 
 		$this->display();
 	}
+
+	// camera简单参数提交表单
+	public function cameraform(){
+		$cameraid=I('post.cameraid');
+		$data['cameraname']=I('post.cameraname');
+		$data['camerainfo']=I('post.camerainfo');
+		$data['freq']=I('post.freq');
+
+		// updata
+		M('camera')->where("cameraid='".$cameraid."'")->save($data);
+		//跳转上一页
+		$this->redirect('console/console', array('cameraid'=>$cameraid));
+	}
+
 	/**
 	 * 截图函数
 	 */
@@ -97,18 +111,19 @@ class ConsoleController extends Controller{
 		$totwo1=I('post.totwo1');
 		$totwo21=I('post.totwo21');
 		$totwo22=I('post.totwo22');
+		$denoising=I('post.denoising');
 		$pathname=I('post.pathname');
 
+
 		if($totwo=="0"){
-			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$typeface;
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$typeface." ".$denoising;
 			// echo $operate;
 		}
 		elseif($totwo=="1"){
-			echo "1";
-			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$rgb." ".$rgbr." ".$rgbg." ".$rgbb;
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$rgb." ".$rgbr." ".$rgbg." ".$rgbb." ".$denoising;
 		}
 		elseif($totwo=="2"){
-			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$totwo21." ".$totwo22." ".$typeface;
+			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$totwo21." ".$totwo22." ".$typeface." ".$denoising;
 		}
 
 		$opendir="cd Public/camera1/exe/;";
@@ -117,7 +132,10 @@ class ConsoleController extends Controller{
 
 		// echo $commond;
 		passthru($commond);
+	}
 
+	public function updatainstrument(){
+		
 	}
 
 }

@@ -517,6 +517,10 @@ body{
 	padding-top: 20px;
 }
 
+.denoisingbox{
+	margin-top: 30px;
+}
+
 .totwobox{
 	margin-top: 50px;
 	display: none;
@@ -527,6 +531,11 @@ body{
 	bottom: 30px;
 	color: #9e9e9e;
 }
+
+.oneparam{
+	display: none;
+}
+
 
 
 

@@ -75,7 +75,7 @@
 								<h3>响应式网页，安卓客户端，微信公众号查看</h3>
 								<h3>&nbsp;</h3>
 								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">安卓客户端</a>
-								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">微信公众号</a>	
+								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">微信公众号</a>
 							</div>
 						</div>
 					</li>
@@ -85,7 +85,7 @@
 	</section>
 	<!-- end home -->
 	<!-- start about -->
-	<!-- <section id="about">
+	<section id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wow bounceIn">
@@ -139,7 +139,7 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	<!-- end about -->
 	<!-- start service -->
 	<section id="service">
@@ -226,8 +226,8 @@
 										<div class="portfolio-overlay">
 											<div class="portfolio-description">
 												<h4>野外数据采集</h4>
-												<p>户外采样 | 数据收集</p>	
-											</div>											
+												<p>户外采样 | 数据收集</p>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -320,7 +320,7 @@
 						<h2 class="wow bounceIn">联系我们</h2>
 						<hr>
 						<h4>快和我们谈谈吧</h4>
-					</div>					
+					</div>
 					<form action="#" method="post" role="form">
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
 							<input type="text" placeholder="姓名" class="form-control">
@@ -362,7 +362,7 @@
 	(function() {
 	  var hm = document.createElement("script");
 	  hm.src = "//hm.baidu.com/hm.js?1378be71cc0a3031a17d616b3cc5e406";
-	  var s = document.getElementsByTagName("script")[0]; 
+	  var s = document.getElementsByTagName("script")[0];
 	  s.parentNode.insertBefore(hm, s);
 	})();
 	</script>
