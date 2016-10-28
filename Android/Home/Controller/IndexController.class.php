@@ -6,10 +6,10 @@ class IndexController extends Controller {
         // echo "index";
         $username=$_POST['username'];
 
-        $index=M('camera')->field('cameraid,cameraname,gps')->where("userid='".$username."'")->select();
+        $index=M('camera')->field('cameraid,cameraname,longitude,latitude')->where("userid='".$username."'")->select();
         $index['num']=count($index);
         echo json_encode($index);
-        
+
 
     }
 }
