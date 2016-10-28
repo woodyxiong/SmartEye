@@ -42,35 +42,35 @@ header{
 .banner ul li { float: left; }
 
 /*响应式轮播 begin*/
-#b06 { 
+#b06 {
 	width: 640px;
 }
-#b06 .dots { 
+#b06 .dots {
 	text-align: center;
 	margin: 0 auto;
-	position: absolute; 
+	position: absolute;
 	left: 0;
-	right: 0; 
+	right: 0;
 	bottom: 20px;
-} 
+}
 ul,ol{
 	padding: 0;
 }
 #b06 .dots li {
-	display: inline-block; 
-	width: 10px; 
-	height: 10px; 
-	margin: 0 4px; 
-	text-indent: -999em; 
-	border: 2px solid #fff; 
-	border-radius: 6px; 
-	cursor: pointer; 
-	opacity: .4; 
-	-webkit-transition: background .5s, opacity .5s; 
-	-moz-transition: background .5s, opacity .5s; 
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: .4;
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
 	transition: background .5s, opacity .5s;
 }
-#b06 .dots li.active 
+#b06 .dots li.active
 {
 	background: #fff;
 	opacity: 1;

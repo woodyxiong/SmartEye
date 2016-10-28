@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>console</title>
+	<title>设置参数</title>
     <!-- import css -->
     <link type="text/css" rel="stylesheet" href="/Public/css/materialize.min.css"  media="screen,projection"/>
     <!-- 全局css文件 -->
@@ -87,7 +87,7 @@
         <a id="none" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </span>
     <div id="barinfo">
-        SmartEye
+        <img class="mylogo" src="/Public/img/index/logo.png" alt="logo" />&nbsp;&nbsp;SmartEye
     </div>
     <div id="topbar">
         <a href="<?php echo U('userindex/userindex');?>" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>

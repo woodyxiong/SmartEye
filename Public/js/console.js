@@ -392,17 +392,17 @@ $("input[name='rgb']").change(function(event) {
 });
 
 // 监听滑块
-rgbr.noUiSlider.on('change', function( values, handle ){
+rgbr.noUiSlider.on('update', function( values, handle ){
 	rgbrnum=values[handle];
 	postRgb();
 });
 
-rgbg.noUiSlider.on('change', function( values, handle ){
+rgbg.noUiSlider.on('update', function( values, handle ){
 	rgbgnum=values[handle];
 	postRgb();
 });
 
-rgbb.noUiSlider.on('change', function( values, handle ){
+rgbb.noUiSlider.on('update', function( values, handle ){
 	rgbbnum=values[handle];
 	postRgb();
 });
@@ -506,17 +506,17 @@ $("input[name='totwo']").change(function(event) {
 });
 
 // 若滑块移动
-denoisingslider.noUiSlider.on('change', function( values, handle ){
+denoisingslider.noUiSlider.on('update', function( values, handle ){
 	denoising=values[handle];
 	postTotwo();
 });
 
-totwoslider1.noUiSlider.on('change', function( values, handle ){
+totwoslider1.noUiSlider.on('update', function( values, handle ){
 	totwo1=values[handle];
 	postTotwo();
 });
 
-totwoslider2.noUiSlider.on('change', function( values, handle ){
+totwoslider2.noUiSlider.on('update', function( values, handle ){
 	totwo21=values[0]
 	totwo22=values[1]
 	postTotwo();

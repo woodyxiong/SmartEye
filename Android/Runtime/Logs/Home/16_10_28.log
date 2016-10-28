@@ -111,3 +111,23 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
 
+[ 2016-10-28T13:22:23+08:00 ] 127.0.0.1 /api.php/home/camera/camera
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `camera` [ RunTime:0.0007s ]
+SQL: SELECT `cameraname`,`status`,`time`,`camerainfo` FROM `camera` WHERE ( cameraid='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `instrument` [ RunTime:0.0005s ]
+SQL: SELECT `instrumentid`,`instrumentinfo`,`unit` FROM `instrument` WHERE ( cameraid='3' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `data` [ RunTime:0.0004s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='3' ) LIMIT 15   [ RunTime:0.0001s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='7' ) LIMIT 15   [ RunTime:0.0001s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='11' ) LIMIT 15   [ RunTime:0.0001s ]
+SQL: SELECT `datatime`,`data` FROM `data` WHERE ( instrumentid='15' ) LIMIT 15   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+

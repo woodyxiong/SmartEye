@@ -88,7 +88,7 @@
         <a id="none" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </span>
     <div id="barinfo">
-        SmartEye
+        <img class="mylogo" src="/Public/img/index/logo.png" alt="logo" />&nbsp;&nbsp;SmartEye
     </div>
     <div id="topbar">
         <a href="<?php echo U('userindex/userindex');?>" class="waves-effect waves-light btn-large"><img src="/Public/img/manstudent.png" alt="">管理中心</a>

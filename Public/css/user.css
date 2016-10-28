@@ -16,6 +16,13 @@ main{
 	z-index: 2;
 }
 
+.mylogo{
+	width: 25px;
+	height: 25px;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
 #barmenu{
 	line-height: 50px;
 	height: auto;

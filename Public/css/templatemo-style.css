@@ -145,6 +145,21 @@ h4
 /* end preloader */
 
 /* start navigation */
+.myh1{
+    font-weight: 600!important;
+}
+
+.mylogo{
+    font-weight: normal!important;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    display: inline!important;
+    margin-top: -5px;
+}
+
 .custom-navbar
     {
         margin-bottom: 0;
