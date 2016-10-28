@@ -50,11 +50,6 @@
 							<div class="templatemo_homewrapper">
 								<h1 class="wow bounce">慧眼   SmartEye</h1>
 								<h3>&nbsp;</h3>
-								<!-- <h2>
-									<span class="wow fadeIn" data-wow-delay="0.3s">WEB,</span>
-									<span class="wow fadeIn" data-wow-delay="0.6s">MOBILE,</span>
-									<span class="wow fadeIn" data-wow-delay="0.9s">UX DESIGN</span>
-								</h2> -->
 								<h3 class="wow bounceIn">帮助您便捷的采集有效数据，实时传输分析数据，实现数字化的智能监控</h3>
 								<h3>&nbsp;</h3>
 								<a href="/user.php" class="templatemo-slider-btn btn btn-default">登陆系统</a>
@@ -67,15 +62,9 @@
 							<div class="templatemo_homewrapper">
 								<h1>多终端查看数据</h1>
 								<h2>&nbsp;</h2>
-                            	<!-- <h2>
-									<span class="wow fadeIn" data-wow-delay="0.3s">响应式网页,</span>
-									<span class="wow fadeIn" data-wow-delay="0.6s">安卓客户端,</span>
-									<span class="wow fadeIn" data-wow-delay="0.9s">微信公众号</span>
-								</h2> -->
 								<h3>响应式网页，安卓客户端，微信公众号查看</h3>
 								<h3>&nbsp;</h3>
 								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">安卓客户端</a>
-								<a href="#about" class="smoothScroll templatemo-slider-btn btn btn-default">微信公众号</a>
 							</div>
 						</div>
 					</li>

@@ -1368,7 +1368,7 @@ public:
 		double ratio_down_left = (double)cnt_down_left / (double)(newheight - (newheight / 2));
 		//<< ratio_down_left << '\t' << cnt_height << "\t" << mid << endl;
 		//cout<<(double)cnt_point / (double)(newwidth*newheight);
-		if ((double)cnt_point / (double)(newwidth*newheight) >= 0.7&&cnt_height == 2)
+		if ((double)cnt_point / (double)(newwidth*newheight) >= 0.6 &&cnt_height == 2&&cnt_width_down == 2)
 		{
 			return ".";
 		}
