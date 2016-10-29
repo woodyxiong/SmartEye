@@ -152,35 +152,24 @@
                     <li>
                         <div class="collapsible-header mych">
                             <i class="material-icons opened">drafts</i>
-                            <span class="chspan opened">instumentinfo<span class="mynew">12&nbsp;new</span></span>
+                            <span class="chspan opened">Winner<span class="mynew">14&nbsp;new</span></span>
                         </div>
                         <div class="collapsible-body">
                             <div class="cbcontent">
-                                <div class="cbdiv">20133-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">20133-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">23-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">201-23 23:54:56</div>
-                                <div class="cbdiv">20s3-23 23:54:56</div>
+                                <div class="cbdiv">2016-23-27 23:54:56</div>
                                 <a class="waves-effect waves-light blue lighten-2 btn disabled">填写</a>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons didntopened">mail</i><span class="chspan didntopened">instumentinfo<span class="mynew didntmynew">12&nbsp;new</span></span></div>
+                    <li id="new">
+                        <div id="study" readed="{$study.readed}" class="collapsible-header">
+                            <i class="material-icons didntopened">mail</i>
+                            <span class="chspan didntopened">Winner<span class="mynew didntmynew">10&nbsp;new</span></span>
+                        </div>
                         <div class="collapsible-body">
-                            <div class="cbcontent">
-                                <div class="cbdiv">20133-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">20133-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">23-23 23:54:56</div>
-                                <div class="cbdiv">2013-a3-23 23:54:56</div>
-                                <div class="cbdiv">201-23 23:54:56</div>
-                                <div class="cbdiv">20s3-23 23:54:56</div>
-                                <a href="#modal1" class="waves-effect waves-light blue lighten-2 modal-trigger btn">填写</a>
+                            <div class="cbcontent" id="haha">
+                                <div class="cbdiv">2013-23-25 23:54:56</div>
+                                <button href="#modal1" class="waves-effect waves-light blue lighten-2 modal-trigger btn">填写</button>
                             </div>
                         </div>
                     </li>
@@ -195,12 +184,16 @@
     <div class="modal-content">
         <h4 class="myh4">智能学习</h4>
         <p class="myp">请输入你看到的图像</p>
-        <div class="studydiv">数据</div>
+        <div class="studydiv"><img src="__PUBLIC__/img/study.bmp" alt="" /></div>
         <div class="input-field myinput">
             <input id="studyinput" type="text" class="validate">
             <label for="studyinput">请输入数值</label>
         </div>
-        <a href="#!" class="modal-action modal-close waves-effect blue lighten-2 btn modalok">确定</a>
+        <form action="/user.php/study/studyform" method="post">
+            <input type="submit" class="" value="确定">
+        </form>
+
+        <!-- <input type="submit" class="modal-action modal-close waves-effect blue lighten-2 btn modalok" value="确定"> -->
     </div>
 </div>
 

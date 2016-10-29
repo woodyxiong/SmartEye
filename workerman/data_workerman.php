@@ -32,7 +32,7 @@ $tcp_worker->onClose = function($connection)
     $filepath="../Public/camera1/";
 
 	// 文件名
-	$filename=$filetime.".bmp";
+	$filename="newest".".bmp";
 
 	$bmpdata=$connection->bmpdata;
 

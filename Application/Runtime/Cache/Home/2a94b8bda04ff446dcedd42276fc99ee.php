@@ -85,7 +85,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-6 wow fadeInLeft templatemo-about-left" data-wow-delay="0.3s">
-					<h3 class="about-title">Studio History</h3>
+					<h3 class="about-title">系统介绍</h3>
 					<p>“慧眼”仪表数据自动采集系统将目前最尖端的信息应用技术应用于严谨的科学实验中，不仅用高效的全自动记录方式代替过去繁杂的人工实验数据记录，并且实现实验数据信息化、网络化管理，为未来实验室、监测站提供了全新的建设、管理思路，也是实现大型实验数据云端分析、计算机环境仿真建模的有效工具。
                     </p>
                     <p>"Smart Eye"</p>
@@ -102,29 +102,6 @@
 					<span class="text-uppercase">节省人工成本 60%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="about-wrapper">
-						<img src="/Public/img/index/team-img-1.png" class="img-responsive" alt="about img">
-						<h3>Cindy Davis</h3>
-						<h5>Founder &amp; Director</h5>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="about-wrapper">
-						<img src="/Public/img/index/team-img-2.png" class="img-responsive" alt="about img">
-						<h3>Jenny Meno</h3>
-						<h5>Creative Manager</h5>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="about-wrapper">
-						<img src="/Public/img/index/team-img-3.png" class="img-responsive" alt="about img">
-						<h3>Catherine Barkley</h3>
-						<h5>Co-Founder &amp; Designer</h5>
 					</div>
 				</div>
 			</div>
