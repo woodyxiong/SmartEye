@@ -36,7 +36,7 @@ $tcp_worker->onClose = function($connection)
 
 	$bmpdata=$connection->bmpdata;
 
-	$bmp = fopen($filepath.$filename, "a") or die("Unable to open file!");
+	$bmp = fopen($filepath.$filename, "w") or die("Unable to open file!");
     fwrite($bmp, $bmpdata);
 
     // 向客户端发送hello $data

@@ -121,7 +121,7 @@ class Db {
             'database'  =>  isset($info['path']) ? substr($info['path'],1) : '',
             'charset'   =>  isset($info['fragment'])?$info['fragment']:'utf8',
         );
-        
+
         if(isset($info['query'])) {
             parse_str($info['query'],$dsn['params']);
         }else{

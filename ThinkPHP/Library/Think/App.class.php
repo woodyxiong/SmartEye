@@ -13,7 +13,7 @@ namespace Think;
  * ThinkPHP 应用程序类 执行应用过程管理
  */
 class App {
-
+    
     /**
      * 应用程序初始化
      * @access public
@@ -45,7 +45,7 @@ class App {
 		}
 
         // URL调度结束标签
-        Hook::listen('url_dispatch');         
+        Hook::listen('url_dispatch');
 
         define('IS_AJAX',       ((isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') || !empty($_POST[C('VAR_AJAX_SUBMIT')]) || !empty($_GET[C('VAR_AJAX_SUBMIT')])) ? true : false);
 
@@ -60,7 +60,6 @@ class App {
      * @return void
      */
     static public function exec() {
-    
         if(!preg_match('/^[A-Za-z](\/|\w)*$/',CONTROLLER_NAME)){ // 安全检测
             $module  =  false;
         }elseif(C('ACTION_BIND_CLASS')){
@@ -70,7 +69,7 @@ class App {
                 $namespace  =   MODULE_NAME.'\\'.$layer.'\\'.CONTROLLER_NAME.'\\';
             }else{
                 // 空控制器
-                $namespace  =   MODULE_NAME.'\\'.$layer.'\\_empty\\';                    
+                $namespace  =   MODULE_NAME.'\\'.$layer.'\\_empty\\';
             }
             $actionName     =   strtolower(ACTION_NAME);
             if(class_exists($namespace.$actionName)){
@@ -86,7 +85,7 @@ class App {
             $action  =  'run';
         }else{
             //创建控制器实例
-            $module  =  controller(CONTROLLER_NAME,CONTROLLER_PATH);                
+            $module  =  controller(CONTROLLER_NAME,CONTROLLER_PATH);
         }
 
         if(!$module) {
@@ -104,11 +103,11 @@ class App {
 
         // 获取当前操作名 支持动态路由
         if(!isset($action)){
-            $action    =   ACTION_NAME.C('ACTION_SUFFIX');  
+            $action    =   ACTION_NAME.C('ACTION_SUFFIX');
         }
         try{
             self::invokeAction($module,$action);
-        } catch (\ReflectionException $e) { 
+        } catch (\ReflectionException $e) {
             // 方法调用发生异常后 引导到__call方法处理
             $method = new \ReflectionMethod($module,'__call');
             $method->invokeArgs($module,array($action,''));
@@ -155,7 +154,7 @@ class App {
 					$args[] =   $param->getDefaultValue();
 				}else{
 					E(L('_PARAM_ERROR_').':'.$name);
-				}   
+				}
 			}
 			// 开启绑定参数过滤机制
 			if(C('URL_PARAMS_SAFE')){
@@ -165,7 +164,7 @@ class App {
 					foreach($filters as $filter){
 						$args   =   array_map_recursive($filter,$args); // 参数过滤
 					}
-				}                        
+				}
 			}
 			array_walk_recursive($args,'think_filter');
 			$method->invokeArgs($module,$args);
