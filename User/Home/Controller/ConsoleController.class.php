@@ -114,7 +114,6 @@ class ConsoleController extends Controller{
 		$denoising=I('post.denoising');
 		$pathname=I('post.pathname');
 
-
 		if($totwo=="0"){
 			$operate="./binaryzate.out ../".$pathname."_1_1.bmp ".$totwo." ".$typeface." ".$denoising;
 			// echo $operate;

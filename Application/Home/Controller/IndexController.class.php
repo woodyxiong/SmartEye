@@ -3,9 +3,17 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $user=M('user')->where("username='clever'")->select();
+
+        // dump($data);
+        // dump($data->options);
+        // dump($data);
+        // dump($data->select());
+
+        // $user->add();
+        // dump($data);
+        // dump($user);
         // dump(M('user')->where("username='clever'"));
-        // $this->display();
+        $this->display();
         // echo "index";
     }
 }

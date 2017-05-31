@@ -25,7 +25,7 @@ class Model {
     // 当前数据库操作对象
     protected $db               =   null;
 	// 数据库对象池
-	private   $_db				=	array();
+	protected   $_db				=	array();
     // 主键名称
     protected $pk               =   'id';
     // 主键是否自动增长
@@ -1795,7 +1795,6 @@ class Model {
      * @return Model
      */
     public function where($where,$parse=null){
-        // dump($this);
         if(!is_null($parse) && is_string($where)) {
             if(!is_array($parse)) {
                 $parse = func_get_args();
@@ -1816,7 +1815,6 @@ class Model {
         }else{
             $this->options['where'] =   $where;
         }
-
         return $this;
     }
 

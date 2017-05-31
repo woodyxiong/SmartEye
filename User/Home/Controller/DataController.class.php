@@ -18,7 +18,7 @@ class DataController extends Controller{
 		}
 
 		// 加载data
-		$data=M('data')->where("instrumentid='".$instrumentid."'")->field('datatime,data')->limit(30)->select();
+		$data=M('data')->where("instrumentid='".$instrumentid."'")->field('datatime,data')->order('datatime desc')->limit(30)->select();
 
 		// 显示数据信息
 		$instrument=M('instrument')->where("instrumentid='".$instrumentid."'")->field('instrumentinfo,cameraid,instrumentid')->find();
