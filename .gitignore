@@ -1,2 +1,2 @@
 *.log
-/Runtime/Cache/Home/*.php
+*/Runtime/Cache/Home/*.php
